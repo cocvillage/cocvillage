@@ -1,72 +1,161 @@
 local n6v9487e54v69n8e7 = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
+local OpenGUIHello = Instance.new("TextButton")
+local OpenGUIHello_Roundify_12px = Instance.new("ImageLabel")
+local OpenGUIHello_Roundify_12px_2 = Instance.new("ImageLabel")
+local Frame = Instance.new("ImageLabel")
 local TextLabel = Instance.new("TextLabel")
 local ScrollingFrame = Instance.new("ScrollingFrame")
-local Shattervest = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local BigPaintball = Instance.new("ImageLabel")
 local HackName = Instance.new("TextLabel")
 local HackDesc = Instance.new("TextLabel")
-local ShattervestButton = Instance.new("TextButton")
-local InfiniteYield = Instance.new("Frame")
+local BigPaintballButton = Instance.new("TextButton")
+local BigPaintballButton_Roundify_12px = Instance.new("ImageLabel")
+local BreakIn = Instance.new("ImageLabel")
 local HackName_2 = Instance.new("TextLabel")
 local HackDesc_2 = Instance.new("TextLabel")
-local InfiniteYieldButton = Instance.new("TextButton")
-local FEFling = Instance.new("Frame")
-local HackName_3 = Instance.new("TextLabel")
+local BreakInButton = Instance.new("TextButton")
+local BreakInButton_Roundify_12px = Instance.new("ImageLabel")
+local BrokenBones = Instance.new("ImageLabel")
 local HackDesc_3 = Instance.new("TextLabel")
-local Fling = Instance.new("TextButton")
-local ChatBypass = Instance.new("Frame")
+local HackName_3 = Instance.new("TextLabel")
+local BrokenBone = Instance.new("TextButton")
+local BrokenBone_Roundify_12px = Instance.new("ImageLabel")
+local ChatBypass = Instance.new("ImageLabel")
 local HackName_4 = Instance.new("TextLabel")
 local HackDesc_4 = Instance.new("TextLabel")
 local ChatBypassButton = Instance.new("TextButton")
-local ServerCrasher = Instance.new("Frame")
+local ChatBypassButton_Roundify_12px = Instance.new("ImageLabel")
+local FEFling = Instance.new("ImageLabel")
 local HackName_5 = Instance.new("TextLabel")
 local HackDesc_5 = Instance.new("TextLabel")
-local ServerCrasherButton = Instance.new("TextButton")
-local TextLabel_2 = Instance.new("TextLabel")
-local BrokenBones = Instance.new("Frame")
-local HackDesc_6 = Instance.new("TextLabel")
+local Fling = Instance.new("TextButton")
+local Fling_Roundify_12px = Instance.new("ImageLabel")
+local InfiniteYield = Instance.new("ImageLabel")
 local HackName_6 = Instance.new("TextLabel")
-local BrokenBone = Instance.new("TextButton")
-local MM2 = Instance.new("Frame")
+local HackDesc_6 = Instance.new("TextLabel")
+local InfiniteYieldButton = Instance.new("TextButton")
+local InfiniteYieldButton_Roundify_12px = Instance.new("ImageLabel")
+local MM2 = Instance.new("ImageLabel")
 local HackName_7 = Instance.new("TextLabel")
 local HackDesc_7 = Instance.new("TextLabel")
 local MM2Button = Instance.new("TextButton")
-local BreakIn = Instance.new("Frame")
-local HackName_8 = Instance.new("TextLabel")
+local MM2Button_Roundify_12px = Instance.new("ImageLabel")
+local PopitTrade = Instance.new("ImageLabel")
 local HackDesc_8 = Instance.new("TextLabel")
-local BreakInButton = Instance.new("TextButton")
-local BigPaintball = Instance.new("Frame")
+local PopItTradeButton = Instance.new("TextButton")
+local PopItTradeButton_Roundify_12px = Instance.new("ImageLabel")
+local HackName_8 = Instance.new("TextLabel")
+local ServerCrasher = Instance.new("ImageLabel")
 local HackName_9 = Instance.new("TextLabel")
 local HackDesc_9 = Instance.new("TextLabel")
-local BigPaintballButton = Instance.new("TextButton")
-local PopitTrade = Instance.new("Frame")
-local HackDesc_10 = Instance.new("TextLabel")
-local PopItTradeButton = Instance.new("TextButton")
+local ServerCrasherButton = Instance.new("TextButton")
+local ServerCrasherButton_Roundify_12px = Instance.new("ImageLabel")
+local Shattervest = Instance.new("ImageLabel")
 local HackName_10 = Instance.new("TextLabel")
+local HackDesc_10 = Instance.new("TextLabel")
+local ShattervestButton = Instance.new("TextButton")
+local ShattervestButton_Roundify_12px = Instance.new("ImageLabel")
+local Universal = Instance.new("ImageLabel")
+local HackDesc_11 = Instance.new("TextLabel")
+local UniversalButton = Instance.new("TextButton")
+local PopItTradeButton_Roundify_12px_2 = Instance.new("ImageLabel")
+local HackName_11 = Instance.new("TextLabel")
 local X = Instance.new("TextButton")
+local X_Roundify_12px = Instance.new("ImageLabel")
 local DestroyUI = Instance.new("TextButton")
-local OpenGUIHello = Instance.new("TextButton")
+local UniversalMenu = Instance.new("ImageLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local X_2 = Instance.new("TextButton")
+local X_Roundify_12px_2 = Instance.new("ImageLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local Speed = Instance.new("ImageLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local Input = Instance.new("TextBox")
+local TextBox_Roundify_12px = Instance.new("ImageLabel")
+local Set = Instance.new("TextButton")
+local PopItTradeButton_Roundify_12px_3 = Instance.new("ImageLabel")
+local JumpHeight = Instance.new("ImageLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local Input_2 = Instance.new("TextBox")
+local TextBox_Roundify_12px_2 = Instance.new("ImageLabel")
+local Set_2 = Instance.new("TextButton")
+local PopItTradeButton_Roundify_12px_4 = Instance.new("ImageLabel")
+local Controls = Instance.new("ImageLabel")
+local TextLabel_7 = Instance.new("TextLabel")
 
 --Properties:
 
 n6v9487e54v69n8e7.Name = "n6v9487e54v69n8e7"
 n6v9487e54v69n8e7.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-n6v9487e54v69n8e7.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+n6v9487e54v69n8e7.ResetOnSpawn = false
 
+OpenGUIHello.Name = "OpenGUIHello"
+OpenGUIHello.Parent = n6v9487e54v69n8e7
+OpenGUIHello.BackgroundColor3 = Color3.fromRGB(142, 255, 187)
+OpenGUIHello.BackgroundTransparency = 1.000
+OpenGUIHello.BorderSizePixel = 0
+OpenGUIHello.Position = UDim2.new(0.0268246122, 0, 0.889097452, 0)
+OpenGUIHello.Size = UDim2.new(0, 120, 0, 50)
+OpenGUIHello.ZIndex = 3
+OpenGUIHello.Font = Enum.Font.Ubuntu
+OpenGUIHello.Text = "Open"
+OpenGUIHello.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenGUIHello.TextScaled = true
+OpenGUIHello.TextSize = 14.000
+OpenGUIHello.TextWrapped = true
+
+OpenGUIHello_Roundify_12px.Name = "OpenGUIHello_Roundify_12px"
+OpenGUIHello_Roundify_12px.Parent = OpenGUIHello
+OpenGUIHello_Roundify_12px.Active = true
+OpenGUIHello_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+OpenGUIHello_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenGUIHello_Roundify_12px.BackgroundTransparency = 1.000
+OpenGUIHello_Roundify_12px.Position = UDim2.new(0.5, 0, 0.589999974, 0)
+OpenGUIHello_Roundify_12px.Selectable = true
+OpenGUIHello_Roundify_12px.Size = UDim2.new(1, 0, 1.17999995, 0)
+OpenGUIHello_Roundify_12px.Image = "rbxassetid://3570695787"
+OpenGUIHello_Roundify_12px.ImageColor3 = Color3.fromRGB(110, 197, 143)
+OpenGUIHello_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+OpenGUIHello_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+OpenGUIHello_Roundify_12px.SliceScale = 0.120
+
+OpenGUIHello_Roundify_12px_2.Name = "OpenGUIHello_Roundify_12px"
+OpenGUIHello_Roundify_12px_2.Parent = OpenGUIHello
+OpenGUIHello_Roundify_12px_2.Active = true
+OpenGUIHello_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+OpenGUIHello_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenGUIHello_Roundify_12px_2.BackgroundTransparency = 1.000
+OpenGUIHello_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+OpenGUIHello_Roundify_12px_2.Selectable = true
+OpenGUIHello_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+OpenGUIHello_Roundify_12px_2.Image = "rbxassetid://3570695787"
+OpenGUIHello_Roundify_12px_2.ImageColor3 = Color3.fromRGB(142, 255, 187)
+OpenGUIHello_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+OpenGUIHello_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+OpenGUIHello_Roundify_12px_2.SliceScale = 0.120
+
+Frame.Name = "Frame"
 Frame.Parent = n6v9487e54v69n8e7
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame.BorderSizePixel = 0
+Frame.BackgroundTransparency = 1.000
 Frame.Position = UDim2.new(0.168861344, 0, 0.405082226, 0)
 Frame.Size = UDim2.new(0, 483, 0, 294)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(56, 56, 56)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
 Frame.Visible = false
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
-TextLabel.Size = UDim2.new(0, 483, 0, 50)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "EssentialHub 1.0"
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Position = UDim2.new(0, 0, 0.00340136047, 0)
+TextLabel.Size = UDim2.new(0, 421, 0, 50)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "EssentialHub 1.1"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
@@ -74,155 +163,242 @@ TextLabel.TextWrapped = true
 ScrollingFrame.Parent = Frame
 ScrollingFrame.Active = true
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
 ScrollingFrame.Position = UDim2.new(0.0207039341, 0, 0.170068026, 0)
 ScrollingFrame.Size = UDim2.new(0, 467, 0, 223)
 ScrollingFrame.CanvasSize = UDim2.new(0, 0, 5, 0)
 
-Shattervest.Name = "Shattervest"
-Shattervest.Parent = ScrollingFrame
-Shattervest.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Shattervest.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Shattervest.BorderSizePixel = 2
-Shattervest.Position = UDim2.new(0.0406852216, 0, 0.01143937, 0)
-Shattervest.Size = UDim2.new(0, 412, 0, 58)
+TextLabel_2.Parent = ScrollingFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0171306226, 0, 0.260047138, 0)
+TextLabel_2.Size = UDim2.new(0, 451, 0, 29)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Game specific Scripts"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+BigPaintball.Name = "BigPaintball"
+BigPaintball.Parent = ScrollingFrame
+BigPaintball.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BigPaintball.BackgroundTransparency = 1.000
+BigPaintball.Position = UDim2.new(0.040685229, 0, 0.433548242, 0)
+BigPaintball.Size = UDim2.new(0, 412, 0, 58)
+BigPaintball.Image = "rbxassetid://3570695787"
+BigPaintball.ImageColor3 = Color3.fromRGB(62, 62, 62)
+BigPaintball.ScaleType = Enum.ScaleType.Slice
+BigPaintball.SliceCenter = Rect.new(100, 100, 100, 100)
+BigPaintball.SliceScale = 0.120
 
 HackName.Name = "HackName"
-HackName.Parent = Shattervest
+HackName.Parent = BigPaintball
 HackName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HackName.BackgroundTransparency = 1.000
 HackName.BorderColor3 = Color3.fromRGB(27, 42, 53)
 HackName.Size = UDim2.new(0, 139, 0, 58)
 HackName.Font = Enum.Font.SourceSansBold
-HackName.Text = "Shattervest"
-HackName.TextColor3 = Color3.fromRGB(0, 0, 0)
+HackName.Text = "Big Paintball"
+HackName.TextColor3 = Color3.fromRGB(255, 255, 255)
 HackName.TextScaled = true
 HackName.TextSize = 14.000
 HackName.TextWrapped = true
 
 HackDesc.Name = "HackDesc"
-HackDesc.Parent = Shattervest
+HackDesc.Parent = BigPaintball
 HackDesc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HackDesc.BackgroundTransparency = 1.000
 HackDesc.BorderColor3 = Color3.fromRGB(27, 42, 53)
-HackDesc.Position = UDim2.new(0.337378651, 0, 0, 0)
+HackDesc.Position = UDim2.new(0.322815537, 0, 0, 0)
 HackDesc.Size = UDim2.new(0, 156, 0, 58)
 HackDesc.Font = Enum.Font.SourceSans
-HackDesc.Text = "Shattervest is a hack that gives you admin commands in any game."
-HackDesc.TextColor3 = Color3.fromRGB(0, 0, 0)
+HackDesc.Text = "Basic shooter hacks like aimbot. Has a feature where you teleport to your enimes"
+HackDesc.TextColor3 = Color3.fromRGB(255, 255, 255)
 HackDesc.TextScaled = true
 HackDesc.TextSize = 14.000
 HackDesc.TextWrapped = true
 
-ShattervestButton.Name = "ShattervestButton"
-ShattervestButton.Parent = Shattervest
-ShattervestButton.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
-ShattervestButton.BorderSizePixel = 0
-ShattervestButton.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
-ShattervestButton.Size = UDim2.new(0, 104, 0, 35)
-ShattervestButton.Font = Enum.Font.SourceSans
-ShattervestButton.Text = "Execute"
-ShattervestButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-ShattervestButton.TextSize = 14.000
+BigPaintballButton.Name = "BigPaintballButton"
+BigPaintballButton.Parent = BigPaintball
+BigPaintballButton.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
+BigPaintballButton.BackgroundTransparency = 1.000
+BigPaintballButton.BorderSizePixel = 0
+BigPaintballButton.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
+BigPaintballButton.Size = UDim2.new(0, 104, 0, 35)
+BigPaintballButton.ZIndex = 2
+BigPaintballButton.Font = Enum.Font.SourceSans
+BigPaintballButton.Text = "Execute"
+BigPaintballButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+BigPaintballButton.TextScaled = true
+BigPaintballButton.TextSize = 14.000
+BigPaintballButton.TextWrapped = true
 
-InfiniteYield.Name = "InfiniteYield"
-InfiniteYield.Parent = ScrollingFrame
-InfiniteYield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
-InfiniteYield.BorderSizePixel = 2
-InfiniteYield.Position = UDim2.new(0.0406852216, 0, 0.062459778, 0)
-InfiniteYield.Size = UDim2.new(0, 412, 0, 58)
+BigPaintballButton_Roundify_12px.Name = "BigPaintballButton_Roundify_12px"
+BigPaintballButton_Roundify_12px.Parent = BigPaintballButton
+BigPaintballButton_Roundify_12px.Active = true
+BigPaintballButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+BigPaintballButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BigPaintballButton_Roundify_12px.BackgroundTransparency = 1.000
+BigPaintballButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+BigPaintballButton_Roundify_12px.Selectable = true
+BigPaintballButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+BigPaintballButton_Roundify_12px.Image = "rbxassetid://3570695787"
+BigPaintballButton_Roundify_12px.ImageColor3 = Color3.fromRGB(85, 255, 127)
+BigPaintballButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+BigPaintballButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+BigPaintballButton_Roundify_12px.SliceScale = 0.120
+
+BreakIn.Name = "Break In"
+BreakIn.Parent = ScrollingFrame
+BreakIn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BreakIn.BackgroundTransparency = 1.000
+BreakIn.Position = UDim2.new(0.040685229, 0, 0.385248929, 0)
+BreakIn.Size = UDim2.new(0, 412, 0, 58)
+BreakIn.Image = "rbxassetid://3570695787"
+BreakIn.ImageColor3 = Color3.fromRGB(62, 62, 62)
+BreakIn.ScaleType = Enum.ScaleType.Slice
+BreakIn.SliceCenter = Rect.new(100, 100, 100, 100)
+BreakIn.SliceScale = 0.120
 
 HackName_2.Name = "HackName"
-HackName_2.Parent = InfiniteYield
+HackName_2.Parent = BreakIn
 HackName_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HackName_2.BackgroundTransparency = 1.000
 HackName_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
 HackName_2.Size = UDim2.new(0, 139, 0, 58)
 HackName_2.Font = Enum.Font.SourceSansBold
-HackName_2.Text = "Infinite Yield"
-HackName_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+HackName_2.Text = "Break In"
+HackName_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 HackName_2.TextScaled = true
 HackName_2.TextSize = 14.000
 HackName_2.TextWrapped = true
 
 HackDesc_2.Name = "HackDesc"
-HackDesc_2.Parent = InfiniteYield
+HackDesc_2.Parent = BreakIn
 HackDesc_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HackDesc_2.BackgroundTransparency = 1.000
 HackDesc_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-HackDesc_2.Position = UDim2.new(0.337378651, 0, 0, 0)
+HackDesc_2.Position = UDim2.new(0.322815537, 0, 0, 0)
 HackDesc_2.Size = UDim2.new(0, 156, 0, 58)
 HackDesc_2.Font = Enum.Font.SourceSans
-HackDesc_2.Text = "A better and remastered version of Shattervest"
-HackDesc_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+HackDesc_2.Text = "A horror game, you can kill anyone, give items, fly and noclip and much more. Super OP."
+HackDesc_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 HackDesc_2.TextScaled = true
 HackDesc_2.TextSize = 14.000
 HackDesc_2.TextWrapped = true
 
-InfiniteYieldButton.Name = "InfiniteYieldButton"
-InfiniteYieldButton.Parent = InfiniteYield
-InfiniteYieldButton.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
-InfiniteYieldButton.BorderSizePixel = 0
-InfiniteYieldButton.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
-InfiniteYieldButton.Size = UDim2.new(0, 104, 0, 35)
-InfiniteYieldButton.Font = Enum.Font.SourceSans
-InfiniteYieldButton.Text = "Execute"
-InfiniteYieldButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-InfiniteYieldButton.TextSize = 14.000
+BreakInButton.Name = "BreakInButton"
+BreakInButton.Parent = BreakIn
+BreakInButton.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
+BreakInButton.BackgroundTransparency = 1.000
+BreakInButton.BorderSizePixel = 0
+BreakInButton.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
+BreakInButton.Size = UDim2.new(0, 104, 0, 35)
+BreakInButton.ZIndex = 2
+BreakInButton.Font = Enum.Font.SourceSans
+BreakInButton.Text = "Execute"
+BreakInButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+BreakInButton.TextScaled = true
+BreakInButton.TextSize = 14.000
+BreakInButton.TextWrapped = true
 
-FEFling.Name = "FEFling"
-FEFling.Parent = ScrollingFrame
-FEFling.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-FEFling.BorderColor3 = Color3.fromRGB(0, 0, 0)
-FEFling.BorderSizePixel = 2
-FEFling.Position = UDim2.new(0.0406852253, 0, 0.112119623, 0)
-FEFling.Size = UDim2.new(0, 412, 0, 58)
+BreakInButton_Roundify_12px.Name = "BreakInButton_Roundify_12px"
+BreakInButton_Roundify_12px.Parent = BreakInButton
+BreakInButton_Roundify_12px.Active = true
+BreakInButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+BreakInButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BreakInButton_Roundify_12px.BackgroundTransparency = 1.000
+BreakInButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+BreakInButton_Roundify_12px.Selectable = true
+BreakInButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+BreakInButton_Roundify_12px.Image = "rbxassetid://3570695787"
+BreakInButton_Roundify_12px.ImageColor3 = Color3.fromRGB(85, 255, 127)
+BreakInButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+BreakInButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+BreakInButton_Roundify_12px.SliceScale = 0.120
 
-HackName_3.Name = "HackName"
-HackName_3.Parent = FEFling
-HackName_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HackName_3.BackgroundTransparency = 1.000
-HackName_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
-HackName_3.Size = UDim2.new(0, 139, 0, 58)
-HackName_3.Font = Enum.Font.SourceSansBold
-HackName_3.Text = "FE Fling"
-HackName_3.TextColor3 = Color3.fromRGB(0, 0, 0)
-HackName_3.TextScaled = true
-HackName_3.TextSize = 14.000
-HackName_3.TextWrapped = true
+BrokenBones.Name = "Broken Bones"
+BrokenBones.Parent = ScrollingFrame
+BrokenBones.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BrokenBones.BackgroundTransparency = 1.000
+BrokenBones.Position = UDim2.new(0.0428265557, 0, 0.286609411, 0)
+BrokenBones.Size = UDim2.new(0, 412, 0, 58)
+BrokenBones.Image = "rbxassetid://3570695787"
+BrokenBones.ImageColor3 = Color3.fromRGB(62, 62, 62)
+BrokenBones.ScaleType = Enum.ScaleType.Slice
+BrokenBones.SliceCenter = Rect.new(100, 100, 100, 100)
+BrokenBones.SliceScale = 0.120
 
 HackDesc_3.Name = "HackDesc"
-HackDesc_3.Parent = FEFling
+HackDesc_3.Parent = BrokenBones
 HackDesc_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HackDesc_3.BackgroundTransparency = 1.000
 HackDesc_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
 HackDesc_3.Position = UDim2.new(0.337378651, 0, 0, 0)
 HackDesc_3.Size = UDim2.new(0, 156, 0, 58)
 HackDesc_3.Font = Enum.Font.SourceSans
-HackDesc_3.Text = "A script that lets you fling anyone.  Works with filtering enabled"
-HackDesc_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+HackDesc_3.Text = "Super OP. Gives you infinite money."
+HackDesc_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 HackDesc_3.TextScaled = true
 HackDesc_3.TextSize = 14.000
 HackDesc_3.TextWrapped = true
 
-Fling.Name = "Fling"
-Fling.Parent = FEFling
-Fling.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
-Fling.BorderSizePixel = 0
-Fling.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
-Fling.Size = UDim2.new(0, 104, 0, 35)
-Fling.Font = Enum.Font.SourceSans
-Fling.Text = "Execute"
-Fling.TextColor3 = Color3.fromRGB(0, 0, 0)
-Fling.TextSize = 14.000
+HackName_3.Name = "HackName"
+HackName_3.Parent = BrokenBones
+HackName_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HackName_3.BackgroundTransparency = 1.000
+HackName_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+HackName_3.Size = UDim2.new(0, 139, 0, 58)
+HackName_3.Font = Enum.Font.SourceSansBold
+HackName_3.Text = "Broken Bones"
+HackName_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+HackName_3.TextScaled = true
+HackName_3.TextSize = 14.000
+HackName_3.TextWrapped = true
+
+BrokenBone.Name = "BrokenBone"
+BrokenBone.Parent = BrokenBones
+BrokenBone.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
+BrokenBone.BackgroundTransparency = 1.000
+BrokenBone.BorderSizePixel = 0
+BrokenBone.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
+BrokenBone.Size = UDim2.new(0, 104, 0, 35)
+BrokenBone.ZIndex = 2
+BrokenBone.Font = Enum.Font.SourceSans
+BrokenBone.Text = "Execute"
+BrokenBone.TextColor3 = Color3.fromRGB(0, 0, 0)
+BrokenBone.TextScaled = true
+BrokenBone.TextSize = 14.000
+BrokenBone.TextWrapped = true
+
+BrokenBone_Roundify_12px.Name = "BrokenBone_Roundify_12px"
+BrokenBone_Roundify_12px.Parent = BrokenBone
+BrokenBone_Roundify_12px.Active = true
+BrokenBone_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+BrokenBone_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BrokenBone_Roundify_12px.BackgroundTransparency = 1.000
+BrokenBone_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+BrokenBone_Roundify_12px.Selectable = true
+BrokenBone_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+BrokenBone_Roundify_12px.Image = "rbxassetid://3570695787"
+BrokenBone_Roundify_12px.ImageColor3 = Color3.fromRGB(85, 255, 127)
+BrokenBone_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+BrokenBone_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+BrokenBone_Roundify_12px.SliceScale = 0.120
 
 ChatBypass.Name = "ChatBypass"
 ChatBypass.Parent = ScrollingFrame
 ChatBypass.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ChatBypass.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ChatBypass.BorderSizePixel = 2
+ChatBypass.BackgroundTransparency = 1.000
 ChatBypass.Position = UDim2.new(0.0428265557, 0, 0.162459761, 0)
 ChatBypass.Size = UDim2.new(0, 412, 0, 58)
+ChatBypass.Image = "rbxassetid://3570695787"
+ChatBypass.ImageColor3 = Color3.fromRGB(62, 62, 62)
+ChatBypass.ScaleType = Enum.ScaleType.Slice
+ChatBypass.SliceCenter = Rect.new(100, 100, 100, 100)
+ChatBypass.SliceScale = 0.120
 
 HackName_4.Name = "HackName"
 HackName_4.Parent = ChatBypass
@@ -232,7 +408,7 @@ HackName_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
 HackName_4.Size = UDim2.new(0, 139, 0, 58)
 HackName_4.Font = Enum.Font.SourceSansBold
 HackName_4.Text = "Chat Bypass"
-HackName_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+HackName_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 HackName_4.TextScaled = true
 HackName_4.TextSize = 14.000
 HackName_4.TextWrapped = true
@@ -246,7 +422,7 @@ HackDesc_4.Position = UDim2.new(0.337378651, 0, 0, 0)
 HackDesc_4.Size = UDim2.new(0, 156, 0, 58)
 HackDesc_4.Font = Enum.Font.SourceSans
 HackDesc_4.Text = "Chat Bypass, USE AN ALT BECAUSE YOU MIGHT GET BANNED."
-HackDesc_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+HackDesc_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 HackDesc_4.TextScaled = true
 HackDesc_4.TextSize = 14.000
 HackDesc_4.TextWrapped = true
@@ -254,125 +430,182 @@ HackDesc_4.TextWrapped = true
 ChatBypassButton.Name = "ChatBypassButton"
 ChatBypassButton.Parent = ChatBypass
 ChatBypassButton.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
+ChatBypassButton.BackgroundTransparency = 1.000
 ChatBypassButton.BorderSizePixel = 0
 ChatBypassButton.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
 ChatBypassButton.Size = UDim2.new(0, 104, 0, 35)
+ChatBypassButton.ZIndex = 2
 ChatBypassButton.Font = Enum.Font.SourceSans
 ChatBypassButton.Text = "Execute"
 ChatBypassButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ChatBypassButton.TextScaled = true
 ChatBypassButton.TextSize = 14.000
+ChatBypassButton.TextWrapped = true
 
-ServerCrasher.Name = "ServerCrasher"
-ServerCrasher.Parent = ScrollingFrame
-ServerCrasher.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ServerCrasher.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ServerCrasher.BorderSizePixel = 2
-ServerCrasher.Position = UDim2.new(0.0406852216, 0, 0.208038002, 0)
-ServerCrasher.Size = UDim2.new(0, 412, 0, 58)
+ChatBypassButton_Roundify_12px.Name = "ChatBypassButton_Roundify_12px"
+ChatBypassButton_Roundify_12px.Parent = ChatBypassButton
+ChatBypassButton_Roundify_12px.Active = true
+ChatBypassButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+ChatBypassButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ChatBypassButton_Roundify_12px.BackgroundTransparency = 1.000
+ChatBypassButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+ChatBypassButton_Roundify_12px.Selectable = true
+ChatBypassButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+ChatBypassButton_Roundify_12px.Image = "rbxassetid://3570695787"
+ChatBypassButton_Roundify_12px.ImageColor3 = Color3.fromRGB(85, 255, 127)
+ChatBypassButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+ChatBypassButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+ChatBypassButton_Roundify_12px.SliceScale = 0.120
+
+FEFling.Name = "FEFling"
+FEFling.Parent = ScrollingFrame
+FEFling.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FEFling.BackgroundTransparency = 1.000
+FEFling.Position = UDim2.new(0.0406852253, 0, 0.112119623, 0)
+FEFling.Size = UDim2.new(0, 412, 0, 58)
+FEFling.Image = "rbxassetid://3570695787"
+FEFling.ImageColor3 = Color3.fromRGB(62, 62, 62)
+FEFling.ScaleType = Enum.ScaleType.Slice
+FEFling.SliceCenter = Rect.new(100, 100, 100, 100)
+FEFling.SliceScale = 0.120
 
 HackName_5.Name = "HackName"
-HackName_5.Parent = ServerCrasher
+HackName_5.Parent = FEFling
 HackName_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HackName_5.BackgroundTransparency = 1.000
 HackName_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
 HackName_5.Size = UDim2.new(0, 139, 0, 58)
 HackName_5.Font = Enum.Font.SourceSansBold
-HackName_5.Text = "Server Crasher"
-HackName_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+HackName_5.Text = "FE Fling"
+HackName_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 HackName_5.TextScaled = true
 HackName_5.TextSize = 14.000
 HackName_5.TextWrapped = true
 
 HackDesc_5.Name = "HackDesc"
-HackDesc_5.Parent = ServerCrasher
+HackDesc_5.Parent = FEFling
 HackDesc_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HackDesc_5.BackgroundTransparency = 1.000
 HackDesc_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
 HackDesc_5.Position = UDim2.new(0.337378651, 0, 0, 0)
 HackDesc_5.Size = UDim2.new(0, 156, 0, 58)
 HackDesc_5.Font = Enum.Font.SourceSans
-HackDesc_5.Text = "Crashes a server. Works on any."
-HackDesc_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+HackDesc_5.Text = "A script that lets you fling anyone.  Works with filtering enabled"
+HackDesc_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 HackDesc_5.TextScaled = true
 HackDesc_5.TextSize = 14.000
 HackDesc_5.TextWrapped = true
 
-ServerCrasherButton.Name = "ServerCrasherButton"
-ServerCrasherButton.Parent = ServerCrasher
-ServerCrasherButton.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
-ServerCrasherButton.BorderSizePixel = 0
-ServerCrasherButton.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
-ServerCrasherButton.Size = UDim2.new(0, 104, 0, 35)
-ServerCrasherButton.Font = Enum.Font.SourceSans
-ServerCrasherButton.Text = "Execute"
-ServerCrasherButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-ServerCrasherButton.TextSize = 14.000
+Fling.Name = "Fling"
+Fling.Parent = FEFling
+Fling.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
+Fling.BackgroundTransparency = 1.000
+Fling.BorderSizePixel = 0
+Fling.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
+Fling.Size = UDim2.new(0, 104, 0, 35)
+Fling.ZIndex = 2
+Fling.Font = Enum.Font.SourceSans
+Fling.Text = "Execute"
+Fling.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fling.TextScaled = true
+Fling.TextSize = 14.000
+Fling.TextWrapped = true
 
-TextLabel_2.Parent = ScrollingFrame
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(0.0171306226, 0, 0.260047138, 0)
-TextLabel_2.Size = UDim2.new(0, 451, 0, 29)
-TextLabel_2.Font = Enum.Font.SourceSansBold
-TextLabel_2.Text = "Game specific Scripts"
-TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
+Fling_Roundify_12px.Name = "Fling_Roundify_12px"
+Fling_Roundify_12px.Parent = Fling
+Fling_Roundify_12px.Active = true
+Fling_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+Fling_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fling_Roundify_12px.BackgroundTransparency = 1.000
+Fling_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+Fling_Roundify_12px.Selectable = true
+Fling_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+Fling_Roundify_12px.Image = "rbxassetid://3570695787"
+Fling_Roundify_12px.ImageColor3 = Color3.fromRGB(85, 255, 127)
+Fling_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+Fling_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+Fling_Roundify_12px.SliceScale = 0.120
 
-BrokenBones.Name = "Broken Bones"
-BrokenBones.Parent = ScrollingFrame
-BrokenBones.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BrokenBones.BorderColor3 = Color3.fromRGB(0, 0, 0)
-BrokenBones.BorderSizePixel = 2
-BrokenBones.Position = UDim2.new(0.0428265557, 0, 0.286609411, 0)
-BrokenBones.Size = UDim2.new(0, 412, 0, 58)
+InfiniteYield.Name = "InfiniteYield"
+InfiniteYield.Parent = ScrollingFrame
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.BackgroundTransparency = 1.000
+InfiniteYield.Position = UDim2.new(0.0406852216, 0, 0.062459778, 0)
+InfiniteYield.Size = UDim2.new(0, 412, 0, 58)
+InfiniteYield.Image = "rbxassetid://3570695787"
+InfiniteYield.ImageColor3 = Color3.fromRGB(62, 62, 62)
+InfiniteYield.ScaleType = Enum.ScaleType.Slice
+InfiniteYield.SliceCenter = Rect.new(100, 100, 100, 100)
+InfiniteYield.SliceScale = 0.120
+
+HackName_6.Name = "HackName"
+HackName_6.Parent = InfiniteYield
+HackName_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HackName_6.BackgroundTransparency = 1.000
+HackName_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+HackName_6.Size = UDim2.new(0, 139, 0, 58)
+HackName_6.Font = Enum.Font.SourceSansBold
+HackName_6.Text = "Infinite Yield"
+HackName_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+HackName_6.TextScaled = true
+HackName_6.TextSize = 14.000
+HackName_6.TextWrapped = true
 
 HackDesc_6.Name = "HackDesc"
-HackDesc_6.Parent = BrokenBones
+HackDesc_6.Parent = InfiniteYield
 HackDesc_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HackDesc_6.BackgroundTransparency = 1.000
 HackDesc_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
 HackDesc_6.Position = UDim2.new(0.337378651, 0, 0, 0)
 HackDesc_6.Size = UDim2.new(0, 156, 0, 58)
 HackDesc_6.Font = Enum.Font.SourceSans
-HackDesc_6.Text = "Super OP. Gives you infinite money."
-HackDesc_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+HackDesc_6.Text = "A better and remastered version of Shattervest"
+HackDesc_6.TextColor3 = Color3.fromRGB(255, 255, 255)
 HackDesc_6.TextScaled = true
 HackDesc_6.TextSize = 14.000
 HackDesc_6.TextWrapped = true
 
-HackName_6.Name = "HackName"
-HackName_6.Parent = BrokenBones
-HackName_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HackName_6.BackgroundTransparency = 1.000
-HackName_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
-HackName_6.Size = UDim2.new(0, 139, 0, 58)
-HackName_6.Font = Enum.Font.SourceSansBold
-HackName_6.Text = "Broken Bones"
-HackName_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-HackName_6.TextScaled = true
-HackName_6.TextSize = 14.000
-HackName_6.TextWrapped = true
+InfiniteYieldButton.Name = "InfiniteYieldButton"
+InfiniteYieldButton.Parent = InfiniteYield
+InfiniteYieldButton.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
+InfiniteYieldButton.BackgroundTransparency = 1.000
+InfiniteYieldButton.BorderSizePixel = 0
+InfiniteYieldButton.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
+InfiniteYieldButton.Size = UDim2.new(0, 104, 0, 35)
+InfiniteYieldButton.ZIndex = 2
+InfiniteYieldButton.Font = Enum.Font.SourceSans
+InfiniteYieldButton.Text = "Execute"
+InfiniteYieldButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYieldButton.TextScaled = true
+InfiniteYieldButton.TextSize = 14.000
+InfiniteYieldButton.TextWrapped = true
 
-BrokenBone.Name = "BrokenBone"
-BrokenBone.Parent = BrokenBones
-BrokenBone.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
-BrokenBone.BorderSizePixel = 0
-BrokenBone.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
-BrokenBone.Size = UDim2.new(0, 104, 0, 35)
-BrokenBone.Font = Enum.Font.SourceSans
-BrokenBone.Text = "Execute"
-BrokenBone.TextColor3 = Color3.fromRGB(0, 0, 0)
-BrokenBone.TextSize = 14.000
+InfiniteYieldButton_Roundify_12px.Name = "InfiniteYieldButton_Roundify_12px"
+InfiniteYieldButton_Roundify_12px.Parent = InfiniteYieldButton
+InfiniteYieldButton_Roundify_12px.Active = true
+InfiniteYieldButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+InfiniteYieldButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYieldButton_Roundify_12px.BackgroundTransparency = 1.000
+InfiniteYieldButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+InfiniteYieldButton_Roundify_12px.Selectable = true
+InfiniteYieldButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+InfiniteYieldButton_Roundify_12px.Image = "rbxassetid://3570695787"
+InfiniteYieldButton_Roundify_12px.ImageColor3 = Color3.fromRGB(85, 255, 127)
+InfiniteYieldButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+InfiniteYieldButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+InfiniteYieldButton_Roundify_12px.SliceScale = 0.120
 
 MM2.Name = "MM2"
 MM2.Parent = ScrollingFrame
 MM2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-MM2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-MM2.BorderSizePixel = 2
+MM2.BackgroundTransparency = 1.000
 MM2.Position = UDim2.new(0.0428265557, 0, 0.336269349, 0)
 MM2.Size = UDim2.new(0, 412, 0, 58)
+MM2.Image = "rbxassetid://3570695787"
+MM2.ImageColor3 = Color3.fromRGB(62, 62, 62)
+MM2.ScaleType = Enum.ScaleType.Slice
+MM2.SliceCenter = Rect.new(100, 100, 100, 100)
+MM2.SliceScale = 0.120
 
 HackName_7.Name = "HackName"
 HackName_7.Parent = MM2
@@ -382,7 +615,7 @@ HackName_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
 HackName_7.Size = UDim2.new(0, 139, 0, 58)
 HackName_7.Font = Enum.Font.SourceSansBold
 HackName_7.Text = "MM2 Utils"
-HackName_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+HackName_7.TextColor3 = Color3.fromRGB(255, 255, 255)
 HackName_7.TextScaled = true
 HackName_7.TextSize = 14.000
 HackName_7.TextWrapped = true
@@ -396,7 +629,7 @@ HackDesc_7.Position = UDim2.new(0.337378651, 0, 0, 0)
 HackDesc_7.Size = UDim2.new(0, 156, 0, 58)
 HackDesc_7.Font = Enum.Font.SourceSans
 HackDesc_7.Text = "Tells you who the murderer and sherrif is, and tells you if the gun is dropped."
-HackDesc_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+HackDesc_7.TextColor3 = Color3.fromRGB(255, 255, 255)
 HackDesc_7.TextScaled = true
 HackDesc_7.TextSize = 14.000
 HackDesc_7.TextWrapped = true
@@ -404,158 +637,317 @@ HackDesc_7.TextWrapped = true
 MM2Button.Name = "MM2Button"
 MM2Button.Parent = MM2
 MM2Button.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
+MM2Button.BackgroundTransparency = 1.000
 MM2Button.BorderSizePixel = 0
 MM2Button.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
 MM2Button.Size = UDim2.new(0, 104, 0, 35)
+MM2Button.ZIndex = 2
 MM2Button.Font = Enum.Font.SourceSans
 MM2Button.Text = "Execute"
 MM2Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+MM2Button.TextScaled = true
 MM2Button.TextSize = 14.000
+MM2Button.TextWrapped = true
 
-BreakIn.Name = "Break In"
-BreakIn.Parent = ScrollingFrame
-BreakIn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BreakIn.BorderColor3 = Color3.fromRGB(0, 0, 0)
-BreakIn.BorderSizePixel = 2
-BreakIn.Position = UDim2.new(0.040685229, 0, 0.385248929, 0)
-BreakIn.Size = UDim2.new(0, 412, 0, 58)
+MM2Button_Roundify_12px.Name = "MM2Button_Roundify_12px"
+MM2Button_Roundify_12px.Parent = MM2Button
+MM2Button_Roundify_12px.Active = true
+MM2Button_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+MM2Button_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MM2Button_Roundify_12px.BackgroundTransparency = 1.000
+MM2Button_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+MM2Button_Roundify_12px.Selectable = true
+MM2Button_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+MM2Button_Roundify_12px.Image = "rbxassetid://3570695787"
+MM2Button_Roundify_12px.ImageColor3 = Color3.fromRGB(85, 255, 127)
+MM2Button_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+MM2Button_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+MM2Button_Roundify_12px.SliceScale = 0.120
 
-HackName_8.Name = "HackName"
-HackName_8.Parent = BreakIn
-HackName_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HackName_8.BackgroundTransparency = 1.000
-HackName_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
-HackName_8.Size = UDim2.new(0, 139, 0, 58)
-HackName_8.Font = Enum.Font.SourceSansBold
-HackName_8.Text = "Break In"
-HackName_8.TextColor3 = Color3.fromRGB(0, 0, 0)
-HackName_8.TextScaled = true
-HackName_8.TextSize = 14.000
-HackName_8.TextWrapped = true
+PopitTrade.Name = "PopitTrade"
+PopitTrade.Parent = ScrollingFrame
+PopitTrade.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PopitTrade.BackgroundTransparency = 1.000
+PopitTrade.Position = UDim2.new(0.040685229, 0, 0.481847554, 0)
+PopitTrade.Size = UDim2.new(0, 412, 0, 58)
+PopitTrade.Image = "rbxassetid://3570695787"
+PopitTrade.ImageColor3 = Color3.fromRGB(62, 62, 62)
+PopitTrade.ScaleType = Enum.ScaleType.Slice
+PopitTrade.SliceCenter = Rect.new(100, 100, 100, 100)
+PopitTrade.SliceScale = 0.120
 
 HackDesc_8.Name = "HackDesc"
-HackDesc_8.Parent = BreakIn
+HackDesc_8.Parent = PopitTrade
 HackDesc_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HackDesc_8.BackgroundTransparency = 1.000
 HackDesc_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
 HackDesc_8.Position = UDim2.new(0.322815537, 0, 0, 0)
 HackDesc_8.Size = UDim2.new(0, 156, 0, 58)
 HackDesc_8.Font = Enum.Font.SourceSans
-HackDesc_8.Text = "A horror game, you can kill anyone, give items, fly and noclip and much more. Super OP."
-HackDesc_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+HackDesc_8.Text = "This one is more of a troll one, but it allows you to steal peoples dropped items."
+HackDesc_8.TextColor3 = Color3.fromRGB(255, 255, 255)
 HackDesc_8.TextScaled = true
 HackDesc_8.TextSize = 14.000
 HackDesc_8.TextWrapped = true
 
-BreakInButton.Name = "BreakInButton"
-BreakInButton.Parent = BreakIn
-BreakInButton.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
-BreakInButton.BorderSizePixel = 0
-BreakInButton.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
-BreakInButton.Size = UDim2.new(0, 104, 0, 35)
-BreakInButton.Font = Enum.Font.SourceSans
-BreakInButton.Text = "Execute"
-BreakInButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-BreakInButton.TextSize = 14.000
+PopItTradeButton.Name = "PopItTradeButton"
+PopItTradeButton.Parent = PopitTrade
+PopItTradeButton.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
+PopItTradeButton.BackgroundTransparency = 1.000
+PopItTradeButton.BorderSizePixel = 0
+PopItTradeButton.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
+PopItTradeButton.Size = UDim2.new(0, 104, 0, 35)
+PopItTradeButton.ZIndex = 2
+PopItTradeButton.Font = Enum.Font.SourceSans
+PopItTradeButton.Text = "Execute"
+PopItTradeButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+PopItTradeButton.TextScaled = true
+PopItTradeButton.TextSize = 14.000
+PopItTradeButton.TextWrapped = true
 
-BigPaintball.Name = "BigPaintball"
-BigPaintball.Parent = ScrollingFrame
-BigPaintball.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-BigPaintball.BorderColor3 = Color3.fromRGB(0, 0, 0)
-BigPaintball.BorderSizePixel = 2
-BigPaintball.Position = UDim2.new(0.040685229, 0, 0.433548242, 0)
-BigPaintball.Size = UDim2.new(0, 412, 0, 58)
+PopItTradeButton_Roundify_12px.Name = "PopItTradeButton_Roundify_12px"
+PopItTradeButton_Roundify_12px.Parent = PopItTradeButton
+PopItTradeButton_Roundify_12px.Active = true
+PopItTradeButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+PopItTradeButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PopItTradeButton_Roundify_12px.BackgroundTransparency = 1.000
+PopItTradeButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+PopItTradeButton_Roundify_12px.Selectable = true
+PopItTradeButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+PopItTradeButton_Roundify_12px.Image = "rbxassetid://3570695787"
+PopItTradeButton_Roundify_12px.ImageColor3 = Color3.fromRGB(85, 255, 127)
+PopItTradeButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+PopItTradeButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+PopItTradeButton_Roundify_12px.SliceScale = 0.120
+
+HackName_8.Name = "HackName"
+HackName_8.Parent = PopitTrade
+HackName_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HackName_8.BackgroundTransparency = 1.000
+HackName_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+HackName_8.Size = UDim2.new(0, 139, 0, 58)
+HackName_8.Font = Enum.Font.SourceSansBold
+HackName_8.Text = "Popit Trade Sim"
+HackName_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+HackName_8.TextScaled = true
+HackName_8.TextSize = 14.000
+HackName_8.TextWrapped = true
+
+ServerCrasher.Name = "ServerCrasher"
+ServerCrasher.Parent = ScrollingFrame
+ServerCrasher.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ServerCrasher.BackgroundTransparency = 1.000
+ServerCrasher.Position = UDim2.new(0.0406852216, 0, 0.208038002, 0)
+ServerCrasher.Size = UDim2.new(0, 412, 0, 58)
+ServerCrasher.Image = "rbxassetid://3570695787"
+ServerCrasher.ImageColor3 = Color3.fromRGB(62, 62, 62)
+ServerCrasher.ScaleType = Enum.ScaleType.Slice
+ServerCrasher.SliceCenter = Rect.new(100, 100, 100, 100)
+ServerCrasher.SliceScale = 0.120
 
 HackName_9.Name = "HackName"
-HackName_9.Parent = BigPaintball
+HackName_9.Parent = ServerCrasher
 HackName_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HackName_9.BackgroundTransparency = 1.000
 HackName_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
 HackName_9.Size = UDim2.new(0, 139, 0, 58)
 HackName_9.Font = Enum.Font.SourceSansBold
-HackName_9.Text = "Big Paintball"
-HackName_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+HackName_9.Text = "Server Crasher"
+HackName_9.TextColor3 = Color3.fromRGB(255, 255, 255)
 HackName_9.TextScaled = true
 HackName_9.TextSize = 14.000
 HackName_9.TextWrapped = true
 
 HackDesc_9.Name = "HackDesc"
-HackDesc_9.Parent = BigPaintball
+HackDesc_9.Parent = ServerCrasher
 HackDesc_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HackDesc_9.BackgroundTransparency = 1.000
 HackDesc_9.BorderColor3 = Color3.fromRGB(27, 42, 53)
-HackDesc_9.Position = UDim2.new(0.322815537, 0, 0, 0)
+HackDesc_9.Position = UDim2.new(0.337378651, 0, 0, 0)
 HackDesc_9.Size = UDim2.new(0, 156, 0, 58)
 HackDesc_9.Font = Enum.Font.SourceSans
-HackDesc_9.Text = "Basic shooter hacks like aimbot. Has a feature where you teleport to your enimes"
-HackDesc_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+HackDesc_9.Text = "Crashes a server. Works on any."
+HackDesc_9.TextColor3 = Color3.fromRGB(255, 255, 255)
 HackDesc_9.TextScaled = true
 HackDesc_9.TextSize = 14.000
 HackDesc_9.TextWrapped = true
 
-BigPaintballButton.Name = "BigPaintballButton"
-BigPaintballButton.Parent = BigPaintball
-BigPaintballButton.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
-BigPaintballButton.BorderSizePixel = 0
-BigPaintballButton.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
-BigPaintballButton.Size = UDim2.new(0, 104, 0, 35)
-BigPaintballButton.Font = Enum.Font.SourceSans
-BigPaintballButton.Text = "Execute"
-BigPaintballButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-BigPaintballButton.TextSize = 14.000
+ServerCrasherButton.Name = "ServerCrasherButton"
+ServerCrasherButton.Parent = ServerCrasher
+ServerCrasherButton.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
+ServerCrasherButton.BackgroundTransparency = 1.000
+ServerCrasherButton.BorderSizePixel = 0
+ServerCrasherButton.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
+ServerCrasherButton.Size = UDim2.new(0, 104, 0, 35)
+ServerCrasherButton.ZIndex = 2
+ServerCrasherButton.Font = Enum.Font.SourceSans
+ServerCrasherButton.Text = "Execute"
+ServerCrasherButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ServerCrasherButton.TextScaled = true
+ServerCrasherButton.TextSize = 14.000
+ServerCrasherButton.TextWrapped = true
 
-PopitTrade.Name = "PopitTrade"
-PopitTrade.Parent = ScrollingFrame
-PopitTrade.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-PopitTrade.BorderColor3 = Color3.fromRGB(0, 0, 0)
-PopitTrade.BorderSizePixel = 2
-PopitTrade.Position = UDim2.new(0.040685229, 0, 0.481847554, 0)
-PopitTrade.Size = UDim2.new(0, 412, 0, 58)
+ServerCrasherButton_Roundify_12px.Name = "ServerCrasherButton_Roundify_12px"
+ServerCrasherButton_Roundify_12px.Parent = ServerCrasherButton
+ServerCrasherButton_Roundify_12px.Active = true
+ServerCrasherButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+ServerCrasherButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ServerCrasherButton_Roundify_12px.BackgroundTransparency = 1.000
+ServerCrasherButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+ServerCrasherButton_Roundify_12px.Selectable = true
+ServerCrasherButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+ServerCrasherButton_Roundify_12px.Image = "rbxassetid://3570695787"
+ServerCrasherButton_Roundify_12px.ImageColor3 = Color3.fromRGB(85, 255, 127)
+ServerCrasherButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+ServerCrasherButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+ServerCrasherButton_Roundify_12px.SliceScale = 0.120
 
-HackDesc_10.Name = "HackDesc"
-HackDesc_10.Parent = PopitTrade
-HackDesc_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HackDesc_10.BackgroundTransparency = 1.000
-HackDesc_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
-HackDesc_10.Position = UDim2.new(0.322815537, 0, 0, 0)
-HackDesc_10.Size = UDim2.new(0, 156, 0, 58)
-HackDesc_10.Font = Enum.Font.SourceSans
-HackDesc_10.Text = "This one is more of a troll one, but it allows you to steal peoples dropped items."
-HackDesc_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-HackDesc_10.TextScaled = true
-HackDesc_10.TextSize = 14.000
-HackDesc_10.TextWrapped = true
-
-PopItTradeButton.Name = "PopItTradeButton"
-PopItTradeButton.Parent = PopitTrade
-PopItTradeButton.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
-PopItTradeButton.BorderSizePixel = 0
-PopItTradeButton.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
-PopItTradeButton.Size = UDim2.new(0, 104, 0, 35)
-PopItTradeButton.Font = Enum.Font.SourceSans
-PopItTradeButton.Text = "Execute"
-PopItTradeButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-PopItTradeButton.TextSize = 14.000
+Shattervest.Name = "Shattervest"
+Shattervest.Parent = ScrollingFrame
+Shattervest.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Shattervest.BackgroundTransparency = 1.000
+Shattervest.Position = UDim2.new(0.0406852216, 0, 0.01143937, 0)
+Shattervest.Size = UDim2.new(0, 412, 0, 58)
+Shattervest.Image = "rbxassetid://3570695787"
+Shattervest.ImageColor3 = Color3.fromRGB(62, 62, 62)
+Shattervest.ScaleType = Enum.ScaleType.Slice
+Shattervest.SliceCenter = Rect.new(100, 100, 100, 100)
+Shattervest.SliceScale = 0.120
 
 HackName_10.Name = "HackName"
-HackName_10.Parent = PopitTrade
+HackName_10.Parent = Shattervest
 HackName_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HackName_10.BackgroundTransparency = 1.000
 HackName_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
 HackName_10.Size = UDim2.new(0, 139, 0, 58)
 HackName_10.Font = Enum.Font.SourceSansBold
-HackName_10.Text = "Popit Trade Sim"
-HackName_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+HackName_10.Text = "Shattervest"
+HackName_10.TextColor3 = Color3.fromRGB(255, 255, 255)
 HackName_10.TextScaled = true
 HackName_10.TextSize = 14.000
 HackName_10.TextWrapped = true
 
+HackDesc_10.Name = "HackDesc"
+HackDesc_10.Parent = Shattervest
+HackDesc_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HackDesc_10.BackgroundTransparency = 1.000
+HackDesc_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+HackDesc_10.Position = UDim2.new(0.337378651, 0, 0, 0)
+HackDesc_10.Size = UDim2.new(0, 156, 0, 58)
+HackDesc_10.Font = Enum.Font.SourceSans
+HackDesc_10.Text = "Shattervest is a hack that gives you admin commands in any game."
+HackDesc_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+HackDesc_10.TextScaled = true
+HackDesc_10.TextSize = 14.000
+HackDesc_10.TextWrapped = true
+
+ShattervestButton.Name = "ShattervestButton"
+ShattervestButton.Parent = Shattervest
+ShattervestButton.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
+ShattervestButton.BackgroundTransparency = 1.000
+ShattervestButton.BorderSizePixel = 0
+ShattervestButton.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
+ShattervestButton.Size = UDim2.new(0, 104, 0, 35)
+ShattervestButton.ZIndex = 2
+ShattervestButton.Font = Enum.Font.SourceSans
+ShattervestButton.Text = "Execute"
+ShattervestButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ShattervestButton.TextScaled = true
+ShattervestButton.TextSize = 14.000
+ShattervestButton.TextWrapped = true
+
+ShattervestButton_Roundify_12px.Name = "ShattervestButton_Roundify_12px"
+ShattervestButton_Roundify_12px.Parent = ShattervestButton
+ShattervestButton_Roundify_12px.Active = true
+ShattervestButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+ShattervestButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ShattervestButton_Roundify_12px.BackgroundTransparency = 1.000
+ShattervestButton_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+ShattervestButton_Roundify_12px.Selectable = true
+ShattervestButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+ShattervestButton_Roundify_12px.Image = "rbxassetid://3570695787"
+ShattervestButton_Roundify_12px.ImageColor3 = Color3.fromRGB(85, 255, 127)
+ShattervestButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+ShattervestButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+ShattervestButton_Roundify_12px.SliceScale = 0.120
+
+Universal.Name = "Universal"
+Universal.Parent = ScrollingFrame
+Universal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Universal.BackgroundTransparency = 1.000
+Universal.Position = UDim2.new(0.0428265557, 0, 0.527425766, 0)
+Universal.Size = UDim2.new(0, 412, 0, 58)
+Universal.Image = "rbxassetid://3570695787"
+Universal.ImageColor3 = Color3.fromRGB(62, 62, 62)
+Universal.ScaleType = Enum.ScaleType.Slice
+Universal.SliceCenter = Rect.new(100, 100, 100, 100)
+Universal.SliceScale = 0.120
+
+HackDesc_11.Name = "HackDesc"
+HackDesc_11.Parent = Universal
+HackDesc_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HackDesc_11.BackgroundTransparency = 1.000
+HackDesc_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+HackDesc_11.Position = UDim2.new(0.322815537, 0, 0, 0)
+HackDesc_11.Size = UDim2.new(0, 156, 0, 58)
+HackDesc_11.Font = Enum.Font.SourceSans
+HackDesc_11.Text = "Integrated EssentialHub universal hacks."
+HackDesc_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+HackDesc_11.TextScaled = true
+HackDesc_11.TextSize = 14.000
+HackDesc_11.TextWrapped = true
+
+UniversalButton.Name = "UniversalButton"
+UniversalButton.Parent = Universal
+UniversalButton.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
+UniversalButton.BackgroundTransparency = 1.000
+UniversalButton.BorderSizePixel = 0
+UniversalButton.Position = UDim2.new(0.730582535, 0, 0.189655155, 0)
+UniversalButton.Size = UDim2.new(0, 104, 0, 35)
+UniversalButton.ZIndex = 2
+UniversalButton.Font = Enum.Font.SourceSans
+UniversalButton.Text = "Execute"
+UniversalButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+UniversalButton.TextScaled = true
+UniversalButton.TextSize = 14.000
+UniversalButton.TextWrapped = true
+
+PopItTradeButton_Roundify_12px_2.Name = "PopItTradeButton_Roundify_12px"
+PopItTradeButton_Roundify_12px_2.Parent = UniversalButton
+PopItTradeButton_Roundify_12px_2.Active = true
+PopItTradeButton_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+PopItTradeButton_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PopItTradeButton_Roundify_12px_2.BackgroundTransparency = 1.000
+PopItTradeButton_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+PopItTradeButton_Roundify_12px_2.Selectable = true
+PopItTradeButton_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+PopItTradeButton_Roundify_12px_2.Image = "rbxassetid://3570695787"
+PopItTradeButton_Roundify_12px_2.ImageColor3 = Color3.fromRGB(85, 255, 127)
+PopItTradeButton_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+PopItTradeButton_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+PopItTradeButton_Roundify_12px_2.SliceScale = 0.120
+
+HackName_11.Name = "HackName"
+HackName_11.Parent = Universal
+HackName_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HackName_11.BackgroundTransparency = 1.000
+HackName_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+HackName_11.Size = UDim2.new(0, 121, 0, 58)
+HackName_11.Font = Enum.Font.SourceSansBold
+HackName_11.Text = "Universal"
+HackName_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+HackName_11.TextScaled = true
+HackName_11.TextSize = 14.000
+HackName_11.TextWrapped = true
+
 X.Name = "X"
 X.Parent = Frame
 X.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+X.BackgroundTransparency = 1.000
 X.BorderSizePixel = 0
 X.Position = UDim2.new(0.886128366, 0, 0.0340136066, 0)
 X.Size = UDim2.new(0, 40, 0, 32)
+X.ZIndex = 2
 X.Font = Enum.Font.SourceSansBold
 X.Text = "X"
 X.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -563,12 +955,27 @@ X.TextScaled = true
 X.TextSize = 14.000
 X.TextWrapped = true
 
+X_Roundify_12px.Name = "X_Roundify_12px"
+X_Roundify_12px.Parent = X
+X_Roundify_12px.Active = true
+X_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+X_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X_Roundify_12px.BackgroundTransparency = 1.000
+X_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+X_Roundify_12px.Selectable = true
+X_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+X_Roundify_12px.Image = "rbxassetid://3570695787"
+X_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 0, 0)
+X_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+X_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+X_Roundify_12px.SliceScale = 0.120
+
 DestroyUI.Name = "DestroyUI"
 DestroyUI.Parent = Frame
 DestroyUI.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 DestroyUI.BorderSizePixel = 0
-DestroyUI.Position = UDim2.new(0.0207039025, 0, 0.0306122452, 0)
-DestroyUI.Size = UDim2.new(0, 60, 0, 32)
+DestroyUI.Position = UDim2.new(0.900621057, 0, 0.959183693, 0)
+DestroyUI.Size = UDim2.new(0, 49, 0, 12)
 DestroyUI.Font = Enum.Font.SourceSansBold
 DestroyUI.Text = "DestroyUI"
 DestroyUI.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -576,22 +983,276 @@ DestroyUI.TextScaled = true
 DestroyUI.TextSize = 14.000
 DestroyUI.TextWrapped = true
 
-OpenGUIHello.Name = "OpenGUIHello"
-OpenGUIHello.Parent = n6v9487e54v69n8e7
-OpenGUIHello.BackgroundColor3 = Color3.fromRGB(142, 255, 187)
-OpenGUIHello.BorderSizePixel = 0
-OpenGUIHello.Position = UDim2.new(0.0244972259, 0, 0.896571279, 0)
-OpenGUIHello.Size = UDim2.new(0, 120, 0, 50)
-OpenGUIHello.Font = Enum.Font.Ubuntu
-OpenGUIHello.Text = "Open"
-OpenGUIHello.TextColor3 = Color3.fromRGB(0, 0, 0)
-OpenGUIHello.TextScaled = true
-OpenGUIHello.TextSize = 14.000
-OpenGUIHello.TextWrapped = true
+UniversalMenu.Name = "UniversalMenu"
+UniversalMenu.Parent = n6v9487e54v69n8e7
+UniversalMenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UniversalMenu.BackgroundTransparency = 1.000
+UniversalMenu.Position = UDim2.new(0.566844225, 0, 0.0418535173, 0)
+UniversalMenu.Size = UDim2.new(0, 483, 0, 294)
+UniversalMenu.Visible = false
+UniversalMenu.Image = "rbxassetid://3570695787"
+UniversalMenu.ImageColor3 = Color3.fromRGB(56, 56, 56)
+UniversalMenu.ScaleType = Enum.ScaleType.Slice
+UniversalMenu.SliceCenter = Rect.new(100, 100, 100, 100)
+UniversalMenu.SliceScale = 0.120
+
+TextLabel_3.Parent = UniversalMenu
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0144927539, 0, 0.00340136047, 0)
+TextLabel_3.Size = UDim2.new(0, 421, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "EssentialHub 1.1"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+X_2.Name = "X"
+X_2.Parent = UniversalMenu
+X_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+X_2.BackgroundTransparency = 1.000
+X_2.BorderSizePixel = 0
+X_2.Position = UDim2.new(0.886128366, 0, 0.0340136066, 0)
+X_2.Size = UDim2.new(0, 40, 0, 32)
+X_2.ZIndex = 2
+X_2.Font = Enum.Font.SourceSansBold
+X_2.Text = "X"
+X_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+X_2.TextScaled = true
+X_2.TextSize = 14.000
+X_2.TextWrapped = true
+
+X_Roundify_12px_2.Name = "X_Roundify_12px"
+X_Roundify_12px_2.Parent = X_2
+X_Roundify_12px_2.Active = true
+X_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+X_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X_Roundify_12px_2.BackgroundTransparency = 1.000
+X_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+X_Roundify_12px_2.Selectable = true
+X_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+X_Roundify_12px_2.Image = "rbxassetid://3570695787"
+X_Roundify_12px_2.ImageColor3 = Color3.fromRGB(255, 0, 0)
+X_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+X_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+X_Roundify_12px_2.SliceScale = 0.120
+
+TextLabel_4.Parent = UniversalMenu
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0144927539, 0, 0.170068026, 0)
+TextLabel_4.Size = UDim2.new(0, 421, 0, 15)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "Universal Hacks"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+Speed.Name = "Speed"
+Speed.Parent = UniversalMenu
+Speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Speed.BackgroundTransparency = 1.000
+Speed.Position = UDim2.new(0.0718120635, 0, 0.248514205, 0)
+Speed.Size = UDim2.new(0, 412, 0, 58)
+Speed.Image = "rbxassetid://3570695787"
+Speed.ImageColor3 = Color3.fromRGB(62, 62, 62)
+Speed.ScaleType = Enum.ScaleType.Slice
+Speed.SliceCenter = Rect.new(100, 100, 100, 100)
+Speed.SliceScale = 0.120
+
+TextLabel_5.Parent = Speed
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.014492739, 0, 0.170068145, 0)
+TextLabel_5.Size = UDim2.new(0, 95, 0, 37)
+TextLabel_5.Font = Enum.Font.SourceSansBold
+TextLabel_5.Text = "Walkspeed"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+Input.Name = "Input"
+Input.Parent = Speed
+Input.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+Input.BackgroundTransparency = 1.000
+Input.BorderSizePixel = 0
+Input.Position = UDim2.new(0.305825233, 0, 0.170068145, 0)
+Input.Size = UDim2.new(0, 97, 0, 40)
+Input.ZIndex = 2
+Input.Font = Enum.Font.SourceSansBold
+Input.Text = "16"
+Input.TextColor3 = Color3.fromRGB(255, 255, 255)
+Input.TextScaled = true
+Input.TextSize = 14.000
+Input.TextWrapped = true
+
+TextBox_Roundify_12px.Name = "TextBox_Roundify_12px"
+TextBox_Roundify_12px.Parent = Input
+TextBox_Roundify_12px.Active = true
+TextBox_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_Roundify_12px.BackgroundTransparency = 1.000
+TextBox_Roundify_12px.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextBox_Roundify_12px.Selectable = true
+TextBox_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextBox_Roundify_12px.Image = "rbxassetid://3570695787"
+TextBox_Roundify_12px.ImageColor3 = Color3.fromRGB(56, 56, 56)
+TextBox_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextBox_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextBox_Roundify_12px.SliceScale = 0.120
+
+Set.Name = "Set"
+Set.Parent = Speed
+Set.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
+Set.BackgroundTransparency = 1.000
+Set.BorderSizePixel = 0
+Set.Position = UDim2.new(0.672330081, 0, 0.172413781, 0)
+Set.Size = UDim2.new(0, 104, 0, 35)
+Set.ZIndex = 2
+Set.Font = Enum.Font.SourceSans
+Set.Text = "Set"
+Set.TextColor3 = Color3.fromRGB(0, 0, 0)
+Set.TextScaled = true
+Set.TextSize = 14.000
+Set.TextWrapped = true
+
+PopItTradeButton_Roundify_12px_3.Name = "PopItTradeButton_Roundify_12px"
+PopItTradeButton_Roundify_12px_3.Parent = Set
+PopItTradeButton_Roundify_12px_3.Active = true
+PopItTradeButton_Roundify_12px_3.AnchorPoint = Vector2.new(0.5, 0.5)
+PopItTradeButton_Roundify_12px_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PopItTradeButton_Roundify_12px_3.BackgroundTransparency = 1.000
+PopItTradeButton_Roundify_12px_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+PopItTradeButton_Roundify_12px_3.Selectable = true
+PopItTradeButton_Roundify_12px_3.Size = UDim2.new(1, 0, 1, 0)
+PopItTradeButton_Roundify_12px_3.Image = "rbxassetid://3570695787"
+PopItTradeButton_Roundify_12px_3.ImageColor3 = Color3.fromRGB(85, 255, 127)
+PopItTradeButton_Roundify_12px_3.ScaleType = Enum.ScaleType.Slice
+PopItTradeButton_Roundify_12px_3.SliceCenter = Rect.new(100, 100, 100, 100)
+PopItTradeButton_Roundify_12px_3.SliceScale = 0.120
+
+JumpHeight.Name = "JumpHeight"
+JumpHeight.Parent = UniversalMenu
+JumpHeight.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JumpHeight.BackgroundTransparency = 1.000
+JumpHeight.Position = UDim2.new(0.0718120635, 0, 0.473003983, 0)
+JumpHeight.Size = UDim2.new(0, 412, 0, 58)
+JumpHeight.Image = "rbxassetid://3570695787"
+JumpHeight.ImageColor3 = Color3.fromRGB(62, 62, 62)
+JumpHeight.ScaleType = Enum.ScaleType.Slice
+JumpHeight.SliceCenter = Rect.new(100, 100, 100, 100)
+JumpHeight.SliceScale = 0.120
+
+TextLabel_6.Parent = JumpHeight
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.014492739, 0, 0.170068145, 0)
+TextLabel_6.Size = UDim2.new(0, 95, 0, 37)
+TextLabel_6.Font = Enum.Font.SourceSansBold
+TextLabel_6.Text = "Jump Power"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+Input_2.Name = "Input"
+Input_2.Parent = JumpHeight
+Input_2.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+Input_2.BackgroundTransparency = 1.000
+Input_2.BorderSizePixel = 0
+Input_2.Position = UDim2.new(0.305825233, 0, 0.170068145, 0)
+Input_2.Size = UDim2.new(0, 97, 0, 40)
+Input_2.ZIndex = 2
+Input_2.Font = Enum.Font.SourceSansBold
+Input_2.Text = "50"
+Input_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Input_2.TextScaled = true
+Input_2.TextSize = 14.000
+Input_2.TextWrapped = true
+
+TextBox_Roundify_12px_2.Name = "TextBox_Roundify_12px"
+TextBox_Roundify_12px_2.Parent = Input_2
+TextBox_Roundify_12px_2.Active = true
+TextBox_Roundify_12px_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextBox_Roundify_12px_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_Roundify_12px_2.BackgroundTransparency = 1.000
+TextBox_Roundify_12px_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextBox_Roundify_12px_2.Selectable = true
+TextBox_Roundify_12px_2.Size = UDim2.new(1, 0, 1, 0)
+TextBox_Roundify_12px_2.Image = "rbxassetid://3570695787"
+TextBox_Roundify_12px_2.ImageColor3 = Color3.fromRGB(56, 56, 56)
+TextBox_Roundify_12px_2.ScaleType = Enum.ScaleType.Slice
+TextBox_Roundify_12px_2.SliceCenter = Rect.new(100, 100, 100, 100)
+TextBox_Roundify_12px_2.SliceScale = 0.120
+
+Set_2.Name = "Set"
+Set_2.Parent = JumpHeight
+Set_2.BackgroundColor3 = Color3.fromRGB(85, 255, 127)
+Set_2.BackgroundTransparency = 1.000
+Set_2.BorderSizePixel = 0
+Set_2.Position = UDim2.new(0.672330081, 0, 0.172413781, 0)
+Set_2.Size = UDim2.new(0, 104, 0, 35)
+Set_2.ZIndex = 2
+Set_2.Font = Enum.Font.SourceSans
+Set_2.Text = "Set"
+Set_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Set_2.TextScaled = true
+Set_2.TextSize = 14.000
+Set_2.TextWrapped = true
+
+PopItTradeButton_Roundify_12px_4.Name = "PopItTradeButton_Roundify_12px"
+PopItTradeButton_Roundify_12px_4.Parent = Set_2
+PopItTradeButton_Roundify_12px_4.Active = true
+PopItTradeButton_Roundify_12px_4.AnchorPoint = Vector2.new(0.5, 0.5)
+PopItTradeButton_Roundify_12px_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PopItTradeButton_Roundify_12px_4.BackgroundTransparency = 1.000
+PopItTradeButton_Roundify_12px_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+PopItTradeButton_Roundify_12px_4.Selectable = true
+PopItTradeButton_Roundify_12px_4.Size = UDim2.new(1, 0, 1, 0)
+PopItTradeButton_Roundify_12px_4.Image = "rbxassetid://3570695787"
+PopItTradeButton_Roundify_12px_4.ImageColor3 = Color3.fromRGB(85, 255, 127)
+PopItTradeButton_Roundify_12px_4.ScaleType = Enum.ScaleType.Slice
+PopItTradeButton_Roundify_12px_4.SliceCenter = Rect.new(100, 100, 100, 100)
+PopItTradeButton_Roundify_12px_4.SliceScale = 0.120
+
+Controls.Name = "Controls"
+Controls.Parent = UniversalMenu
+Controls.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Controls.BackgroundTransparency = 1.000
+Controls.Position = UDim2.new(0.0718120635, 0, 0.707697809, 0)
+Controls.Size = UDim2.new(0, 412, 0, 58)
+Controls.Image = "rbxassetid://3570695787"
+Controls.ImageColor3 = Color3.fromRGB(62, 62, 62)
+Controls.ScaleType = Enum.ScaleType.Slice
+Controls.SliceCenter = Rect.new(100, 100, 100, 100)
+Controls.SliceScale = 0.120
+
+TextLabel_7.Parent = UniversalMenu
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.096818693, 0, 0.711303055, 0)
+TextLabel_7.Size = UDim2.new(0, 385, 0, 52)
+TextLabel_7.Font = Enum.Font.SourceSansBold
+TextLabel_7.Text = "discord.gg/cuSbdkc7nZ"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
 
 -- Scripts:
 
-local function WNTXYUU_fake_script() -- Frame.DragSript 
+local function IZIB_fake_script() -- OpenGUIHello.OpenGUIHelloScript 
+	local script = Instance.new('Script', OpenGUIHello)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame.Visible = true
+	end)
+end
+coroutine.wrap(IZIB_fake_script)()
+local function CPEDH_fake_script() -- Frame.DragSript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -634,8 +1295,1642 @@ local function WNTXYUU_fake_script() -- Frame.DragSript
 		end
 	end)
 end
-coroutine.wrap(WNTXYUU_fake_script)()
-local function FHSQJKM_fake_script() -- ShattervestButton.LocalScript 
+coroutine.wrap(CPEDH_fake_script)()
+local function NVXEZKB_fake_script() -- BigPaintballButton.LocalScript 
+	local script = Instance.new('LocalScript', BigPaintballButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://www.pastebin.com/raw/PuaaGKsT"))()
+	end)
+end
+coroutine.wrap(NVXEZKB_fake_script)()
+local function DDSIQA_fake_script() -- BreakInButton.LocalScript 
+	local script = Instance.new('LocalScript', BreakInButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Murder Mystery 2 Utilities by zzerexx#3970
+		getgenv().Settings = {
+			Enabled = true,
+			Notifications = true,       -- Receive notifications upon toggling features
+			RemoveRagdolls = true,      -- Removes player ragdolls
+			RemoveBlackScreen = true,   -- Removes the annoying black screen when you die/respawn
+			RemoveBarriers = true,      -- Removes all invisible barriers
+			Fullbright = true,
+			AutoPickupGun = false,      -- Automatically picks up the gun when its dropped
+			UnlockEmotes = true,
+			-- Player
+			WalkSpeed = 18,             -- Default: 16
+			JumpPower = 50,             -- Default: 50
+			FieldOfView = 80,           -- Default: 70
+			CameraMode = "Invisicam",   -- "Zoom" or "Invisicam"
+			MaxZoom = 100,              -- Default: 15
+			CtrlClickTP = true,         -- Hold "Ctrl" and click to teleport
+			Noclip = true,              -- Press "R" to toggle
+			Xray = true,                -- Press "T" to toggle
+			-- Aimbot
+			Aimbot = true,              -- Press "Y" to toggle
+			AimbotAsSheriff = true,     -- Uses Aimbot as the Sheriff
+			AimbotAsMurderer = false,   -- Uses Aimbot as the Murderer
+			-- Esp
+			NameEsp = true,
+			AvoidInnocents = false,     -- Name Esp will avoid Innocents
+			NameFont = "SourceSans",    -- Fonts: https://developer.roblox.com/en-us/api-reference/enum/Font
+			NameTextTransparency = 0.3, -- 0 = Opaque, 1 = Transparent
+			MurdererColor = Color3.fromRGB(255,0,0),
+			SheriffColor = Color3.fromRGB(0,0,255),
+			InnocentColor = Color3.fromRGB(255,255,255),
+			GunEsp = true,
+			GunEspColor = Color3.fromRGB(0,255,0),
+			GunNameEsp = true,
+			GunNameTransparency = 0.4,  -- 0 = Opaque, 1 = Transparent
+			GunNameColor = Color3.fromRGB(0,255,0),
+			-- Theme | Guide: https://imgur.com/a/1Ge2FWW
+			PresetTheme = "None",                  -- "Carbon" or "Strawberry" or "SkyBlue" or "Emerald", Set to "None" if you want to use a custom theme
+			-- NOTE: PresetTheme overrides all customizations below (except for TextFont)
+			Color1 = Color3.fromRGB(19,19,19),     -- Topbar Color
+			Color2 = Color3.fromRGB(19,19,19),     -- Buttons Color
+			Color3 = Color3.fromRGB(24,24,24),     -- Background Color
+			MColor1 = Color3.fromRGB(255,0,0),     -- Murderer Text Color
+			MColor2 = Color3.fromRGB(255,100,100), -- Murderer Button Text Color
+			SColor1 = Color3.fromRGB(0,0,255),     -- Sheriff Text Color
+			SColor2 = Color3.fromRGB(100,100,255), -- Sheriff Button Text Color
+			GColor1 = Color3.fromRGB(0,255,0),     -- Gun Drop Text Color
+			GColorT = Color3.fromRGB(100,255,100), -- Gun Drop Button Text Color when it says "True"
+			GColorF = Color3.fromRGB(255,100,100), -- Gun Drop Button Text Color when it says "False"
+			TextFont = "GothamBold",               -- Fonts: https://developer.roblox.com/en-us/api-reference/enum/Font
+			MainTextColor = Color3.fromRGB(255,255,255), -- Title and Credit Text Color
+		} -- v1.0.0
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/zzerexx/scripts/main/MM2%20Utilities.lua", true))()
+	end)
+end
+coroutine.wrap(DDSIQA_fake_script)()
+local function QFDDG_fake_script() -- BrokenBone.LocalScript 
+	local script = Instance.new('LocalScript', BrokenBone)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/sQpRuLgQ"))()
+	end)
+end
+coroutine.wrap(QFDDG_fake_script)()
+local function PNCILZR_fake_script() -- ChatBypassButton.LocalScript 
+	local script = Instance.new('LocalScript', ChatBypassButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
+	end)
+end
+coroutine.wrap(PNCILZR_fake_script)()
+local function ZVMPI_fake_script() -- Fling.LocalScript 
+	local script = Instance.new('LocalScript', Fling)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local troller = Instance.new("ScreenGui")
+		local Main = Instance.new("Frame")
+		local nameofgui = Instance.new("TextLabel")
+		local border = Instance.new("Frame")
+		local invis = Instance.new("TextButton")
+		local pp = Instance.new("TextButton")
+		local memedog = Instance.new("TextLabel")
+		local die = Instance.new("TextLabel")
+		local worm = Instance.new("TextButton")
+		local cycl = Instance.new("TextButton")
+		local axy = Instance.new("TextLabel")
+		local diemie = Instance.new("TextLabel")
+	
+		troller.Name = "troller"
+		troller.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+		troller.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+		troller.ResetOnSpawn = false
+	
+		Main.Name = "Main"
+		Main.Parent = troller
+		Main.BackgroundColor3 = Color3.new(0.129412, 0.129412, 0.129412)
+		Main.BorderSizePixel = 0
+		Main.ClipsDescendants = true
+		Main.Position = UDim2.new(0.04588015, 0, 0.087649405, 0)
+		Main.Size = UDim2.new(0, 248, 0, 311)
+	
+		nameofgui.Name = "nameofgui"
+		nameofgui.Parent = Main
+		nameofgui.BackgroundColor3 = Color3.new(1, 1, 1)
+		nameofgui.BackgroundTransparency = 1
+		nameofgui.ClipsDescendants = true
+		nameofgui.Size = UDim2.new(0, 248, 0, 19)
+		nameofgui.Font = Enum.Font.GothamBold
+		nameofgui.Text = "Troller"
+		nameofgui.TextColor3 = Color3.new(1, 1, 1)
+		nameofgui.TextSize = 16
+		nameofgui.TextXAlignment = Enum.TextXAlignment.Left
+	
+		border.Name = "border"
+		border.Parent = Main
+		border.BackgroundColor3 = Color3.new(1, 1, 1)
+		border.ClipsDescendants = true
+		border.Position = UDim2.new(-0.00131386518, 0, 0.0696422011, 0)
+		border.Size = UDim2.new(0, 248, 0, 1)
+	
+		invis.Name = "invis"
+		invis.Parent = Main
+		invis.BackgroundColor3 = Color3.new(1, 0.541176, 0.164706)
+		invis.ClipsDescendants = true
+		invis.Position = UDim2.new(0, 0, 0.115512639, 0)
+		invis.Size = UDim2.new(0, 248, 0, 27)
+		invis.Font = Enum.Font.SourceSansItalic
+		invis.Text = "FE Invisible Fling (R6 & R15)"
+		invis.TextColor3 = Color3.new(1, 1, 1)
+		invis.TextSize = 16
+		invis.MouseButton1Click:connect(function()
+	
+	
+	
+			spawn(function()
+				local message = Instance.new("Message",workspace)
+				message.Text = "Loaded press z to execute inviseble , press x to respawn)"
+				wait(5)
+				message:Destroy()
+			end)
+	
+	
+	
+	
+	
+	
+	
+	
+			local mouse = game.Players.LocalPlayer:GetMouse()
+	
+			local groot = nil
+	
+			mouse.KeyDown:connect(function(k)
+	
+				if k == "z" then
+	
+	
+	
+					spawn(function()
+						local message = Instance.new("Message",workspace)
+						message.Text = "Fe Invisible Fling By Diemiers#4209 Loaded (wait 11 seconds to load)"
+						wait(11)
+						message:Destroy()
+					end)
+	
+	
+					local ch = game.Players.LocalPlayer.Character
+					local prt=Instance.new("Model", workspace)
+					local z1 =  Instance.new("Part", prt)
+					z1.Name="Torso"
+					z1.CanCollide = false
+					z1.Anchored = true
+					local z2  =Instance.new("Part", prt)
+					z2.Name="Head"
+					z2.Anchored = true
+					z2.CanCollide = false
+					local z3 =Instance.new("Humanoid", prt)
+					z3.Name="Humanoid"
+					z1.Position = Vector3.new(0,9999,0)
+					z2.Position = Vector3.new(0,9991,0)
+					game.Players.LocalPlayer.Character=prt
+					wait(5)
+					game.Players.LocalPlayer.Character=ch
+					wait(6)
+	
+	
+					local plr = game.Players.LocalPlayer
+					mouse = plr:GetMouse()
+	
+					local Hum = Instance.new("Humanoid")
+					Hum.Parent = game.Players.LocalPlayer.Character
+	
+	
+					local root =  game.Players.LocalPlayer.Character.HumanoidRootPart
+	
+	
+					for i,v in pairs(plr.Character:GetChildren()) do
+	
+						if v ~= root and  v.Name ~= "Humanoid" then
+	
+							v:Destroy()
+	
+						end
+	
+	
+					end
+	
+					workspace.CurrentCamera.CameraSubject = root
+	
+					local se = Instance.new("SelectionBox",root)
+					se.Adornee = root
+	
+	
+					game:GetService('RunService').Stepped:connect(function()
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = false
+					end)
+					game:GetService('RunService').RenderStepped:connect(function()
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = false
+					end)
+	
+	
+					power = 999999 -- change this to make it more or less powerful
+	
+					power = power*10
+	
+					---
+					wait(.1)
+					local bambam = Instance.new("BodyThrust")
+					bambam.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+					bambam.Force = Vector3.new(power,0,power)
+					bambam.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position 
+	
+	
+	
+	
+	
+					local plr = game.Players.LocalPlayer
+					local torso = root
+					local flying = true
+					local deb = true
+					local ctrl = {f = 0, b = 0, l = 0, r = 0}
+					local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+					local maxspeed = 120
+					local speed = 15
+	
+	
+					---local bambam = Instance.new("BodyThrust")
+					---bambam.Parent = torso
+					--bambam.Force = Vector3.new(9999999,0,9999999)
+					--bambam.Location = torso.Position
+	
+	
+					---
+					groot = root
+	
+					function Fly()
+						local bg = Instance.new("BodyGyro", torso)
+						bg.P = 9e4
+						bg.maxTorque = Vector3.new(0, 0, 0)
+						bg.cframe = torso.CFrame
+						local bv = Instance.new("BodyVelocity", torso)
+						bv.velocity = Vector3.new(0,0,0)
+						bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+						repeat wait()
+	
+							if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+								speed = speed+.2
+								if speed > maxspeed then
+									speed = maxspeed
+								end
+							elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+								speed = speed-1
+								if speed < 0 then
+									speed = 0
+								end
+							end
+							if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+								bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+								lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+							elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+								bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+							else
+								bv.velocity = Vector3.new(0,0.1,0)
+							end
+	
+						until not flying
+						ctrl = {f = 0, b = 0, l = 0, r = 0}
+						lastctrl = {f = 0, b = 0, l = 0, r = 0}
+						speed = 0
+						bg:Destroy()
+						bv:Destroy()
+	
+					end
+					mouse.KeyDown:connect(function(key)
+						if key:lower() == "e" then
+							if flying then flying = false
+							else
+								flying = true
+								Fly()
+							end
+						elseif key:lower() == "w" then
+							ctrl.f = 1
+						elseif key:lower() == "s" then
+							ctrl.b = -1
+						elseif key:lower() == "a" then
+							ctrl.l = -1
+						elseif key:lower() == "d" then
+							ctrl.r = 1
+						end
+					end)
+					mouse.KeyUp:connect(function(key)
+						if key:lower() == "w" then
+							ctrl.f = 0
+						elseif key:lower() == "s" then
+							ctrl.b = 0
+						elseif key:lower() == "a" then
+							ctrl.l = 0
+						elseif key:lower() == "d" then
+							ctrl.r = 0
+						elseif key:lower() == "r" then
+	
+						end
+					end)
+					Fly()
+	
+	
+	
+				elseif k == "x" then
+	
+	
+					spawn(function()
+						local message = Instance.new("Message",workspace)
+						message.Text = "Respawning dont spam"
+						wait(1)
+						message:Destroy()
+					end)
+	
+					local saved = groot.Position
+	
+					local ch = game.Players.LocalPlayer.Character
+					local prt=Instance.new("Model", workspace)
+					local z1 =  Instance.new("Part", prt)
+					z1.Name="Torso"
+					z1.CanCollide = false
+					z1.Anchored = true
+					local z2  =Instance.new("Part", prt)
+					z2.Name="Head"
+					z2.Anchored = true
+					z2.CanCollide = false
+					local z3 =Instance.new("Humanoid", prt)
+					z3.Name="Humanoid"
+					z1.Position = Vector3.new(0,9999,0)
+					z2.Position = Vector3.new(0,9991,0)
+					game.Players.LocalPlayer.Character=prt
+					wait(5)
+					game.Players.LocalPlayer.Character=ch
+					local poop = nil
+					repeat wait() poop = game.Players.LocalPlayer.Character:FindFirstChild("Head") until poop ~= nil
+					wait(1)
+					game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(saved)
+	
+				end
+	
+	
+			end)
+		end)
+	
+		pp.Name = "pp"
+		pp.Parent = Main
+		pp.BackgroundColor3 = Color3.new(1, 0.541176, 0.164706)
+		pp.ClipsDescendants = true
+		pp.Position = UDim2.new(0.00403225794, 0, 0.256927162, 0)
+		pp.Size = UDim2.new(0, 248, 0, 27)
+		pp.Font = Enum.Font.SourceSansItalic
+		pp.Text = "FE Penis (R6)"
+		pp.TextColor3 = Color3.new(1, 1, 1)
+		pp.TextSize = 16
+		pp.MouseButton1Click:connect(function()
+	
+	
+	
+	
+	
+			--R6 dick  by diemiers
+	
+	
+			spawn(function()
+				local message = Instance.new("Message",workspace)
+				message.Text = "Fe penisito loaded"
+				wait(11)
+				message:Destroy()
+			end)
+	
+			local name = "Torso"
+			if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").RigType == Enum.HumanoidRigType.R15 then
+				name = "UpperTorso"
+			end
+	
+			local ch = game.Players.LocalPlayer.Character
+			local prt=Instance.new("Model", workspace)
+			local z1 =  Instance.new("Part", prt)
+			z1.Name="Torso"
+			z1.CanCollide = false
+			z1.Anchored = true
+			local z2  =Instance.new("Part", prt)
+			z2.Name="Head"
+			z2.Anchored = true
+			z2.CanCollide = false
+			local z3 =Instance.new("Humanoid", prt)
+			z3.Name="Humanoid"
+			z1.Position = Vector3.new(0,9999,0)
+			z2.Position = Vector3.new(0,9991,0)
+			game.Players.LocalPlayer.Character=prt
+			wait(5)
+			game.Players.LocalPlayer.Character=ch
+			wait(6)
+			game:GetService('RunService').Stepped:connect(function()
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = true
+			end)
+			game:GetService('RunService').RenderStepped:connect(function()
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = true
+			end)
+			plr = game.Players.LocalPlayer
+			mouse = plr:GetMouse()
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart:Destroy() 
+	
+			local Hum = Instance.new("Humanoid")
+	
+	
+	
+			Hum.Parent = game.Players.LocalPlayer.Character
+			game.Players.LocalPlayer.Character.Humanoid.Parent = game.Lighting
+			--game.Players.LocalPlayer.Character:FindFirstChild("Torso").Name = "Head"
+			--game.Players.LocalPlayer.Character:FindFirstChild("Head"):Destroy()
+			--game.Players.LocalPlayer.Character:FindFirstChild(name):Destroy()
+			--game.Players.LocalPlayer.Character.HumanoidRootPart.Name = "GaiPArt"
+			local root =game.Players.LocalPlayer.Character["Right Arm"] -- game.Players.LocalPlayer.Character["Left Leg"]
+			root.Name = "HumanoidRootPart"
+	
+			Hum.HipHeight = 5
+	
+	
+			workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.HumanoidRootPart
+	
+	
+	
+	
+			for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+	
+				if v.Name ~=root.Name and v.Name ~="Humanoid" and v.Name ~= "Left Arm" and v.Name ~= "Left Leg" and v.Name ~= "Right Leg" then
+	
+					v:Destroy()
+	
+				elseif v.Name == "Left Arm" then
+	
+					local bp = Instance.new("BodyPosition",v)
+					bp.MaxForce = Vector3.new(99999,99999,99999)
+					local bg = Instance.new("BodyGyro",v)
+					bg.MaxTorque = Vector3.new(9999999,9999999,999999)
+	
+					spawn(function()
+						bp.D = 300
+						while true do
+							bp.Position = root.Position+Vector3.new(0,1.8+1.8+1.8-0.3,0)
+							wait()
+						end
+	
+					end)
+	
+				elseif v.Name == "Left Leg" then
+	
+					local bp = Instance.new("BodyPosition",v)
+					bp.MaxForce = Vector3.new(99999,99999,99999)
+					local bg = Instance.new("BodyGyro",v)
+					bg.MaxTorque = Vector3.new(9999999,9999999,999999)
+	
+					spawn(function()
+						bp.D = 300
+						while true do
+							bp.Position = root.Position+Vector3.new(0,1.8-0.3,0)
+							wait()
+						end
+	
+					end)
+	
+				elseif v.Name == "Right Leg" then
+	
+					local bp = Instance.new("BodyPosition",v)
+					bp.MaxForce = Vector3.new(99999,99999,99999)
+					local bg = Instance.new("BodyGyro",v)
+					bg.MaxTorque = Vector3.new(9999999,9999999,999999)
+					spawn(function()
+						bp.D = 300	
+						while true do
+							bp.Position = root.Position+Vector3.new(0,1.8+1.8-0.3,0)
+							wait()
+						end
+	
+					end)
+				elseif v.Name == root.Name then
+	
+					local bg = Instance.new("BodyGyro",v)
+					bg.MaxTorque = Vector3.new(9999999,9999999,999999)
+					bg.CFrame = CFrame.Angles(math.rad(0),math.rad(0),math.rad(90))
+	
+				end
+	
+	
+			end
+	
+			--local se = Instance.new("SelectionBox",root)
+			--se.Adornee = root
+	
+	
+			power = 999999 -- change this to make it more or less powerful
+	
+			power = power*10
+	
+			---
+			wait(.1)
+			--local bambam = Instance.new("BodyThrust")
+			--bambam.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
+			--bambam.Force = Vector3.new(power,0,power)
+			--bambam.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position 
+	
+	
+	
+	
+			local mouse = game.Players.LocalPlayer:GetMouse()
+	
+	
+			local plr = game.Players.LocalPlayer
+			local torso = root
+			local flying = true
+			local deb = true
+			local ctrl = {f = 0, b = 0, l = 0, r = 0}
+			local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+			local maxspeed = 120
+			local speed = 15
+	
+	
+			---local bambam = Instance.new("BodyThrust")
+			---bambam.Parent = torso
+			--bambam.Force = Vector3.new(9999999,0,9999999)
+			--bambam.Location = torso.Position
+	
+	
+			---
+	
+	
+			function Fly()
+				local bg = Instance.new("BodyGyro", torso)
+				bg.P = 9e4
+				bg.maxTorque = Vector3.new(0, 0, 0)
+				bg.cframe = torso.CFrame
+				local bv = Instance.new("BodyVelocity", torso)
+				bv.velocity = Vector3.new(0,0,0)
+				bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+				repeat wait()
+	
+					if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+						speed = speed+.2
+						if speed > maxspeed then
+							speed = maxspeed
+						end
+					elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+						speed = speed-1
+						if speed < 0 then
+							speed = 0
+						end
+					end
+					if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+						bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+						lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+					elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+						bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+					else
+						bv.velocity = Vector3.new(0,0,0)
+					end
+	
+				until not flying
+				ctrl = {f = 0, b = 0, l = 0, r = 0}
+				lastctrl = {f = 0, b = 0, l = 0, r = 0}
+				speed = 0
+				bg:Destroy()
+				bv:Destroy()
+	
+			end
+			mouse.KeyDown:connect(function(key)
+				if key:lower() == "e" then
+					if flying then flying = false
+					else
+						flying = true
+						Fly()
+					end
+				elseif key:lower() == "w" then
+					ctrl.f = 1
+				elseif key:lower() == "s" then
+					ctrl.b = -1
+				elseif key:lower() == "a" then
+					ctrl.l = -1
+				elseif key:lower() == "d" then
+					ctrl.r = 1
+				end
+			end)
+			mouse.KeyUp:connect(function(key)
+				if key:lower() == "w" then
+					ctrl.f = 0
+				elseif key:lower() == "s" then
+					ctrl.b = 0
+				elseif key:lower() == "a" then
+					ctrl.l = 0
+				elseif key:lower() == "d" then
+					ctrl.r = 0
+				elseif key:lower() == "r" then
+	
+				end
+			end)
+			Fly()
+		end)
+	
+		memedog.Name = "memedog"
+		memedog.Parent = Main
+		memedog.BackgroundColor3 = Color3.new(1, 1, 1)
+		memedog.BackgroundTransparency = 1
+		memedog.ClipsDescendants = true
+		memedog.Position = UDim2.new(0.0967741907, 0, 0.745117068, 0)
+		memedog.Size = UDim2.new(0, 200, 0, 23)
+		memedog.Font = Enum.Font.SourceSansLight
+		memedog.Text = "Memedog#1256 for GUI"
+		memedog.TextColor3 = Color3.new(0, 1, 0)
+		memedog.TextSize = 16
+	
+		die.Name = "die"
+		die.Parent = Main
+		die.BackgroundColor3 = Color3.new(1, 1, 1)
+		die.BackgroundTransparency = 1
+		die.ClipsDescendants = true
+		die.Position = UDim2.new(0.0120967738, 0, 0.66750288, 0)
+		die.Size = UDim2.new(0, 246, 0, 23)
+		die.Font = Enum.Font.SourceSansLight
+		die.Text = "Diemiers#4209 & Cyclically#9215 for scripts"
+		die.TextColor3 = Color3.new(0, 1, 1)
+		die.TextSize = 16
+	
+		worm.Name = "worm"
+		worm.Parent = Main
+		worm.BackgroundColor3 = Color3.new(1, 0.541176, 0.164706)
+		worm.ClipsDescendants = true
+		worm.Position = UDim2.new(-0.00403225794, 0, 0.405297279, 0)
+		worm.Size = UDim2.new(0, 248, 0, 27)
+		worm.Font = Enum.Font.SourceSansItalic
+		worm.Text = "FE Wormus (R6)"
+		worm.TextColor3 = Color3.new(1, 1, 1)
+		worm.TextSize = 16
+		worm.MouseButton1Click:connect(function()
+			--Made by  GreenFace#4209
+	
+	
+			--Wormus
+	
+			--If ur legs gonna lose network owner they not going  to lose them u will pick them up when ur network owner gonna comeback
+	
+			--Found some replication bugs long time ago 
+	
+			--ik its not clean code
+	
+			local name = "Torso"
+			local ch = game.Players.LocalPlayer.Character
+			local prt=Instance.new("Model", workspace)
+			local z1 =  Instance.new("Part", prt)
+			z1.Name="Torso"
+			z1.CanCollide = false
+			z1.Anchored = true
+			local z2  =Instance.new("Part", prt)
+			z2.Name="Head"
+			z2.Anchored = true
+			z2.CanCollide = false
+			local z3 =Instance.new("Humanoid", prt)
+			z3.Name="Humanoid"
+			z1.Position = Vector3.new(0,9999,0)
+			z2.Position = Vector3.new(0,9991,0)
+			game.Players.LocalPlayer.Character=prt
+			wait(5)
+			game.Players.LocalPlayer.Character=ch
+			wait(6)
+	
+	
+			--game:GetService('RunService').Stepped:connect(function()
+			--game.Players.LocalPlayer.Character.Head.CanCollide = false
+			--end)
+			local humano = game.Players.LocalPlayer.Character.Humanoid:Clone()
+			wait()
+			game.Players.LocalPlayer.Character[name]:Destroy()
+			game.Players.LocalPlayer.Character.HumanoidRootPart:Destroy()
+	
+	
+	
+			local torso = game.Players.LocalPlayer.Character.Head
+			game.Players.LocalPlayer.Character.Humanoid.Parent = game.Lighting
+	
+	
+			humano.Parent = game.Players.LocalPlayer.Character
+	
+			local humanoid = humano--Instance.new("Humanoid",game.Players.LocalPlayer.Character)
+	
+			humanoid.HipHeight = 4
+	
+			humanoid.WalkSpeed = 50
+	
+			torso.Name = "HumanoidRootPart"
+	
+			limbs = {
+				game.Players.LocalPlayer.Character["Left Arm"],
+				game.Players.LocalPlayer.Character["Right Arm"],
+				game.Players.LocalPlayer.Character["Left Leg"],
+				game.Players.LocalPlayer.Character["Right Leg"]
+			}
+			for i,v in pairs(limbs)do
+	
+				local bodypos = Instance.new("BodyPosition",v)
+	
+				bodypos.MaxForce = Vector3.new(999999,999999,999999)
+	
+				bodypos.D = 400
+	
+				local bodyg = Instance.new("BodyGyro",v)
+	
+				bodyg.MaxTorque =Vector3.new(99999999,99999999,999999)
+	
+	
+				spawn(function()
+					while true do
+						bodypos.Position = torso.Position-Vector3.new(0,i*1.5,0)
+						wait(0.1)
+					end
+				end)
+			end
+		end)
+	
+		cycl.Name = "cycl"
+		cycl.Parent = Main
+		cycl.BackgroundColor3 = Color3.new(1, 0.541176, 0.164706)
+		cycl.ClipsDescendants = true
+		cycl.Position = UDim2.new(0, 0, 0.551240921, 0)
+		cycl.Size = UDim2.new(0, 248, 0, 27)
+		cycl.Font = Enum.Font.SourceSansItalic
+		cycl.Text = "Cyclone Admin"
+		cycl.TextColor3 = Color3.new(1, 1, 1)
+		cycl.TextSize = 16
+		cycl.MouseButton1Click:connect(function()
+			-- Made by Cyclically | Cyclone
+			-- Version: 0.2a
+			-- Settings:
+			local PREFIX = ";"
+			-- Variables:
+			local LocalPlayer = game:GetService("Players").LocalPlayer
+			local TweenService = game:GetService("TweenService")
+			local RunService = game:GetService("RunService")
+			local mouse = LocalPlayer:GetMouse()
+			local ContentProvider = game:GetService("ContentProvider")
+			local Players = setmetatable(game:GetService("Players"):GetPlayers(), {
+				__metatable = "Metatable is locked"; -- Theres a reason for this.
+				__index = function(self, k)
+					if k:lower() == "all" then
+						return game:GetService("Players"):GetPlayers()
+					elseif k:lower() == "others" then
+						local plrReturn = {}
+						for _, plr in pairs(game:GetService("Players"):GetPlayers()) do
+							if plr ~= LocalPlayer then
+								table.insert(plrReturn, plr)
+							end
+						end
+						return plrReturn
+					elseif k:lower() == "me" then
+						return {LocalPlayer}
+					elseif k:lower() == "random" then
+						return game:GetService("Players"):GetPlayers()[math.random(1, #game:GetService("Players"):GetPlayers())]
+					else	
+						for _, plr in pairs(game:GetService("Players"):GetPlayers()) do
+							if string.find(plr.Name:lower(), k:lower()) then
+								return {plr}
+							end
+						end
+					end
+				end
+			})
+			-- Instances:
+			local CycloneGui = Instance.new("ScreenGui", game.CoreGui)
+			local mainFrame = Instance.new("ImageLabel", CycloneGui)
+			local titleLabel = Instance.new("TextLabel", mainFrame)
+			local bottomFrame = Instance.new("Frame", mainFrame)
+			local searchBox = Instance.new("TextBox", bottomFrame)
+			local cmdList = Instance.new("ScrollingFrame", bottomFrame)
+			local listLayout = Instance.new("UIListLayout", cmdList)
+			local topBlinker = Instance.new("Frame", CycloneGui)
+			local bottomBlinker = Instance.new("Frame", CycloneGui)
+			local introLabel = Instance.new("TextLabel")
+			local introFrame = Instance.new("ImageLabel", introLabel)
+			local introShadow = Instance.new("ImageLabel", introLabel)
+			local notifBar = Instance.new("ImageLabel")
+			local notifText = Instance.new("TextLabel", notifBar)
+			local barlabel = Instance.new("TextButton")
+			--Properties:
+			CycloneGui.Name = "CycloneGui"
+	
+			mainFrame.Name = "mainFrame"
+			mainFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+			mainFrame.BackgroundTransparency = 1
+			mainFrame.Position = UDim2.new(0.82, 0, 1, 0)
+			mainFrame.Size = UDim2.new(0.16, 0, 0.4, 0)
+			mainFrame.ZIndex = 0
+			mainFrame.Image = "rbxassetid://2851927369"
+			mainFrame.ImageColor3 = Color3.new(0, 0.0196078, 0.0470588)
+			mainFrame.ScaleType = Enum.ScaleType.Slice
+			mainFrame.SliceCenter = Rect.new(10, 10, 10, 10)
+	
+			titleLabel.Name = "titleLabel"
+			titleLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+			titleLabel.BackgroundTransparency = 1
+			titleLabel.Size = UDim2.new(1, 0, 0.125409842, 0)
+			titleLabel.Font = Enum.Font.GothamBold
+			titleLabel.Text = "Cyclone"
+			titleLabel.TextColor3 = Color3.new(0.835294, 0.909804, 1)
+			titleLabel.TextSize = 14
+	
+			bottomFrame.Name = "bottomFrame"
+			bottomFrame.BackgroundColor3 = Color3.new(0, 0.0117647, 0.0352941)
+			bottomFrame.BorderSizePixel = 0
+			bottomFrame.Position = UDim2.new(0, 0, 0.125409856, 0)
+			bottomFrame.Size = UDim2.new(1, 0, 0.874590158, 0)
+	
+			searchBox.Name = "searchBox"
+			searchBox.BackgroundColor3 = Color3.new(0, 0.0196078, 0.0666667)
+			searchBox.BorderSizePixel = 0
+			searchBox.Size = UDim2.new(1, 0, 0.100000001, 0)
+			searchBox.ZIndex = 2
+			searchBox.Font = Enum.Font.GothamBold
+			searchBox.PlaceholderColor3 = Color3.new(0.113725, 0.188235, 0.34902)
+			searchBox.PlaceholderText = "Search"
+			searchBox.Text = ""
+			searchBox.TextColor3 = Color3.new(0.168627, 0.278431, 0.517647)
+			searchBox.TextSize = 10
+	
+			cmdList.Name = "cmdList"
+			cmdList.BackgroundColor3 = Color3.new(0, 0.0156863, 0.0588235)
+			cmdList.BorderSizePixel = 0
+			cmdList.Position = UDim2.new(0, 0, 0.0999999866, 0)
+			cmdList.Size = UDim2.new(1, 0, 0.900000036, 0)
+			cmdList.ZIndex = 2
+			cmdList.CanvasSize = UDim2.new(0, 0, 10, 0)
+			cmdList.ScrollBarThickness = 0
+	
+			listLayout.Name = "listLayout"
+	
+			topBlinker.Name = "topBlinker"
+			topBlinker.BackgroundColor3 = Color3.new(0, 0, 0)
+			topBlinker.BorderSizePixel = 0
+			topBlinker.Size = UDim2.new(1, 0, 0, 0)
+			topBlinker.ZIndex = 4
+	
+			bottomBlinker.Name = "bottomBlinker"
+			bottomBlinker.BackgroundColor3 = Color3.new(0, 0, 0)
+			bottomBlinker.BorderSizePixel = 0
+			bottomBlinker.Position = UDim2.new(0, 0, 1, 0)
+			bottomBlinker.Size = UDim2.new(1, 0, 0, 0)
+			bottomBlinker.ZIndex = 4
+	
+			introLabel.Name = "introLabel"
+			introLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+			introLabel.BackgroundTransparency = 1
+			introLabel.BorderSizePixel = 0
+			introLabel.Size = UDim2.new(1, 0, 1, 0)
+			introLabel.ZIndex = 2
+			introLabel.Font = Enum.Font.GothamBlack
+			introLabel.Text = "CYCLONE"
+			introLabel.TextColor3 = Color3.new(0.835294, 0.909804, 1)
+			introLabel.TextSize = 100
+			introLabel.TextStrokeColor3 = Color3.new(0.258824, 0.282353, 0.309804)
+			introLabel.TextStrokeTransparency = 0
+	
+			introFrame.Name = "introFrame"
+			introFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+			introFrame.BackgroundTransparency = 1
+			introFrame.Position = UDim2.new(0.275894552, 0, 0.362831891, 0)
+			introFrame.Size = UDim2.new(0.447269291, 0, 0.267256588, 0)
+			introFrame.Image = "rbxassetid://2851920938"
+			introFrame.ImageColor3 = Color3.new(0, 0.0196078, 0.0470588)
+			introFrame.ScaleType = Enum.ScaleType.Slice
+			introFrame.SliceCenter = Rect.new(25, 25, 25, 25)
+	
+			introShadow.Name = "introShadow"
+			introShadow.BackgroundColor3 = Color3.new(1, 1, 1)
+			introShadow.BackgroundTransparency = 1
+			introShadow.Position = UDim2.new(0.275894552, 0, 0.362831891, 0)
+			introShadow.Size = UDim2.new(0.447269291, 0, 0.287332058, 0)
+			introShadow.ZIndex = 0
+			introShadow.Image = "rbxassetid://2851920938"
+			introShadow.ImageColor3 = Color3.new(0, 0.0235294, 0.0705882)
+			introShadow.ScaleType = Enum.ScaleType.Slice
+			introShadow.SliceCenter = Rect.new(25, 25, 25, 25)
+	
+			notifBar.Name = "notifBar"
+			notifBar.BackgroundColor3 = Color3.new(1, 1, 1)
+			notifBar.BackgroundTransparency = 1
+			notifBar.BorderSizePixel = 0
+			notifBar.Position = UDim2.new(0.55, 0, 0.97, 0)
+			notifBar.Size = UDim2.new(0.25, 0, 0.06, 0)
+			notifBar.ZIndex = 0
+			notifBar.Image = "rbxassetid://2851920938"
+			notifBar.ImageColor3 = Color3.new(0, 0.0196078, 0.0470588)
+			notifBar.ImageTransparency = 1
+			notifBar.ScaleType = Enum.ScaleType.Slice
+			notifBar.SliceCenter = Rect.new(25, 25, 25, 25)
+	
+			notifText.Name = "notifText"
+			notifText.BackgroundColor3 = Color3.new(1, 1, 1)
+			notifText.BackgroundTransparency = 1
+			notifText.BorderSizePixel = 0
+			notifText.Size = UDim2.new(1, 0, 1, 0)
+			notifText.Font = Enum.Font.GothamBold
+			notifText.Text = "Error message"
+			notifText.TextColor3 = Color3.new(0.835294, 0.909804, 1)
+			notifText.TextSize = 10
+			notifText.TextStrokeTransparency = 1
+			notifText.TextTransparency = 1
+			notifText.TextWrapped = true
+	
+			barlabel.Name = "barlabel"
+			barlabel.BackgroundColor3 = Color3.fromRGB(0, 3, 16)
+			barlabel.BackgroundTransparency = 1
+			barlabel.BorderSizePixel = 0
+			barlabel.Size = UDim2.new(1, 0, 0.01, 0)
+			barlabel.ZIndex = 3
+			barlabel.Font = Enum.Font.GothamBold
+			barlabel.TextColor3 = Color3.new(0.835294, 0.909804, 1)
+			barlabel.TextSize = 9
+			barlabel.TextTransparency = 1
+			-- Script:
+			local localcc = Instance.new("ColorCorrectionEffect", game:GetService("Lighting"))
+			local localblur = Instance.new("BlurEffect", game:GetService("Lighting"))
+			localblur.Size = 0
+			local tweenInfo1 = TweenInfo.new(2, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
+			local tweenInfo2 = TweenInfo.new(1, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
+			local tweenInfo3 = TweenInfo.new(2, Enum.EasingStyle.Back, Enum.EasingDirection.In)
+			local cmdsHelp = {}
+			local cmdsHint = {}
+			local notifSound = Instance.new("Sound", CycloneGui)
+			notifSound.SoundId = "rbxassetid://180877191"
+			notifSound.Volume = 1
+			local Events = setmetatable({}, { -- These are mostly for debugging
+				__metatable = "Metatable is locked";
+				__newindex = function(self, i, k)
+					warn("Event " .. k .. " created")
+				end;
+				__index = function(self, k)
+					warn("Tried to access unknown event " .. k)
+				end
+			}) -- Custom RBXScriptSignal with OOP
+			local stringSplit = function(str, pattern)
+				local returnTab = {}
+				local mainInd = 0
+				for i = 1, #str do
+					if string.sub(str, i, i + #pattern - 1) == pattern or i + #pattern == #str then
+						local splitAdder = -1
+						if i + #pattern == #str then
+							splitAdder = 1
+						end
+						table.insert(returnTab, string.sub(str, mainInd, i + splitAdder))
+						mainInd = i + #pattern
+					end
+				end
+				return returnTab
+			end
+			CustomEnum = { -- Custom enumeration
+				BlinkingDirection = {
+					Close = 1;
+					Open = 2;
+				};
+				NotifcationType = {
+					Normal = 3;
+					Important = 4;
+					Random = 5;
+					Error = 6;
+				}
+			};
+			local function chatPlr(message) -- Makes you chat
+				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(tostring(message), "All")
+			end
+			local function createNotif(message, notifType) -- Create notifications
+				local CnotifBar = notifBar:Clone()
+				local notifCol = Color3.fromRGB(213, 232, 255)
+				if notifType == 4 then
+					notifCol = Color3.fromRGB(141, 255, 128)
+				elseif notifType == 5 then
+					notifCol = Color3.fromRGB(249, 255, 126)
+				elseif notifType == 6 then
+					notifCol = Color3.fromRGB(255, 49, 80)
+				end
+				CnotifBar.Parent = CycloneGui
+				local notifBars = {}
+				for _, v in pairs(CycloneGui:GetChildren()) do
+					if v.Name == "notifBar" then
+						table.insert(notifBars, v)
+					end
+				end
+				local notifBarPos = Instance.new("NumberValue", CnotifBar)
+				notifBarPos.Name = "notifBarPos"
+				notifBarPos.Value = CnotifBar.Position.Y.Scale
+				CnotifBar.notifText.Text = message
+				CnotifBar.notifText.TextColor3 = notifCol
+				notifSound:Play()
+				TweenService:Create(CnotifBar, tweenInfo2, {ImageTransparency = 0}):Play()
+				TweenService:Create(CnotifBar.notifText, tweenInfo2, {TextTransparency = 0}):Play()
+				for index, notifB in pairs(notifBars) do
+					TweenService:Create(notifB, tweenInfo2, {Position = UDim2.new(0.55, 0, notifB:FindFirstChild("notifBarPos").Value - 0.07, 0)}):Play()
+					notifB:FindFirstChild("notifBarPos").Value = notifB:FindFirstChild("notifBarPos").Value - 0.07
+				end
+				wait(2)
+				TweenService:Create(CnotifBar, tweenInfo2, {ImageTransparency = 1}):Play()
+				TweenService:Create(CnotifBar.notifText, tweenInfo2, {TextTransparency = 1}):Play()
+			end
+			local Cyclone = {
+				-- Functions:
+				updateSearchBar = function(self)
+					for _, v in pairs(cmdList:GetChildren()) do
+						if not v:IsA("UIListLayout") then
+							v:Destroy()
+						end
+					end
+					for index, cmdHelper in pairs(cmdsHelp) do
+						if string.find(cmdHelper, searchBox.Text) then
+							local Cbarlabel = barlabel:Clone()
+							Cbarlabel.MouseButton1Down:Connect(function()
+								createNotif(cmdsHint[cmdHelper], CustomEnum.NotifcationType.Random)
+							end)
+							if index % 2 == 1 then
+								Cbarlabel.BackgroundColor3 = Color3.fromRGB(0, 5, 22)
+							end
+							Cbarlabel.Text = PREFIX .. cmdHelper
+							Cbarlabel.Parent = cmdList
+							TweenService:Create(Cbarlabel, tweenInfo2, {TextTransparency = 0, BackgroundTransparency = 0}):Play()
+						end
+					end
+				end;
+				-- Methods:
+				newConnection = function(self, eventName)
+					assert(Events[eventName] == nil, "Event already exists")
+					local newEvent = Instance.new("BindableEvent")
+					Events[eventName] = newEvent
+					return newEvent
+				end;
+				setBlinker = function(self, blinkType, speed, coverup)
+					local newInfo = TweenInfo.new(speed, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
+					if blinkType == 1 then
+						TweenService:Create(topBlinker, newInfo, {Size = UDim2.new(1, 0, coverup * 0.5 / 1, 0)}):Play()
+						TweenService:Create(bottomBlinker, newInfo, {Size = UDim2.new(1, 0, coverup * 0.5 / 1, 0); Position = UDim2.new(0, 0, 1 - (coverup * 0.5 / 1), 0)}):Play()
+					elseif blinkType == 2 then
+						TweenService:Create(topBlinker, newInfo, {Size = UDim2.new(1, 0, 0, 0)}):Play()
+						TweenService:Create(bottomBlinker, newInfo, {Size = UDim2.new(1, 0, 0, 0); Position = UDim2.new(0, 0, 1, 0)}):Play()
+					end
+				end;
+				setBrightness = function(self, brightness, speed)
+					local newInfo = TweenInfo.new(speed, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
+					TweenService:Create(localcc, newInfo, {Brightness = brightness}):Play()
+				end;
+				setBlur = function(self, size, speed)
+					local newInfo = TweenInfo.new(speed, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
+					TweenService:Create(localblur, newInfo, {Size = size}):Play()
+				end;
+				createSound = function(self, id, volume)
+					local newSound = Instance.new("Sound", CycloneGui)
+					newSound.SoundId = id
+					newSound.Volume = volume
+					return newSound
+				end;
+				createCommand = function(self, cmdName, cmdHelp, hint, func)
+					table.insert(cmdsHelp, cmdHelp)
+					cmdsHint[cmdHelp] = hint
+					LocalPlayer.Chatted:Connect(function(msg)
+						if PREFIX .. cmdName == string.sub(msg, 1, #PREFIX + #cmdName) then
+							assert(type(func) == "function", "bad argument #3 to \"createCommand\" (function expected, got " .. type(func) .. ")")
+							local params = stringSplit(msg, " ")
+							table.remove(params, 1)
+							params = stringSplit(table.concat(params), ",")
+							func(params)
+						end
+					end)
+				end;
+			}
+			-- Command variables:
+			local lagserver = false
+			local clicktp = nil
+			local oofspamming = false
+			-- Command creation:
+			Cyclone:createCommand("rejoin", "rejoin", "Makes you rejoin the game", function(cmdParameters)
+				game:GetService("TeleportService"):Teleport(game.GameId, LocalPlayer)
+			end)
+			Cyclone:createCommand("respawn", "respawn", "Respawn your character", function(cmdParameters)
+				LocalPlayer.Character:ClearAllChildren()
+				local char = Instance.new("Model", workspace)
+				Instance.new("Humanoid", char)
+				LocalPlayer.Character = char
+			end)
+			Cyclone:createCommand("kill", "kill [plr]", "Kills the target player", function(cmdParameters)
+				local torsoname = "Torso"
+				if LocalPlayer.Character:FindFirstChild("Humanoid").RigType == Enum.HumanoidRigType.R15 then
+					torsoname = "UpperTorso"
+				end
+				if Players[cmdParameters[1]][1].Character ~= nil then
+					local savepos = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
+					LocalPlayer.Character:FindFirstChild(torsoname).Anchored = true
+					local tool = Instance.new("Tool", LocalPlayer.Backpack)
+					local hat = LocalPlayer.Character:FindFirstChildOfClass("Accessory")
+					local hathandle = hat.Handle
+					hathandle.Parent = tool
+					hathandle.Massless = true
+					tool.GripPos = Vector3.new(0, 9e99, 0)
+					tool.Parent = LocalPlayer.Character
+					repeat wait() until LocalPlayer.Character:FindFirstChildOfClass("Tool") ~= nil
+					tool.Grip = CFrame.new(Vector3.new(0, 0, 0))
+					LocalPlayer.Character:FindFirstChild(torsoname).Anchored = false
+					repeat
+						LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = Players[cmdParameters[1]][1].Character:FindFirstChild("HumanoidRootPart").CFrame
+						wait()
+					until Players[cmdParameters[1]][1].Character == nil or Players[cmdParameters[1]][1].Character:FindFirstChild("Humanoid").Health <= 0 or LocalPlayer.Character == nil or LocalPlayer.Character:FindFirstChild("Humanoid").Health <= 0 or (Players[cmdParameters[1]][1].Character:FindFirstChild("HumanoidRootPart").Velocity.Magnitude - Players[cmdParameters[1]][1].Character:FindFirstChild("Humanoid").WalkSpeed) > (Players[cmdParameters[1]][1].Character:FindFirstChild("Humanoid").WalkSpeed + 20)
+					LocalPlayer.Character:FindFirstChild("Humanoid"):UnequipTools()
+					hathandle.Parent = hat
+					hathandle.Massless = false
+					tool:Destroy()
+					LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = savepos
+				end
+			end)
+			Cyclone:createCommand("dupetools", "dupetools [amount]", "Duplicates your tools, must have startertools", function(cmdParameters)
+				createNotif("Now duplicating " .. cmdParameters[1] .. " tools", CustomEnum.NotifcationType.Normal)
+				LocalPlayer.Character:FindFirstChild("Humanoid"):UnequipTools()
+				local currentamount = #LocalPlayer.Backpack:GetChildren()
+				LocalPlayer.Character.Archivable = true
+				local tempchar = LocalPlayer.Character:Clone()
+				local lastchar = nil
+				tempchar.Parent = workspace
+				local savepos = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
+				repeat
+					workspace.CurrentCamera.CameraSubject = tempchar:FindFirstChild("Humanoid")
+					for _, tool in pairs(LocalPlayer.Backpack:GetChildren()) do
+						if tool:IsA("Tool") then
+							tool.Parent = LocalPlayer
+						end
+					end
+					LocalPlayer.Character:ClearAllChildren()
+					local char = Instance.new("Model", workspace)
+					Instance.new("Humanoid", char)
+					LocalPlayer.Character = char
+					if lastchar ~= nil then
+						lastchar:Destroy()
+					end
+					repeat RunService.RenderStepped:Wait() until LocalPlayer.Character ~= nil
+					lastchar = char
+					RunService.RenderStepped:Wait()
+				until #LocalPlayer:GetChildren() - 3 - currentamount >= cmdParameters[1]
+				repeat RunService.RenderStepped:Wait() until LocalPlayer.Character:FindFirstChild("HumanoidRootPart") ~= nil
+				lastchar:Destroy()
+				for _, tool in pairs(LocalPlayer:GetChildren()) do
+					if tool:IsA("Tool") then
+						tool.Parent = LocalPlayer.Backpack
+					end
+				end
+				LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = savepos
+				tempchar:Destroy()
+			end)
+			Cyclone:createCommand("accessorytotool", "accessorytotool", "Converts your accessories into tools", function(cmdParameters)
+				for _, hat in pairs(LocalPlayer.Character:FindFirstChild("Humanoid"):GetAccessories()) do
+					if hat.Handle ~= nil then
+						local tool = Instance.new("Tool", LocalPlayer.Backpack)
+						tool.Name = hat.Name
+						local hathandle = hat.Handle
+						hathandle:FindFirstChildOfClass("Weld"):Destroy()
+						hathandle.Parent = tool
+						hathandle.Massless = true
+					end
+				end
+			end)
+			Cyclone:createCommand("lagserver", "lagserver", "Lags the server", function(cmdParameters)
+				lagserver = true
+				repeat
+					local anim = Instance.new("Animation")
+					anim.AnimationId = math.random()
+					LocalPlayer.Character.Humanoid:LoadAnimation(anim):Play()
+					anim:Destroy()
+				until lagserver == false
+			end)
+			Cyclone:createCommand("unlagserver", "unlagserver", "Stop lagging the server", function(cmdParameters)
+				lagserver = false
+			end)
+			Cyclone:createCommand("custombtools", "custombtools", "Custom btools, only replicates on unanchored parts", function(cmdParameters)
+				local movetool = Instance.new("Tool", LocalPlayer.Backpack)
+				local deletetool = Instance.new("Tool", LocalPlayer.Backpack)
+				local undotool = Instance.new("Tool", LocalPlayer.Backpack)
+				local identifytool = Instance.new("Tool", LocalPlayer.Backpack)
+				local movedetect = false
+				local movingpart = nil
+				local movetransparency = 0
+				if editedparts == nil then
+					editedparts = {}
+					parentfix = {}
+					positionfix = {}
+				end
+				deletetool.Name = "Delete"
+				undotool.Name = "Undo"
+				identifytool.Name = "Identify"
+				movetool.Name = "Move"
+				undotool.CanBeDropped = false
+				deletetool.CanBeDropped = false
+				identifytool.CanBeDropped = false
+				movetool.CanBeDropped = false
+				undotool.RequiresHandle = false
+				deletetool.RequiresHandle = false
+				identifytool.RequiresHandle = false
+				movetool.RequiresHandle = false
+				local function createnotification(title, text)
+					game:GetService("StarterGui"):SetCore("SendNotification", {
+						Title = title;
+						Text = text;
+						Duration = 1;
+					})
+				end
+				deletetool.Activated:Connect(function()
+					createnotification("Delete Tool", "You have deleted "..mouse.Target.Name)
+					table.insert(editedparts, mouse.Target)
+					table.insert(parentfix, mouse.Target.Parent)
+					table.insert(positionfix, mouse.Target.CFrame)
+					spawn(function()
+						local deletedpart = mouse.Target
+						repeat
+							deletedpart.Anchored = true
+							deletedpart.CFrame = CFrame.new(1000000000, 1000000000, 1000000000)
+							wait()
+						until deletedpart.CFrame ~= CFrame.new(1000000000, 1000000000, 1000000000)
+					end)
+				end)
+				undotool.Activated:Connect(function()
+					createnotification("Undo Tool", "You have undone "..editedparts[#editedparts].Name)
+					editedparts[#editedparts].Parent = parentfix[#parentfix]
+					editedparts[#editedparts].CFrame = positionfix[#positionfix]
+					table.remove(positionfix, #positionfix)
+					table.remove(editedparts, #editedparts)
+					table.remove(parentfix, #parentfix)
+				end)
+				identifytool.Activated:Connect(function()
+					createnotification("Identify Tool", "Instance: "..mouse.Target.ClassName.."\nName: "..mouse.Target.Name)
+				end)
+				movetool.Activated:Connect(function()
+					createnotification("Move Tool", "You are moving: "..mouse.Target.Name)
+					movingpart = mouse.Target
+					movedetect = true
+					movingpart.CanCollide = false
+					movetransparency = movingpart.Transparency
+					movingpart.Transparency = 0.5
+					mouse.TargetFilter = movingpart
+					table.insert(editedparts, movingpart)
+					table.insert(parentfix, movingpart.Parent)
+					table.insert(positionfix, movingpart.CFrame)
+					movingpart.Transparency = movingpart.Transparency / 2
+					repeat
+						mouse.Move:Wait()
+						movingpart.CFrame = CFrame.new(mouse.Hit.p)
+					until movedetect == false
+				end)
+				movetool.Deactivated:Connect(function()
+					createnotification("Move Tool", "You have stopped moving: "..mouse.Target.Name)
+					movingpart.CanCollide = true
+					movedetect = false
+					mouse.TargetFilter = nil
+					movingpart.Transparency = movetransparency
+				end)
+			end)
+			Cyclone:createCommand("brickspam", "brickspam", "Turns your tools into bricks then drops them", function(cmdParameters)
+				for _, tool in pairs(LocalPlayer.Backpack:GetChildren()) do
+					if tool:IsA("Tool") then
+						tool.Parent = LocalPlayer.Character
+						if tool.Handle:FindFirstChild("Mesh") ~= nil then
+							tool.Handle:FindFirstChild("Mesh"):Destroy()
+						end
+						tool.Parent = workspace.Terrain -- Bypasses some tool clearing scripts
+						wait()
+					end
+				end
+			end)
+			Cyclone:createCommand("drophats", "drophats", "Drops all your hats", function(cmdParameters)
+				for _, hat in pairs(LocalPlayer.Character:FindFirstChild("Humanoid"):GetAccessories()) do
+					hat.Parent = workspace.Terrain -- Bypasses some hat clearing scripts
+				end
+			end)
+			Cyclone:createCommand("brickhats", "brickhats", "Turns your hats into bricks", function(cmdParameters)
+				for _, hat in pairs(LocalPlayer.Character:FindFirstChild("Humanoid"):GetAccessories()) do
+					if hat.Handle:FindFirstChild("Mesh") then
+						hat.Handle.Mesh:Destroy()
+					end
+				end
+			end)
+			Cyclone:createCommand("float", "float [velocity]", "Makes you float with given velocity", function(cmdParameters)
+				Instance.new("BodyVelocity", LocalPlayer.Character:FindFirstChild("HumanoidRootPart")).Velocity = Vector3.new(0, cmdParameters[1], 0)
+			end)
+			Cyclone:createCommand("clicktp", "clicktp", "Click to teleport to your mouse position", function(cmdParameters)
+				clicktp = mouse.Button1Down:Connect(function()
+					LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = mouse.Hit
+				end)
+			end)
+			Cyclone:createCommand("unclicktp", "unclicktp", "Stops clicktp", function(cmdParameters)
+				if clicktp then
+					clicktp:Disconnect()
+				end
+			end)
+			Cyclone:createCommand("xray", "xray", "Makes you see through walls", function(cmdParameters)
+				for _, d in pairs(workspace:GetDescendants()) do
+					if d:IsA("BasePart") then
+						local transpVal = Instance.new("NumberValue", d)
+						transpVal.Name = "transpVal"
+						transpVal.Value = d.Transparency
+						d.Transparency = d.Transparency + 0.75
+					end
+				end
+			end)
+			Cyclone:createCommand("unxray", "unxray", "Removes Xray", function(cmdParameters)
+				for _, d in pairs(workspace:GetDescendants()) do
+					if d:IsA("BasePart") and d:FindFirstChild("transpVal") then
+						d.Transparency = d:FindFirstChild("transpVal").Value
+						d:FindFirstChild("transpVal"):Destroy()
+					end
+				end
+			end)
+			Cyclone:createCommand("countdown", "countdown [countinto]", "Makes you count from countinto to 0 with changeable delay", function(cmdParameters)
+				for i = cmdParameters[1], 0, -1 do
+					chatPlr(i)
+					wait(tonumber(cmdParameters[2]))
+				end
+			end)
+			Cyclone:createCommand("getos", "getos [plr]", "Gets the OS of the target", function(cmdParameters)
+				for _, plr in pairs(Players[cmdParameters[1]]) do
+					createNotif(plr.Name .. "'s OS is " .. plr.OsPlatform)
+				end
+			end)
+			Cyclone:createCommand("getage", "getage [plr]", "Gets the account age of the target", function(cmdParameters)
+				for _, plr in pairs(Players[cmdParameters[1]]) do
+					createNotif(plr.Name .. "'s account age is " .. plr.AccountAge)
+				end
+			end)
+			Cyclone:createCommand("hugkill", "hugkill", "Touch players to kill them, must have player collision", function(cmdParameters)
+				local torsoname = "Torso"
+				if LocalPlayer.Character:FindFirstChild("Humanoid").RigType == Enum.HumanoidRigType.R15 then
+					torsoname = "UpperTorso"
+				end
+				LocalPlayer.Character:FindFirstChild("Animate").toolnone.ToolNoneAnim.AnimationId = math.huge
+				LocalPlayer.Character:FindFirstChild(torsoname).Anchored = true
+				local tool = Instance.new("Tool", LocalPlayer.Backpack)
+				LocalPlayer.Character:FindFirstChildOfClass("Accessory").Handle.Parent = tool
+				tool.Handle.Massless = true
+				tool.GripPos = Vector3.new(0, math.huge, 0)
+				tool.Parent = LocalPlayer.Character
+				wait()
+				tool.Grip = CFrame.new(Vector3.new(0, 0, 0))
+				LocalPlayer.Character:FindFirstChild(torsoname).Anchored = false
+			end)
+			Cyclone:createCommand("goto", "goto [plr]", "Teleports to the player", function(cmdParameters)
+				LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = Players[cmdParameters[1]][1].Character:FindFirstChild("HumanoidRootPart").CFrame
+			end)
+			Cyclone:createCommand("oofspam", "oofspam [speed]", "Spams OOF with changeable speed", function(cmdParameters)
+				repeat
+					for _, plr in pairs(game:GetService("Players"):GetPlayers()) do
+						plr.Character:FindFirstChild("Head").Died.Playing = true
+					end
+					wait(tonumber(cmdParameters[2]))
+				until oofspamming == false
+			end)
+			Cyclone:createCommand("unoofspam", "unoofspam", "Stops OOF spam", function(cmdParameters)
+				oofspamming = true
+			end)
+			searchBox:GetPropertyChangedSignal("Text"):Connect(Cyclone.updateSearchBar)
+			Cyclone.updateSearchBar()
+			-- Introduction setup:
+			local woosh1 = Cyclone:createSound("rbxassetid://858508159", 1)
+			local woosh2 = Cyclone:createSound("rbxassetid://541909763", 1)
+			local introSound = Cyclone:createSound("rbxassetid://745159327", 1)
+			local introBGM = Cyclone:createSound("rbxassetid://383635191", 1)
+			Cyclone:setBlinker(CustomEnum.BlinkingDirection.Close, 1, 1)
+			Cyclone:setBrightness(-1, 0.5)
+			Cyclone:setBlur(25, 1)
+			wait(1)
+			ContentProvider:PreloadAsync(CycloneGui:GetDescendants())
+			introLabel.Parent = CycloneGui
+			local oldCamOffset = LocalPlayer.Character:FindFirstChild("Humanoid").CameraOffset
+			LocalPlayer.Character:FindFirstChild("Humanoid").CameraOffset = LocalPlayer.Character:FindFirstChild("Humanoid").CameraOffset + Vector3.new(0, 10, 0)
+			wait(1)
+			TweenService:Create(LocalPlayer.Character:FindFirstChild("Humanoid"), tweenInfo1, {CameraOffset = oldCamOffset}):Play()
+			woosh1:Play()
+			introSound:Play()
+			Cyclone:setBlinker(CustomEnum.BlinkingDirection.Close, 1, 0.5)
+			Cyclone:setBrightness(1, 0.1)
+			wait(0.1)
+			Cyclone:setBrightness(-0.5, 2.5)
+			wait(3)
+			TweenService:Create(introLabel, tweenInfo3, {Position = UDim2.new(0, 0, 1, 0)}):Play()
+			Cyclone:setBlinker(CustomEnum.BlinkingDirection.Open, 1, 1)
+			Cyclone:setBrightness(0, 3)
+			Cyclone:setBlur(0, 3)
+			wait(2)
+			woosh2:Play()
+			TweenService:Create(mainFrame, tweenInfo2, {Position = UDim2.new(0.82, 0, 0.6, 0)}):Play()
+			wait(0.1)
+			introBGM:Play()
+			createNotif("Cyclone V1.0 is now running", CustomEnum.NotifcationType.Important)
+			wait(0.1)
+			if not string.split then
+				createNotif("Your exploit doesn't support string.split", CustomEnum.NotifcationType.Error)
+			end
+		end)
+	
+		axy.Name = "axy"
+		axy.Parent = Main
+		axy.BackgroundColor3 = Color3.new(1, 1, 1)
+		axy.BackgroundTransparency = 1
+		axy.ClipsDescendants = true
+		axy.Position = UDim2.new(0.0120967738, 0, 0.821194768, 0)
+		axy.Size = UDim2.new(0, 246, 0, 23)
+		axy.Font = Enum.Font.SourceSansLight
+		axy.Text = "Axyzes#9205 for UI Tween"
+		axy.TextColor3 = Color3.new(0.333333, 1, 0.498039)
+		axy.TextSize = 16
+	
+		diemie.Name = "diemie"
+		diemie.Parent = Main
+		diemie.BackgroundColor3 = Color3.new(1, 1, 1)
+		diemie.BackgroundTransparency = 1
+		diemie.BorderColor3 = Color3.new(1, 1, 0)
+		diemie.ClipsDescendants = true
+		diemie.Position = UDim2.new(0.0120967738, 0, 0.897332668, 0)
+		diemie.Size = UDim2.new(0, 246, 0, 23)
+		diemie.Font = Enum.Font.SourceSansLight
+		diemie.Text = "Press ; to hide or show"
+		diemie.TextColor3 = Color3.new(1, 1, 0)
+		diemie.TextSize = 16
+	
+	
+		local isHidden = false
+		local mause = game.Players.LocalPlayer:GetMouse()
+	
+		do
+			local mouse = game:GetService("Players").LocalPlayer:GetMouse();
+			local inputService = game:GetService('UserInputService');
+			local heartbeat = game:GetService("RunService").Heartbeat;
+			function Draggable(frame)
+				local s, event = pcall(function()
+					return frame.MouseEnter
+				end)
+				if s then
+					frame.Active = true;
+					event:connect(function()
+						local input = frame.InputBegan:connect(function(key)
+							if key.UserInputType == Enum.UserInputType.MouseButton1 then
+								local objectPosition = Vector2.new(mouse.X - frame.AbsolutePosition.X, mouse.Y - frame.AbsolutePosition.Y);
+								while heartbeat:wait() and inputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do
+									frame:TweenPosition(UDim2.new(0, mouse.X - objectPosition.X + (frame.Size.X.Offset * frame.AnchorPoint.X), 0, mouse.Y - objectPosition.Y + (frame.Size.Y.Offset * frame.AnchorPoint.Y)), 'Out', 'Quad', 0.1, true);
+								end
+							end
+						end)
+						local leave;
+						leave = frame.MouseLeave:connect(function()
+							input:disconnect();
+							leave:disconnect();
+						end)
+					end)
+				end
+			end
+		end
+	
+		Draggable(Main)
+	
+		mause.KeyDown:connect(function(key)
+			if key == ";" then
+				if isHidden == false then
+					Main:TweenPosition(Main.Position - UDim2.new(0,0,1,0),"Out","Quad",0.4,false)
+					isHidden = true
+				else
+					Main:TweenPosition(Main.Position + UDim2.new(0,0,1,0),"Out","Quad",0.4,false)
+					isHidden = false
+				end
+			end
+		end)
+	end)
+end
+coroutine.wrap(ZVMPI_fake_script)()
+local function SNDWW_fake_script() -- InfiniteYieldButton.LocalScript 
+	local script = Instance.new('LocalScript', InfiniteYieldButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+end
+coroutine.wrap(SNDWW_fake_script)()
+local function CEQSPB_fake_script() -- MM2Button.LocalScript 
+	local script = Instance.new('LocalScript', MM2Button)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Murder Mystery 2 Utilities by zzerexx#3970
+		getgenv().Settings = {
+			Enabled = true,
+			Notifications = true,       -- Receive notifications upon toggling features
+			RemoveRagdolls = true,      -- Removes player ragdolls
+			RemoveBlackScreen = true,   -- Removes the annoying black screen when you die/respawn
+			RemoveBarriers = true,      -- Removes all invisible barriers
+			Fullbright = true,
+			AutoPickupGun = false,      -- Automatically picks up the gun when its dropped
+			UnlockEmotes = true,
+			-- Player
+			WalkSpeed = 18,             -- Default: 16
+			JumpPower = 50,             -- Default: 50
+			FieldOfView = 80,           -- Default: 70
+			CameraMode = "Invisicam",   -- "Zoom" or "Invisicam"
+			MaxZoom = 100,              -- Default: 15
+			CtrlClickTP = true,         -- Hold "Ctrl" and click to teleport
+			Noclip = true,              -- Press "R" to toggle
+			Xray = true,                -- Press "T" to toggle
+			-- Aimbot
+			Aimbot = true,              -- Press "Y" to toggle
+			AimbotAsSheriff = true,     -- Uses Aimbot as the Sheriff
+			AimbotAsMurderer = false,   -- Uses Aimbot as the Murderer
+			-- Esp
+			NameEsp = true,
+			AvoidInnocents = false,     -- Name Esp will avoid Innocents
+			NameFont = "SourceSans",    -- Fonts: https://developer.roblox.com/en-us/api-reference/enum/Font
+			NameTextTransparency = 0.3, -- 0 = Opaque, 1 = Transparent
+			MurdererColor = Color3.fromRGB(255,0,0),
+			SheriffColor = Color3.fromRGB(0,0,255),
+			InnocentColor = Color3.fromRGB(255,255,255),
+			GunEsp = true,
+			GunEspColor = Color3.fromRGB(0,255,0),
+			GunNameEsp = true,
+			GunNameTransparency = 0.4,  -- 0 = Opaque, 1 = Transparent
+			GunNameColor = Color3.fromRGB(0,255,0),
+			-- Theme | Guide: https://imgur.com/a/1Ge2FWW
+			PresetTheme = "None",                  -- "Carbon" or "Strawberry" or "SkyBlue" or "Emerald", Set to "None" if you want to use a custom theme
+			-- NOTE: PresetTheme overrides all customizations below (except for TextFont)
+			Color1 = Color3.fromRGB(19,19,19),     -- Topbar Color
+			Color2 = Color3.fromRGB(19,19,19),     -- Buttons Color
+			Color3 = Color3.fromRGB(24,24,24),     -- Background Color
+			MColor1 = Color3.fromRGB(255,0,0),     -- Murderer Text Color
+			MColor2 = Color3.fromRGB(255,100,100), -- Murderer Button Text Color
+			SColor1 = Color3.fromRGB(0,0,255),     -- Sheriff Text Color
+			SColor2 = Color3.fromRGB(100,100,255), -- Sheriff Button Text Color
+			GColor1 = Color3.fromRGB(0,255,0),     -- Gun Drop Text Color
+			GColorT = Color3.fromRGB(100,255,100), -- Gun Drop Button Text Color when it says "True"
+			GColorF = Color3.fromRGB(255,100,100), -- Gun Drop Button Text Color when it says "False"
+			TextFont = "GothamBold",               -- Fonts: https://developer.roblox.com/en-us/api-reference/enum/Font
+			MainTextColor = Color3.fromRGB(255,255,255), -- Title and Credit Text Color
+		} -- v1.0.0
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/zzerexx/scripts/main/MM2%20Utilities.lua", true))()
+	end)
+end
+coroutine.wrap(CEQSPB_fake_script)()
+local function IKUN_fake_script() -- PopItTradeButton.LocalScript 
+	local script = Instance.new('LocalScript', PopItTradeButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Soffware/3kTMd/main/HadesHub.lua"),true))()
+	end)
+end
+coroutine.wrap(IKUN_fake_script)()
+local function HUBIX_fake_script() -- ServerCrasherButton.LocalScript 
+	local script = Instance.new('LocalScript', ServerCrasherButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--=[[ Server-Freeze, Make Take Up To 30 Seconds For Effects To Show. ]]=--
+	
+		--/* Locals
+		local LP = game:GetService('Players').LocalPlayer
+		if workspace:FindFirstChild(LP.Name) == nil then LP.CharacterAdded:Wait() end
+		local Char = workspace[LP.Name]
+		local Hat = Char['Humanoid']:GetAccessories()[1]
+		local Handle = Hat['Handle']
+	
+		--/* Tool Setup
+		local Tool = Instance.new("Tool",LP.Backpack)
+		Tool.Grip = Tool.Grip * CFrame.new(0,-100,0)
+		Tool.Parent = Char
+		Handle.Parent = Tool
+	
+		game:GetService('RunService').Stepped:Connect(function()
+			for _,Part in next, Char:GetChildren() do
+				if Part:IsA('BasePart') then
+					Part.CanCollide = false
+				end
+			end
+		end)
+	
+		local HPart; if Char:FindFirstChild('Right Arm') then
+			HPart = 'Right Arm'
+		else
+			HPart = 'RightHand'
+		end
+	
+		--/* RightGrip Instance Crash
+		for _ = 1,60000 do
+			local Grip = Char[HPart].RightGrip:Clone()
+			Grip.Parent = Char.Humanoid['Status']
+		end
+	
+		--/* Void Deletion
+		wait(1) local CPart = Instance.new('Part',workspace)
+		CPart.CanCollide = false
+		CPart.Transparency = 1 CPart.Anchored = true
+		CPart.CFrame = Char['Head'].CFrame
+		workspace.Camera.CameraSubject = CPart
+		warn('Shutdown Activated') Char['Humanoid'].Sit = true
+		local BV = Instance.new('BodyVelocity', Char['HumanoidRootPart'])
+		BV.MaxForce = Vector3.new(1e5,1e5,1e5)
+		BV.Velocity = Vector3.new(0,-1e5,0)
+		BV.P = 1e5
+	end)
+end
+coroutine.wrap(HUBIX_fake_script)()
+local function IYXVV_fake_script() -- ShattervestButton.LocalScript 
 	local script = Instance.new('LocalScript', ShattervestButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -4598,1662 +6893,105 @@ end]]
 		FEcheckDefault()
 	end)
 end
-coroutine.wrap(FHSQJKM_fake_script)()
-local function YPCOJI_fake_script() -- InfiniteYieldButton.LocalScript 
-	local script = Instance.new('LocalScript', InfiniteYieldButton)
+coroutine.wrap(IYXVV_fake_script)()
+local function QDXJP_fake_script() -- UniversalButton.LocalScript 
+	local script = Instance.new('LocalScript', UniversalButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+		script.Parent.Parent.Parent.Parent.Parent.UniversalMenu.Visible = true
 	end)
 end
-coroutine.wrap(YPCOJI_fake_script)()
-local function VZNZGVN_fake_script() -- Fling.LocalScript 
-	local script = Instance.new('LocalScript', Fling)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		local troller = Instance.new("ScreenGui")
-		local Main = Instance.new("Frame")
-		local nameofgui = Instance.new("TextLabel")
-		local border = Instance.new("Frame")
-		local invis = Instance.new("TextButton")
-		local pp = Instance.new("TextButton")
-		local memedog = Instance.new("TextLabel")
-		local die = Instance.new("TextLabel")
-		local worm = Instance.new("TextButton")
-		local cycl = Instance.new("TextButton")
-		local axy = Instance.new("TextLabel")
-		local diemie = Instance.new("TextLabel")
-	
-		troller.Name = "troller"
-		troller.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-		troller.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-		troller.ResetOnSpawn = false
-	
-		Main.Name = "Main"
-		Main.Parent = troller
-		Main.BackgroundColor3 = Color3.new(0.129412, 0.129412, 0.129412)
-		Main.BorderSizePixel = 0
-		Main.ClipsDescendants = true
-		Main.Position = UDim2.new(0.04588015, 0, 0.087649405, 0)
-		Main.Size = UDim2.new(0, 248, 0, 311)
-	
-		nameofgui.Name = "nameofgui"
-		nameofgui.Parent = Main
-		nameofgui.BackgroundColor3 = Color3.new(1, 1, 1)
-		nameofgui.BackgroundTransparency = 1
-		nameofgui.ClipsDescendants = true
-		nameofgui.Size = UDim2.new(0, 248, 0, 19)
-		nameofgui.Font = Enum.Font.GothamBold
-		nameofgui.Text = "Troller"
-		nameofgui.TextColor3 = Color3.new(1, 1, 1)
-		nameofgui.TextSize = 16
-		nameofgui.TextXAlignment = Enum.TextXAlignment.Left
-	
-		border.Name = "border"
-		border.Parent = Main
-		border.BackgroundColor3 = Color3.new(1, 1, 1)
-		border.ClipsDescendants = true
-		border.Position = UDim2.new(-0.00131386518, 0, 0.0696422011, 0)
-		border.Size = UDim2.new(0, 248, 0, 1)
-	
-		invis.Name = "invis"
-		invis.Parent = Main
-		invis.BackgroundColor3 = Color3.new(1, 0.541176, 0.164706)
-		invis.ClipsDescendants = true
-		invis.Position = UDim2.new(0, 0, 0.115512639, 0)
-		invis.Size = UDim2.new(0, 248, 0, 27)
-		invis.Font = Enum.Font.SourceSansItalic
-		invis.Text = "FE Invisible Fling (R6 & R15)"
-		invis.TextColor3 = Color3.new(1, 1, 1)
-		invis.TextSize = 16
-		invis.MouseButton1Click:connect(function()
-	
-	
-	
-			spawn(function()
-				local message = Instance.new("Message",workspace)
-				message.Text = "Loaded press z to execute inviseble , press x to respawn)"
-				wait(5)
-				message:Destroy()
-			end)
-	
-	
-	
-	
-	
-	
-	
-	
-			local mouse = game.Players.LocalPlayer:GetMouse()
-	
-			local groot = nil
-	
-			mouse.KeyDown:connect(function(k)
-	
-				if k == "z" then
-	
-	
-	
-					spawn(function()
-						local message = Instance.new("Message",workspace)
-						message.Text = "Fe Invisible Fling By Diemiers#4209 Loaded (wait 11 seconds to load)"
-						wait(11)
-						message:Destroy()
-					end)
-	
-	
-					local ch = game.Players.LocalPlayer.Character
-					local prt=Instance.new("Model", workspace)
-					local z1 =  Instance.new("Part", prt)
-					z1.Name="Torso"
-					z1.CanCollide = false
-					z1.Anchored = true
-					local z2  =Instance.new("Part", prt)
-					z2.Name="Head"
-					z2.Anchored = true
-					z2.CanCollide = false
-					local z3 =Instance.new("Humanoid", prt)
-					z3.Name="Humanoid"
-					z1.Position = Vector3.new(0,9999,0)
-					z2.Position = Vector3.new(0,9991,0)
-					game.Players.LocalPlayer.Character=prt
-					wait(5)
-					game.Players.LocalPlayer.Character=ch
-					wait(6)
-	
-	
-					local plr = game.Players.LocalPlayer
-					mouse = plr:GetMouse()
-	
-					local Hum = Instance.new("Humanoid")
-					Hum.Parent = game.Players.LocalPlayer.Character
-	
-	
-					local root =  game.Players.LocalPlayer.Character.HumanoidRootPart
-	
-	
-					for i,v in pairs(plr.Character:GetChildren()) do
-	
-						if v ~= root and  v.Name ~= "Humanoid" then
-	
-							v:Destroy()
-	
-						end
-	
-	
-					end
-	
-					workspace.CurrentCamera.CameraSubject = root
-	
-					local se = Instance.new("SelectionBox",root)
-					se.Adornee = root
-	
-	
-					game:GetService('RunService').Stepped:connect(function()
-						game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = false
-					end)
-					game:GetService('RunService').RenderStepped:connect(function()
-						game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = false
-					end)
-	
-	
-					power = 999999 -- change this to make it more or less powerful
-	
-					power = power*10
-	
-					---
-					wait(.1)
-					local bambam = Instance.new("BodyThrust")
-					bambam.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
-					bambam.Force = Vector3.new(power,0,power)
-					bambam.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position 
-	
-	
-	
-	
-	
-					local plr = game.Players.LocalPlayer
-					local torso = root
-					local flying = true
-					local deb = true
-					local ctrl = {f = 0, b = 0, l = 0, r = 0}
-					local lastctrl = {f = 0, b = 0, l = 0, r = 0}
-					local maxspeed = 120
-					local speed = 15
-	
-	
-					---local bambam = Instance.new("BodyThrust")
-					---bambam.Parent = torso
-					--bambam.Force = Vector3.new(9999999,0,9999999)
-					--bambam.Location = torso.Position
-	
-	
-					---
-					groot = root
-	
-					function Fly()
-						local bg = Instance.new("BodyGyro", torso)
-						bg.P = 9e4
-						bg.maxTorque = Vector3.new(0, 0, 0)
-						bg.cframe = torso.CFrame
-						local bv = Instance.new("BodyVelocity", torso)
-						bv.velocity = Vector3.new(0,0,0)
-						bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
-						repeat wait()
-	
-							if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
-								speed = speed+.2
-								if speed > maxspeed then
-									speed = maxspeed
-								end
-							elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
-								speed = speed-1
-								if speed < 0 then
-									speed = 0
-								end
-							end
-							if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
-								bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
-								lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
-							elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
-								bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
-							else
-								bv.velocity = Vector3.new(0,0.1,0)
-							end
-	
-						until not flying
-						ctrl = {f = 0, b = 0, l = 0, r = 0}
-						lastctrl = {f = 0, b = 0, l = 0, r = 0}
-						speed = 0
-						bg:Destroy()
-						bv:Destroy()
-	
-					end
-					mouse.KeyDown:connect(function(key)
-						if key:lower() == "e" then
-							if flying then flying = false
-							else
-								flying = true
-								Fly()
-							end
-						elseif key:lower() == "w" then
-							ctrl.f = 1
-						elseif key:lower() == "s" then
-							ctrl.b = -1
-						elseif key:lower() == "a" then
-							ctrl.l = -1
-						elseif key:lower() == "d" then
-							ctrl.r = 1
-						end
-					end)
-					mouse.KeyUp:connect(function(key)
-						if key:lower() == "w" then
-							ctrl.f = 0
-						elseif key:lower() == "s" then
-							ctrl.b = 0
-						elseif key:lower() == "a" then
-							ctrl.l = 0
-						elseif key:lower() == "d" then
-							ctrl.r = 0
-						elseif key:lower() == "r" then
-	
-						end
-					end)
-					Fly()
-	
-	
-	
-				elseif k == "x" then
-	
-	
-					spawn(function()
-						local message = Instance.new("Message",workspace)
-						message.Text = "Respawning dont spam"
-						wait(1)
-						message:Destroy()
-					end)
-	
-					local saved = groot.Position
-	
-					local ch = game.Players.LocalPlayer.Character
-					local prt=Instance.new("Model", workspace)
-					local z1 =  Instance.new("Part", prt)
-					z1.Name="Torso"
-					z1.CanCollide = false
-					z1.Anchored = true
-					local z2  =Instance.new("Part", prt)
-					z2.Name="Head"
-					z2.Anchored = true
-					z2.CanCollide = false
-					local z3 =Instance.new("Humanoid", prt)
-					z3.Name="Humanoid"
-					z1.Position = Vector3.new(0,9999,0)
-					z2.Position = Vector3.new(0,9991,0)
-					game.Players.LocalPlayer.Character=prt
-					wait(5)
-					game.Players.LocalPlayer.Character=ch
-					local poop = nil
-					repeat wait() poop = game.Players.LocalPlayer.Character:FindFirstChild("Head") until poop ~= nil
-					wait(1)
-					game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(saved)
-	
-				end
-	
-	
-			end)
-		end)
-	
-		pp.Name = "pp"
-		pp.Parent = Main
-		pp.BackgroundColor3 = Color3.new(1, 0.541176, 0.164706)
-		pp.ClipsDescendants = true
-		pp.Position = UDim2.new(0.00403225794, 0, 0.256927162, 0)
-		pp.Size = UDim2.new(0, 248, 0, 27)
-		pp.Font = Enum.Font.SourceSansItalic
-		pp.Text = "FE Penis (R6)"
-		pp.TextColor3 = Color3.new(1, 1, 1)
-		pp.TextSize = 16
-		pp.MouseButton1Click:connect(function()
-	
-	
-	
-	
-	
-			--R6 dick  by diemiers
-	
-	
-			spawn(function()
-				local message = Instance.new("Message",workspace)
-				message.Text = "Fe penisito loaded"
-				wait(11)
-				message:Destroy()
-			end)
-	
-			local name = "Torso"
-			if game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").RigType == Enum.HumanoidRigType.R15 then
-				name = "UpperTorso"
-			end
-	
-			local ch = game.Players.LocalPlayer.Character
-			local prt=Instance.new("Model", workspace)
-			local z1 =  Instance.new("Part", prt)
-			z1.Name="Torso"
-			z1.CanCollide = false
-			z1.Anchored = true
-			local z2  =Instance.new("Part", prt)
-			z2.Name="Head"
-			z2.Anchored = true
-			z2.CanCollide = false
-			local z3 =Instance.new("Humanoid", prt)
-			z3.Name="Humanoid"
-			z1.Position = Vector3.new(0,9999,0)
-			z2.Position = Vector3.new(0,9991,0)
-			game.Players.LocalPlayer.Character=prt
-			wait(5)
-			game.Players.LocalPlayer.Character=ch
-			wait(6)
-			game:GetService('RunService').Stepped:connect(function()
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = true
-			end)
-			game:GetService('RunService').RenderStepped:connect(function()
-				game.Players.LocalPlayer.Character.HumanoidRootPart.CanCollide = true
-			end)
-			plr = game.Players.LocalPlayer
-			mouse = plr:GetMouse()
-	
-			game.Players.LocalPlayer.Character.HumanoidRootPart:Destroy() 
-	
-			local Hum = Instance.new("Humanoid")
-	
-	
-	
-			Hum.Parent = game.Players.LocalPlayer.Character
-			game.Players.LocalPlayer.Character.Humanoid.Parent = game.Lighting
-			--game.Players.LocalPlayer.Character:FindFirstChild("Torso").Name = "Head"
-			--game.Players.LocalPlayer.Character:FindFirstChild("Head"):Destroy()
-			--game.Players.LocalPlayer.Character:FindFirstChild(name):Destroy()
-			--game.Players.LocalPlayer.Character.HumanoidRootPart.Name = "GaiPArt"
-			local root =game.Players.LocalPlayer.Character["Right Arm"] -- game.Players.LocalPlayer.Character["Left Leg"]
-			root.Name = "HumanoidRootPart"
-	
-			Hum.HipHeight = 5
-	
-	
-			workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character.HumanoidRootPart
-	
-	
-	
-	
-			for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
-	
-				if v.Name ~=root.Name and v.Name ~="Humanoid" and v.Name ~= "Left Arm" and v.Name ~= "Left Leg" and v.Name ~= "Right Leg" then
-	
-					v:Destroy()
-	
-				elseif v.Name == "Left Arm" then
-	
-					local bp = Instance.new("BodyPosition",v)
-					bp.MaxForce = Vector3.new(99999,99999,99999)
-					local bg = Instance.new("BodyGyro",v)
-					bg.MaxTorque = Vector3.new(9999999,9999999,999999)
-	
-					spawn(function()
-						bp.D = 300
-						while true do
-							bp.Position = root.Position+Vector3.new(0,1.8+1.8+1.8-0.3,0)
-							wait()
-						end
-	
-					end)
-	
-				elseif v.Name == "Left Leg" then
-	
-					local bp = Instance.new("BodyPosition",v)
-					bp.MaxForce = Vector3.new(99999,99999,99999)
-					local bg = Instance.new("BodyGyro",v)
-					bg.MaxTorque = Vector3.new(9999999,9999999,999999)
-	
-					spawn(function()
-						bp.D = 300
-						while true do
-							bp.Position = root.Position+Vector3.new(0,1.8-0.3,0)
-							wait()
-						end
-	
-					end)
-	
-				elseif v.Name == "Right Leg" then
-	
-					local bp = Instance.new("BodyPosition",v)
-					bp.MaxForce = Vector3.new(99999,99999,99999)
-					local bg = Instance.new("BodyGyro",v)
-					bg.MaxTorque = Vector3.new(9999999,9999999,999999)
-					spawn(function()
-						bp.D = 300	
-						while true do
-							bp.Position = root.Position+Vector3.new(0,1.8+1.8-0.3,0)
-							wait()
-						end
-	
-					end)
-				elseif v.Name == root.Name then
-	
-					local bg = Instance.new("BodyGyro",v)
-					bg.MaxTorque = Vector3.new(9999999,9999999,999999)
-					bg.CFrame = CFrame.Angles(math.rad(0),math.rad(0),math.rad(90))
-	
-				end
-	
-	
-			end
-	
-			--local se = Instance.new("SelectionBox",root)
-			--se.Adornee = root
-	
-	
-			power = 999999 -- change this to make it more or less powerful
-	
-			power = power*10
-	
-			---
-			wait(.1)
-			--local bambam = Instance.new("BodyThrust")
-			--bambam.Parent = game.Players.LocalPlayer.Character.HumanoidRootPart
-			--bambam.Force = Vector3.new(power,0,power)
-			--bambam.Location = game.Players.LocalPlayer.Character.HumanoidRootPart.Position 
-	
-	
-	
-	
-			local mouse = game.Players.LocalPlayer:GetMouse()
-	
-	
-			local plr = game.Players.LocalPlayer
-			local torso = root
-			local flying = true
-			local deb = true
-			local ctrl = {f = 0, b = 0, l = 0, r = 0}
-			local lastctrl = {f = 0, b = 0, l = 0, r = 0}
-			local maxspeed = 120
-			local speed = 15
-	
-	
-			---local bambam = Instance.new("BodyThrust")
-			---bambam.Parent = torso
-			--bambam.Force = Vector3.new(9999999,0,9999999)
-			--bambam.Location = torso.Position
-	
-	
-			---
-	
-	
-			function Fly()
-				local bg = Instance.new("BodyGyro", torso)
-				bg.P = 9e4
-				bg.maxTorque = Vector3.new(0, 0, 0)
-				bg.cframe = torso.CFrame
-				local bv = Instance.new("BodyVelocity", torso)
-				bv.velocity = Vector3.new(0,0,0)
-				bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
-				repeat wait()
-	
-					if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
-						speed = speed+.2
-						if speed > maxspeed then
-							speed = maxspeed
-						end
-					elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
-						speed = speed-1
-						if speed < 0 then
-							speed = 0
-						end
-					end
-					if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
-						bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
-						lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
-					elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
-						bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
-					else
-						bv.velocity = Vector3.new(0,0,0)
-					end
-	
-				until not flying
-				ctrl = {f = 0, b = 0, l = 0, r = 0}
-				lastctrl = {f = 0, b = 0, l = 0, r = 0}
-				speed = 0
-				bg:Destroy()
-				bv:Destroy()
-	
-			end
-			mouse.KeyDown:connect(function(key)
-				if key:lower() == "e" then
-					if flying then flying = false
-					else
-						flying = true
-						Fly()
-					end
-				elseif key:lower() == "w" then
-					ctrl.f = 1
-				elseif key:lower() == "s" then
-					ctrl.b = -1
-				elseif key:lower() == "a" then
-					ctrl.l = -1
-				elseif key:lower() == "d" then
-					ctrl.r = 1
-				end
-			end)
-			mouse.KeyUp:connect(function(key)
-				if key:lower() == "w" then
-					ctrl.f = 0
-				elseif key:lower() == "s" then
-					ctrl.b = 0
-				elseif key:lower() == "a" then
-					ctrl.l = 0
-				elseif key:lower() == "d" then
-					ctrl.r = 0
-				elseif key:lower() == "r" then
-	
-				end
-			end)
-			Fly()
-		end)
-	
-		memedog.Name = "memedog"
-		memedog.Parent = Main
-		memedog.BackgroundColor3 = Color3.new(1, 1, 1)
-		memedog.BackgroundTransparency = 1
-		memedog.ClipsDescendants = true
-		memedog.Position = UDim2.new(0.0967741907, 0, 0.745117068, 0)
-		memedog.Size = UDim2.new(0, 200, 0, 23)
-		memedog.Font = Enum.Font.SourceSansLight
-		memedog.Text = "Memedog#1256 for GUI"
-		memedog.TextColor3 = Color3.new(0, 1, 0)
-		memedog.TextSize = 16
-	
-		die.Name = "die"
-		die.Parent = Main
-		die.BackgroundColor3 = Color3.new(1, 1, 1)
-		die.BackgroundTransparency = 1
-		die.ClipsDescendants = true
-		die.Position = UDim2.new(0.0120967738, 0, 0.66750288, 0)
-		die.Size = UDim2.new(0, 246, 0, 23)
-		die.Font = Enum.Font.SourceSansLight
-		die.Text = "Diemiers#4209 & Cyclically#9215 for scripts"
-		die.TextColor3 = Color3.new(0, 1, 1)
-		die.TextSize = 16
-	
-		worm.Name = "worm"
-		worm.Parent = Main
-		worm.BackgroundColor3 = Color3.new(1, 0.541176, 0.164706)
-		worm.ClipsDescendants = true
-		worm.Position = UDim2.new(-0.00403225794, 0, 0.405297279, 0)
-		worm.Size = UDim2.new(0, 248, 0, 27)
-		worm.Font = Enum.Font.SourceSansItalic
-		worm.Text = "FE Wormus (R6)"
-		worm.TextColor3 = Color3.new(1, 1, 1)
-		worm.TextSize = 16
-		worm.MouseButton1Click:connect(function()
-			--Made by  GreenFace#4209
-	
-	
-			--Wormus
-	
-			--If ur legs gonna lose network owner they not going  to lose them u will pick them up when ur network owner gonna comeback
-	
-			--Found some replication bugs long time ago 
-	
-			--ik its not clean code
-	
-			local name = "Torso"
-			local ch = game.Players.LocalPlayer.Character
-			local prt=Instance.new("Model", workspace)
-			local z1 =  Instance.new("Part", prt)
-			z1.Name="Torso"
-			z1.CanCollide = false
-			z1.Anchored = true
-			local z2  =Instance.new("Part", prt)
-			z2.Name="Head"
-			z2.Anchored = true
-			z2.CanCollide = false
-			local z3 =Instance.new("Humanoid", prt)
-			z3.Name="Humanoid"
-			z1.Position = Vector3.new(0,9999,0)
-			z2.Position = Vector3.new(0,9991,0)
-			game.Players.LocalPlayer.Character=prt
-			wait(5)
-			game.Players.LocalPlayer.Character=ch
-			wait(6)
-	
-	
-			--game:GetService('RunService').Stepped:connect(function()
-			--game.Players.LocalPlayer.Character.Head.CanCollide = false
-			--end)
-			local humano = game.Players.LocalPlayer.Character.Humanoid:Clone()
-			wait()
-			game.Players.LocalPlayer.Character[name]:Destroy()
-			game.Players.LocalPlayer.Character.HumanoidRootPart:Destroy()
-	
-	
-	
-			local torso = game.Players.LocalPlayer.Character.Head
-			game.Players.LocalPlayer.Character.Humanoid.Parent = game.Lighting
-	
-	
-			humano.Parent = game.Players.LocalPlayer.Character
-	
-			local humanoid = humano--Instance.new("Humanoid",game.Players.LocalPlayer.Character)
-	
-			humanoid.HipHeight = 4
-	
-			humanoid.WalkSpeed = 50
-	
-			torso.Name = "HumanoidRootPart"
-	
-			limbs = {
-				game.Players.LocalPlayer.Character["Left Arm"],
-				game.Players.LocalPlayer.Character["Right Arm"],
-				game.Players.LocalPlayer.Character["Left Leg"],
-				game.Players.LocalPlayer.Character["Right Leg"]
-			}
-			for i,v in pairs(limbs)do
-	
-				local bodypos = Instance.new("BodyPosition",v)
-	
-				bodypos.MaxForce = Vector3.new(999999,999999,999999)
-	
-				bodypos.D = 400
-	
-				local bodyg = Instance.new("BodyGyro",v)
-	
-				bodyg.MaxTorque =Vector3.new(99999999,99999999,999999)
-	
-	
-				spawn(function()
-					while true do
-						bodypos.Position = torso.Position-Vector3.new(0,i*1.5,0)
-						wait(0.1)
-					end
-				end)
-			end
-		end)
-	
-		cycl.Name = "cycl"
-		cycl.Parent = Main
-		cycl.BackgroundColor3 = Color3.new(1, 0.541176, 0.164706)
-		cycl.ClipsDescendants = true
-		cycl.Position = UDim2.new(0, 0, 0.551240921, 0)
-		cycl.Size = UDim2.new(0, 248, 0, 27)
-		cycl.Font = Enum.Font.SourceSansItalic
-		cycl.Text = "Cyclone Admin"
-		cycl.TextColor3 = Color3.new(1, 1, 1)
-		cycl.TextSize = 16
-		cycl.MouseButton1Click:connect(function()
-			-- Made by Cyclically | Cyclone
-			-- Version: 0.2a
-			-- Settings:
-			local PREFIX = ";"
-			-- Variables:
-			local LocalPlayer = game:GetService("Players").LocalPlayer
-			local TweenService = game:GetService("TweenService")
-			local RunService = game:GetService("RunService")
-			local mouse = LocalPlayer:GetMouse()
-			local ContentProvider = game:GetService("ContentProvider")
-			local Players = setmetatable(game:GetService("Players"):GetPlayers(), {
-				__metatable = "Metatable is locked"; -- Theres a reason for this.
-				__index = function(self, k)
-					if k:lower() == "all" then
-						return game:GetService("Players"):GetPlayers()
-					elseif k:lower() == "others" then
-						local plrReturn = {}
-						for _, plr in pairs(game:GetService("Players"):GetPlayers()) do
-							if plr ~= LocalPlayer then
-								table.insert(plrReturn, plr)
-							end
-						end
-						return plrReturn
-					elseif k:lower() == "me" then
-						return {LocalPlayer}
-					elseif k:lower() == "random" then
-						return game:GetService("Players"):GetPlayers()[math.random(1, #game:GetService("Players"):GetPlayers())]
-					else	
-						for _, plr in pairs(game:GetService("Players"):GetPlayers()) do
-							if string.find(plr.Name:lower(), k:lower()) then
-								return {plr}
-							end
-						end
-					end
-				end
-			})
-			-- Instances:
-			local CycloneGui = Instance.new("ScreenGui", game.CoreGui)
-			local mainFrame = Instance.new("ImageLabel", CycloneGui)
-			local titleLabel = Instance.new("TextLabel", mainFrame)
-			local bottomFrame = Instance.new("Frame", mainFrame)
-			local searchBox = Instance.new("TextBox", bottomFrame)
-			local cmdList = Instance.new("ScrollingFrame", bottomFrame)
-			local listLayout = Instance.new("UIListLayout", cmdList)
-			local topBlinker = Instance.new("Frame", CycloneGui)
-			local bottomBlinker = Instance.new("Frame", CycloneGui)
-			local introLabel = Instance.new("TextLabel")
-			local introFrame = Instance.new("ImageLabel", introLabel)
-			local introShadow = Instance.new("ImageLabel", introLabel)
-			local notifBar = Instance.new("ImageLabel")
-			local notifText = Instance.new("TextLabel", notifBar)
-			local barlabel = Instance.new("TextButton")
-			--Properties:
-			CycloneGui.Name = "CycloneGui"
-	
-			mainFrame.Name = "mainFrame"
-			mainFrame.BackgroundColor3 = Color3.new(1, 1, 1)
-			mainFrame.BackgroundTransparency = 1
-			mainFrame.Position = UDim2.new(0.82, 0, 1, 0)
-			mainFrame.Size = UDim2.new(0.16, 0, 0.4, 0)
-			mainFrame.ZIndex = 0
-			mainFrame.Image = "rbxassetid://2851927369"
-			mainFrame.ImageColor3 = Color3.new(0, 0.0196078, 0.0470588)
-			mainFrame.ScaleType = Enum.ScaleType.Slice
-			mainFrame.SliceCenter = Rect.new(10, 10, 10, 10)
-	
-			titleLabel.Name = "titleLabel"
-			titleLabel.BackgroundColor3 = Color3.new(1, 1, 1)
-			titleLabel.BackgroundTransparency = 1
-			titleLabel.Size = UDim2.new(1, 0, 0.125409842, 0)
-			titleLabel.Font = Enum.Font.GothamBold
-			titleLabel.Text = "Cyclone"
-			titleLabel.TextColor3 = Color3.new(0.835294, 0.909804, 1)
-			titleLabel.TextSize = 14
-	
-			bottomFrame.Name = "bottomFrame"
-			bottomFrame.BackgroundColor3 = Color3.new(0, 0.0117647, 0.0352941)
-			bottomFrame.BorderSizePixel = 0
-			bottomFrame.Position = UDim2.new(0, 0, 0.125409856, 0)
-			bottomFrame.Size = UDim2.new(1, 0, 0.874590158, 0)
-	
-			searchBox.Name = "searchBox"
-			searchBox.BackgroundColor3 = Color3.new(0, 0.0196078, 0.0666667)
-			searchBox.BorderSizePixel = 0
-			searchBox.Size = UDim2.new(1, 0, 0.100000001, 0)
-			searchBox.ZIndex = 2
-			searchBox.Font = Enum.Font.GothamBold
-			searchBox.PlaceholderColor3 = Color3.new(0.113725, 0.188235, 0.34902)
-			searchBox.PlaceholderText = "Search"
-			searchBox.Text = ""
-			searchBox.TextColor3 = Color3.new(0.168627, 0.278431, 0.517647)
-			searchBox.TextSize = 10
-	
-			cmdList.Name = "cmdList"
-			cmdList.BackgroundColor3 = Color3.new(0, 0.0156863, 0.0588235)
-			cmdList.BorderSizePixel = 0
-			cmdList.Position = UDim2.new(0, 0, 0.0999999866, 0)
-			cmdList.Size = UDim2.new(1, 0, 0.900000036, 0)
-			cmdList.ZIndex = 2
-			cmdList.CanvasSize = UDim2.new(0, 0, 10, 0)
-			cmdList.ScrollBarThickness = 0
-	
-			listLayout.Name = "listLayout"
-	
-			topBlinker.Name = "topBlinker"
-			topBlinker.BackgroundColor3 = Color3.new(0, 0, 0)
-			topBlinker.BorderSizePixel = 0
-			topBlinker.Size = UDim2.new(1, 0, 0, 0)
-			topBlinker.ZIndex = 4
-	
-			bottomBlinker.Name = "bottomBlinker"
-			bottomBlinker.BackgroundColor3 = Color3.new(0, 0, 0)
-			bottomBlinker.BorderSizePixel = 0
-			bottomBlinker.Position = UDim2.new(0, 0, 1, 0)
-			bottomBlinker.Size = UDim2.new(1, 0, 0, 0)
-			bottomBlinker.ZIndex = 4
-	
-			introLabel.Name = "introLabel"
-			introLabel.BackgroundColor3 = Color3.new(1, 1, 1)
-			introLabel.BackgroundTransparency = 1
-			introLabel.BorderSizePixel = 0
-			introLabel.Size = UDim2.new(1, 0, 1, 0)
-			introLabel.ZIndex = 2
-			introLabel.Font = Enum.Font.GothamBlack
-			introLabel.Text = "CYCLONE"
-			introLabel.TextColor3 = Color3.new(0.835294, 0.909804, 1)
-			introLabel.TextSize = 100
-			introLabel.TextStrokeColor3 = Color3.new(0.258824, 0.282353, 0.309804)
-			introLabel.TextStrokeTransparency = 0
-	
-			introFrame.Name = "introFrame"
-			introFrame.BackgroundColor3 = Color3.new(1, 1, 1)
-			introFrame.BackgroundTransparency = 1
-			introFrame.Position = UDim2.new(0.275894552, 0, 0.362831891, 0)
-			introFrame.Size = UDim2.new(0.447269291, 0, 0.267256588, 0)
-			introFrame.Image = "rbxassetid://2851920938"
-			introFrame.ImageColor3 = Color3.new(0, 0.0196078, 0.0470588)
-			introFrame.ScaleType = Enum.ScaleType.Slice
-			introFrame.SliceCenter = Rect.new(25, 25, 25, 25)
-	
-			introShadow.Name = "introShadow"
-			introShadow.BackgroundColor3 = Color3.new(1, 1, 1)
-			introShadow.BackgroundTransparency = 1
-			introShadow.Position = UDim2.new(0.275894552, 0, 0.362831891, 0)
-			introShadow.Size = UDim2.new(0.447269291, 0, 0.287332058, 0)
-			introShadow.ZIndex = 0
-			introShadow.Image = "rbxassetid://2851920938"
-			introShadow.ImageColor3 = Color3.new(0, 0.0235294, 0.0705882)
-			introShadow.ScaleType = Enum.ScaleType.Slice
-			introShadow.SliceCenter = Rect.new(25, 25, 25, 25)
-	
-			notifBar.Name = "notifBar"
-			notifBar.BackgroundColor3 = Color3.new(1, 1, 1)
-			notifBar.BackgroundTransparency = 1
-			notifBar.BorderSizePixel = 0
-			notifBar.Position = UDim2.new(0.55, 0, 0.97, 0)
-			notifBar.Size = UDim2.new(0.25, 0, 0.06, 0)
-			notifBar.ZIndex = 0
-			notifBar.Image = "rbxassetid://2851920938"
-			notifBar.ImageColor3 = Color3.new(0, 0.0196078, 0.0470588)
-			notifBar.ImageTransparency = 1
-			notifBar.ScaleType = Enum.ScaleType.Slice
-			notifBar.SliceCenter = Rect.new(25, 25, 25, 25)
-	
-			notifText.Name = "notifText"
-			notifText.BackgroundColor3 = Color3.new(1, 1, 1)
-			notifText.BackgroundTransparency = 1
-			notifText.BorderSizePixel = 0
-			notifText.Size = UDim2.new(1, 0, 1, 0)
-			notifText.Font = Enum.Font.GothamBold
-			notifText.Text = "Error message"
-			notifText.TextColor3 = Color3.new(0.835294, 0.909804, 1)
-			notifText.TextSize = 10
-			notifText.TextStrokeTransparency = 1
-			notifText.TextTransparency = 1
-			notifText.TextWrapped = true
-	
-			barlabel.Name = "barlabel"
-			barlabel.BackgroundColor3 = Color3.fromRGB(0, 3, 16)
-			barlabel.BackgroundTransparency = 1
-			barlabel.BorderSizePixel = 0
-			barlabel.Size = UDim2.new(1, 0, 0.01, 0)
-			barlabel.ZIndex = 3
-			barlabel.Font = Enum.Font.GothamBold
-			barlabel.TextColor3 = Color3.new(0.835294, 0.909804, 1)
-			barlabel.TextSize = 9
-			barlabel.TextTransparency = 1
-			-- Script:
-			local localcc = Instance.new("ColorCorrectionEffect", game:GetService("Lighting"))
-			local localblur = Instance.new("BlurEffect", game:GetService("Lighting"))
-			localblur.Size = 0
-			local tweenInfo1 = TweenInfo.new(2, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
-			local tweenInfo2 = TweenInfo.new(1, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
-			local tweenInfo3 = TweenInfo.new(2, Enum.EasingStyle.Back, Enum.EasingDirection.In)
-			local cmdsHelp = {}
-			local cmdsHint = {}
-			local notifSound = Instance.new("Sound", CycloneGui)
-			notifSound.SoundId = "rbxassetid://180877191"
-			notifSound.Volume = 1
-			local Events = setmetatable({}, { -- These are mostly for debugging
-				__metatable = "Metatable is locked";
-				__newindex = function(self, i, k)
-					warn("Event " .. k .. " created")
-				end;
-				__index = function(self, k)
-					warn("Tried to access unknown event " .. k)
-				end
-			}) -- Custom RBXScriptSignal with OOP
-			local stringSplit = function(str, pattern)
-				local returnTab = {}
-				local mainInd = 0
-				for i = 1, #str do
-					if string.sub(str, i, i + #pattern - 1) == pattern or i + #pattern == #str then
-						local splitAdder = -1
-						if i + #pattern == #str then
-							splitAdder = 1
-						end
-						table.insert(returnTab, string.sub(str, mainInd, i + splitAdder))
-						mainInd = i + #pattern
-					end
-				end
-				return returnTab
-			end
-			CustomEnum = { -- Custom enumeration
-				BlinkingDirection = {
-					Close = 1;
-					Open = 2;
-				};
-				NotifcationType = {
-					Normal = 3;
-					Important = 4;
-					Random = 5;
-					Error = 6;
-				}
-			};
-			local function chatPlr(message) -- Makes you chat
-				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(tostring(message), "All")
-			end
-			local function createNotif(message, notifType) -- Create notifications
-				local CnotifBar = notifBar:Clone()
-				local notifCol = Color3.fromRGB(213, 232, 255)
-				if notifType == 4 then
-					notifCol = Color3.fromRGB(141, 255, 128)
-				elseif notifType == 5 then
-					notifCol = Color3.fromRGB(249, 255, 126)
-				elseif notifType == 6 then
-					notifCol = Color3.fromRGB(255, 49, 80)
-				end
-				CnotifBar.Parent = CycloneGui
-				local notifBars = {}
-				for _, v in pairs(CycloneGui:GetChildren()) do
-					if v.Name == "notifBar" then
-						table.insert(notifBars, v)
-					end
-				end
-				local notifBarPos = Instance.new("NumberValue", CnotifBar)
-				notifBarPos.Name = "notifBarPos"
-				notifBarPos.Value = CnotifBar.Position.Y.Scale
-				CnotifBar.notifText.Text = message
-				CnotifBar.notifText.TextColor3 = notifCol
-				notifSound:Play()
-				TweenService:Create(CnotifBar, tweenInfo2, {ImageTransparency = 0}):Play()
-				TweenService:Create(CnotifBar.notifText, tweenInfo2, {TextTransparency = 0}):Play()
-				for index, notifB in pairs(notifBars) do
-					TweenService:Create(notifB, tweenInfo2, {Position = UDim2.new(0.55, 0, notifB:FindFirstChild("notifBarPos").Value - 0.07, 0)}):Play()
-					notifB:FindFirstChild("notifBarPos").Value = notifB:FindFirstChild("notifBarPos").Value - 0.07
-				end
-				wait(2)
-				TweenService:Create(CnotifBar, tweenInfo2, {ImageTransparency = 1}):Play()
-				TweenService:Create(CnotifBar.notifText, tweenInfo2, {TextTransparency = 1}):Play()
-			end
-			local Cyclone = {
-				-- Functions:
-				updateSearchBar = function(self)
-					for _, v in pairs(cmdList:GetChildren()) do
-						if not v:IsA("UIListLayout") then
-							v:Destroy()
-						end
-					end
-					for index, cmdHelper in pairs(cmdsHelp) do
-						if string.find(cmdHelper, searchBox.Text) then
-							local Cbarlabel = barlabel:Clone()
-							Cbarlabel.MouseButton1Down:Connect(function()
-								createNotif(cmdsHint[cmdHelper], CustomEnum.NotifcationType.Random)
-							end)
-							if index % 2 == 1 then
-								Cbarlabel.BackgroundColor3 = Color3.fromRGB(0, 5, 22)
-							end
-							Cbarlabel.Text = PREFIX .. cmdHelper
-							Cbarlabel.Parent = cmdList
-							TweenService:Create(Cbarlabel, tweenInfo2, {TextTransparency = 0, BackgroundTransparency = 0}):Play()
-						end
-					end
-				end;
-				-- Methods:
-				newConnection = function(self, eventName)
-					assert(Events[eventName] == nil, "Event already exists")
-					local newEvent = Instance.new("BindableEvent")
-					Events[eventName] = newEvent
-					return newEvent
-				end;
-				setBlinker = function(self, blinkType, speed, coverup)
-					local newInfo = TweenInfo.new(speed, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
-					if blinkType == 1 then
-						TweenService:Create(topBlinker, newInfo, {Size = UDim2.new(1, 0, coverup * 0.5 / 1, 0)}):Play()
-						TweenService:Create(bottomBlinker, newInfo, {Size = UDim2.new(1, 0, coverup * 0.5 / 1, 0); Position = UDim2.new(0, 0, 1 - (coverup * 0.5 / 1), 0)}):Play()
-					elseif blinkType == 2 then
-						TweenService:Create(topBlinker, newInfo, {Size = UDim2.new(1, 0, 0, 0)}):Play()
-						TweenService:Create(bottomBlinker, newInfo, {Size = UDim2.new(1, 0, 0, 0); Position = UDim2.new(0, 0, 1, 0)}):Play()
-					end
-				end;
-				setBrightness = function(self, brightness, speed)
-					local newInfo = TweenInfo.new(speed, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
-					TweenService:Create(localcc, newInfo, {Brightness = brightness}):Play()
-				end;
-				setBlur = function(self, size, speed)
-					local newInfo = TweenInfo.new(speed, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut)
-					TweenService:Create(localblur, newInfo, {Size = size}):Play()
-				end;
-				createSound = function(self, id, volume)
-					local newSound = Instance.new("Sound", CycloneGui)
-					newSound.SoundId = id
-					newSound.Volume = volume
-					return newSound
-				end;
-				createCommand = function(self, cmdName, cmdHelp, hint, func)
-					table.insert(cmdsHelp, cmdHelp)
-					cmdsHint[cmdHelp] = hint
-					LocalPlayer.Chatted:Connect(function(msg)
-						if PREFIX .. cmdName == string.sub(msg, 1, #PREFIX + #cmdName) then
-							assert(type(func) == "function", "bad argument #3 to \"createCommand\" (function expected, got " .. type(func) .. ")")
-							local params = stringSplit(msg, " ")
-							table.remove(params, 1)
-							params = stringSplit(table.concat(params), ",")
-							func(params)
-						end
-					end)
-				end;
-			}
-			-- Command variables:
-			local lagserver = false
-			local clicktp = nil
-			local oofspamming = false
-			-- Command creation:
-			Cyclone:createCommand("rejoin", "rejoin", "Makes you rejoin the game", function(cmdParameters)
-				game:GetService("TeleportService"):Teleport(game.GameId, LocalPlayer)
-			end)
-			Cyclone:createCommand("respawn", "respawn", "Respawn your character", function(cmdParameters)
-				LocalPlayer.Character:ClearAllChildren()
-				local char = Instance.new("Model", workspace)
-				Instance.new("Humanoid", char)
-				LocalPlayer.Character = char
-			end)
-			Cyclone:createCommand("kill", "kill [plr]", "Kills the target player", function(cmdParameters)
-				local torsoname = "Torso"
-				if LocalPlayer.Character:FindFirstChild("Humanoid").RigType == Enum.HumanoidRigType.R15 then
-					torsoname = "UpperTorso"
-				end
-				if Players[cmdParameters[1]][1].Character ~= nil then
-					local savepos = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
-					LocalPlayer.Character:FindFirstChild(torsoname).Anchored = true
-					local tool = Instance.new("Tool", LocalPlayer.Backpack)
-					local hat = LocalPlayer.Character:FindFirstChildOfClass("Accessory")
-					local hathandle = hat.Handle
-					hathandle.Parent = tool
-					hathandle.Massless = true
-					tool.GripPos = Vector3.new(0, 9e99, 0)
-					tool.Parent = LocalPlayer.Character
-					repeat wait() until LocalPlayer.Character:FindFirstChildOfClass("Tool") ~= nil
-					tool.Grip = CFrame.new(Vector3.new(0, 0, 0))
-					LocalPlayer.Character:FindFirstChild(torsoname).Anchored = false
-					repeat
-						LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = Players[cmdParameters[1]][1].Character:FindFirstChild("HumanoidRootPart").CFrame
-						wait()
-					until Players[cmdParameters[1]][1].Character == nil or Players[cmdParameters[1]][1].Character:FindFirstChild("Humanoid").Health <= 0 or LocalPlayer.Character == nil or LocalPlayer.Character:FindFirstChild("Humanoid").Health <= 0 or (Players[cmdParameters[1]][1].Character:FindFirstChild("HumanoidRootPart").Velocity.Magnitude - Players[cmdParameters[1]][1].Character:FindFirstChild("Humanoid").WalkSpeed) > (Players[cmdParameters[1]][1].Character:FindFirstChild("Humanoid").WalkSpeed + 20)
-					LocalPlayer.Character:FindFirstChild("Humanoid"):UnequipTools()
-					hathandle.Parent = hat
-					hathandle.Massless = false
-					tool:Destroy()
-					LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = savepos
-				end
-			end)
-			Cyclone:createCommand("dupetools", "dupetools [amount]", "Duplicates your tools, must have startertools", function(cmdParameters)
-				createNotif("Now duplicating " .. cmdParameters[1] .. " tools", CustomEnum.NotifcationType.Normal)
-				LocalPlayer.Character:FindFirstChild("Humanoid"):UnequipTools()
-				local currentamount = #LocalPlayer.Backpack:GetChildren()
-				LocalPlayer.Character.Archivable = true
-				local tempchar = LocalPlayer.Character:Clone()
-				local lastchar = nil
-				tempchar.Parent = workspace
-				local savepos = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
-				repeat
-					workspace.CurrentCamera.CameraSubject = tempchar:FindFirstChild("Humanoid")
-					for _, tool in pairs(LocalPlayer.Backpack:GetChildren()) do
-						if tool:IsA("Tool") then
-							tool.Parent = LocalPlayer
-						end
-					end
-					LocalPlayer.Character:ClearAllChildren()
-					local char = Instance.new("Model", workspace)
-					Instance.new("Humanoid", char)
-					LocalPlayer.Character = char
-					if lastchar ~= nil then
-						lastchar:Destroy()
-					end
-					repeat RunService.RenderStepped:Wait() until LocalPlayer.Character ~= nil
-					lastchar = char
-					RunService.RenderStepped:Wait()
-				until #LocalPlayer:GetChildren() - 3 - currentamount >= cmdParameters[1]
-				repeat RunService.RenderStepped:Wait() until LocalPlayer.Character:FindFirstChild("HumanoidRootPart") ~= nil
-				lastchar:Destroy()
-				for _, tool in pairs(LocalPlayer:GetChildren()) do
-					if tool:IsA("Tool") then
-						tool.Parent = LocalPlayer.Backpack
-					end
-				end
-				LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = savepos
-				tempchar:Destroy()
-			end)
-			Cyclone:createCommand("accessorytotool", "accessorytotool", "Converts your accessories into tools", function(cmdParameters)
-				for _, hat in pairs(LocalPlayer.Character:FindFirstChild("Humanoid"):GetAccessories()) do
-					if hat.Handle ~= nil then
-						local tool = Instance.new("Tool", LocalPlayer.Backpack)
-						tool.Name = hat.Name
-						local hathandle = hat.Handle
-						hathandle:FindFirstChildOfClass("Weld"):Destroy()
-						hathandle.Parent = tool
-						hathandle.Massless = true
-					end
-				end
-			end)
-			Cyclone:createCommand("lagserver", "lagserver", "Lags the server", function(cmdParameters)
-				lagserver = true
-				repeat
-					local anim = Instance.new("Animation")
-					anim.AnimationId = math.random()
-					LocalPlayer.Character.Humanoid:LoadAnimation(anim):Play()
-					anim:Destroy()
-				until lagserver == false
-			end)
-			Cyclone:createCommand("unlagserver", "unlagserver", "Stop lagging the server", function(cmdParameters)
-				lagserver = false
-			end)
-			Cyclone:createCommand("custombtools", "custombtools", "Custom btools, only replicates on unanchored parts", function(cmdParameters)
-				local movetool = Instance.new("Tool", LocalPlayer.Backpack)
-				local deletetool = Instance.new("Tool", LocalPlayer.Backpack)
-				local undotool = Instance.new("Tool", LocalPlayer.Backpack)
-				local identifytool = Instance.new("Tool", LocalPlayer.Backpack)
-				local movedetect = false
-				local movingpart = nil
-				local movetransparency = 0
-				if editedparts == nil then
-					editedparts = {}
-					parentfix = {}
-					positionfix = {}
-				end
-				deletetool.Name = "Delete"
-				undotool.Name = "Undo"
-				identifytool.Name = "Identify"
-				movetool.Name = "Move"
-				undotool.CanBeDropped = false
-				deletetool.CanBeDropped = false
-				identifytool.CanBeDropped = false
-				movetool.CanBeDropped = false
-				undotool.RequiresHandle = false
-				deletetool.RequiresHandle = false
-				identifytool.RequiresHandle = false
-				movetool.RequiresHandle = false
-				local function createnotification(title, text)
-					game:GetService("StarterGui"):SetCore("SendNotification", {
-						Title = title;
-						Text = text;
-						Duration = 1;
-					})
-				end
-				deletetool.Activated:Connect(function()
-					createnotification("Delete Tool", "You have deleted "..mouse.Target.Name)
-					table.insert(editedparts, mouse.Target)
-					table.insert(parentfix, mouse.Target.Parent)
-					table.insert(positionfix, mouse.Target.CFrame)
-					spawn(function()
-						local deletedpart = mouse.Target
-						repeat
-							deletedpart.Anchored = true
-							deletedpart.CFrame = CFrame.new(1000000000, 1000000000, 1000000000)
-							wait()
-						until deletedpart.CFrame ~= CFrame.new(1000000000, 1000000000, 1000000000)
-					end)
-				end)
-				undotool.Activated:Connect(function()
-					createnotification("Undo Tool", "You have undone "..editedparts[#editedparts].Name)
-					editedparts[#editedparts].Parent = parentfix[#parentfix]
-					editedparts[#editedparts].CFrame = positionfix[#positionfix]
-					table.remove(positionfix, #positionfix)
-					table.remove(editedparts, #editedparts)
-					table.remove(parentfix, #parentfix)
-				end)
-				identifytool.Activated:Connect(function()
-					createnotification("Identify Tool", "Instance: "..mouse.Target.ClassName.."\nName: "..mouse.Target.Name)
-				end)
-				movetool.Activated:Connect(function()
-					createnotification("Move Tool", "You are moving: "..mouse.Target.Name)
-					movingpart = mouse.Target
-					movedetect = true
-					movingpart.CanCollide = false
-					movetransparency = movingpart.Transparency
-					movingpart.Transparency = 0.5
-					mouse.TargetFilter = movingpart
-					table.insert(editedparts, movingpart)
-					table.insert(parentfix, movingpart.Parent)
-					table.insert(positionfix, movingpart.CFrame)
-					movingpart.Transparency = movingpart.Transparency / 2
-					repeat
-						mouse.Move:Wait()
-						movingpart.CFrame = CFrame.new(mouse.Hit.p)
-					until movedetect == false
-				end)
-				movetool.Deactivated:Connect(function()
-					createnotification("Move Tool", "You have stopped moving: "..mouse.Target.Name)
-					movingpart.CanCollide = true
-					movedetect = false
-					mouse.TargetFilter = nil
-					movingpart.Transparency = movetransparency
-				end)
-			end)
-			Cyclone:createCommand("brickspam", "brickspam", "Turns your tools into bricks then drops them", function(cmdParameters)
-				for _, tool in pairs(LocalPlayer.Backpack:GetChildren()) do
-					if tool:IsA("Tool") then
-						tool.Parent = LocalPlayer.Character
-						if tool.Handle:FindFirstChild("Mesh") ~= nil then
-							tool.Handle:FindFirstChild("Mesh"):Destroy()
-						end
-						tool.Parent = workspace.Terrain -- Bypasses some tool clearing scripts
-						wait()
-					end
-				end
-			end)
-			Cyclone:createCommand("drophats", "drophats", "Drops all your hats", function(cmdParameters)
-				for _, hat in pairs(LocalPlayer.Character:FindFirstChild("Humanoid"):GetAccessories()) do
-					hat.Parent = workspace.Terrain -- Bypasses some hat clearing scripts
-				end
-			end)
-			Cyclone:createCommand("brickhats", "brickhats", "Turns your hats into bricks", function(cmdParameters)
-				for _, hat in pairs(LocalPlayer.Character:FindFirstChild("Humanoid"):GetAccessories()) do
-					if hat.Handle:FindFirstChild("Mesh") then
-						hat.Handle.Mesh:Destroy()
-					end
-				end
-			end)
-			Cyclone:createCommand("float", "float [velocity]", "Makes you float with given velocity", function(cmdParameters)
-				Instance.new("BodyVelocity", LocalPlayer.Character:FindFirstChild("HumanoidRootPart")).Velocity = Vector3.new(0, cmdParameters[1], 0)
-			end)
-			Cyclone:createCommand("clicktp", "clicktp", "Click to teleport to your mouse position", function(cmdParameters)
-				clicktp = mouse.Button1Down:Connect(function()
-					LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = mouse.Hit
-				end)
-			end)
-			Cyclone:createCommand("unclicktp", "unclicktp", "Stops clicktp", function(cmdParameters)
-				if clicktp then
-					clicktp:Disconnect()
-				end
-			end)
-			Cyclone:createCommand("xray", "xray", "Makes you see through walls", function(cmdParameters)
-				for _, d in pairs(workspace:GetDescendants()) do
-					if d:IsA("BasePart") then
-						local transpVal = Instance.new("NumberValue", d)
-						transpVal.Name = "transpVal"
-						transpVal.Value = d.Transparency
-						d.Transparency = d.Transparency + 0.75
-					end
-				end
-			end)
-			Cyclone:createCommand("unxray", "unxray", "Removes Xray", function(cmdParameters)
-				for _, d in pairs(workspace:GetDescendants()) do
-					if d:IsA("BasePart") and d:FindFirstChild("transpVal") then
-						d.Transparency = d:FindFirstChild("transpVal").Value
-						d:FindFirstChild("transpVal"):Destroy()
-					end
-				end
-			end)
-			Cyclone:createCommand("countdown", "countdown [countinto]", "Makes you count from countinto to 0 with changeable delay", function(cmdParameters)
-				for i = cmdParameters[1], 0, -1 do
-					chatPlr(i)
-					wait(tonumber(cmdParameters[2]))
-				end
-			end)
-			Cyclone:createCommand("getos", "getos [plr]", "Gets the OS of the target", function(cmdParameters)
-				for _, plr in pairs(Players[cmdParameters[1]]) do
-					createNotif(plr.Name .. "'s OS is " .. plr.OsPlatform)
-				end
-			end)
-			Cyclone:createCommand("getage", "getage [plr]", "Gets the account age of the target", function(cmdParameters)
-				for _, plr in pairs(Players[cmdParameters[1]]) do
-					createNotif(plr.Name .. "'s account age is " .. plr.AccountAge)
-				end
-			end)
-			Cyclone:createCommand("hugkill", "hugkill", "Touch players to kill them, must have player collision", function(cmdParameters)
-				local torsoname = "Torso"
-				if LocalPlayer.Character:FindFirstChild("Humanoid").RigType == Enum.HumanoidRigType.R15 then
-					torsoname = "UpperTorso"
-				end
-				LocalPlayer.Character:FindFirstChild("Animate").toolnone.ToolNoneAnim.AnimationId = math.huge
-				LocalPlayer.Character:FindFirstChild(torsoname).Anchored = true
-				local tool = Instance.new("Tool", LocalPlayer.Backpack)
-				LocalPlayer.Character:FindFirstChildOfClass("Accessory").Handle.Parent = tool
-				tool.Handle.Massless = true
-				tool.GripPos = Vector3.new(0, math.huge, 0)
-				tool.Parent = LocalPlayer.Character
-				wait()
-				tool.Grip = CFrame.new(Vector3.new(0, 0, 0))
-				LocalPlayer.Character:FindFirstChild(torsoname).Anchored = false
-			end)
-			Cyclone:createCommand("goto", "goto [plr]", "Teleports to the player", function(cmdParameters)
-				LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = Players[cmdParameters[1]][1].Character:FindFirstChild("HumanoidRootPart").CFrame
-			end)
-			Cyclone:createCommand("oofspam", "oofspam [speed]", "Spams OOF with changeable speed", function(cmdParameters)
-				repeat
-					for _, plr in pairs(game:GetService("Players"):GetPlayers()) do
-						plr.Character:FindFirstChild("Head").Died.Playing = true
-					end
-					wait(tonumber(cmdParameters[2]))
-				until oofspamming == false
-			end)
-			Cyclone:createCommand("unoofspam", "unoofspam", "Stops OOF spam", function(cmdParameters)
-				oofspamming = true
-			end)
-			searchBox:GetPropertyChangedSignal("Text"):Connect(Cyclone.updateSearchBar)
-			Cyclone.updateSearchBar()
-			-- Introduction setup:
-			local woosh1 = Cyclone:createSound("rbxassetid://858508159", 1)
-			local woosh2 = Cyclone:createSound("rbxassetid://541909763", 1)
-			local introSound = Cyclone:createSound("rbxassetid://745159327", 1)
-			local introBGM = Cyclone:createSound("rbxassetid://383635191", 1)
-			Cyclone:setBlinker(CustomEnum.BlinkingDirection.Close, 1, 1)
-			Cyclone:setBrightness(-1, 0.5)
-			Cyclone:setBlur(25, 1)
-			wait(1)
-			ContentProvider:PreloadAsync(CycloneGui:GetDescendants())
-			introLabel.Parent = CycloneGui
-			local oldCamOffset = LocalPlayer.Character:FindFirstChild("Humanoid").CameraOffset
-			LocalPlayer.Character:FindFirstChild("Humanoid").CameraOffset = LocalPlayer.Character:FindFirstChild("Humanoid").CameraOffset + Vector3.new(0, 10, 0)
-			wait(1)
-			TweenService:Create(LocalPlayer.Character:FindFirstChild("Humanoid"), tweenInfo1, {CameraOffset = oldCamOffset}):Play()
-			woosh1:Play()
-			introSound:Play()
-			Cyclone:setBlinker(CustomEnum.BlinkingDirection.Close, 1, 0.5)
-			Cyclone:setBrightness(1, 0.1)
-			wait(0.1)
-			Cyclone:setBrightness(-0.5, 2.5)
-			wait(3)
-			TweenService:Create(introLabel, tweenInfo3, {Position = UDim2.new(0, 0, 1, 0)}):Play()
-			Cyclone:setBlinker(CustomEnum.BlinkingDirection.Open, 1, 1)
-			Cyclone:setBrightness(0, 3)
-			Cyclone:setBlur(0, 3)
-			wait(2)
-			woosh2:Play()
-			TweenService:Create(mainFrame, tweenInfo2, {Position = UDim2.new(0.82, 0, 0.6, 0)}):Play()
-			wait(0.1)
-			introBGM:Play()
-			createNotif("Cyclone V1.0 is now running", CustomEnum.NotifcationType.Important)
-			wait(0.1)
-			if not string.split then
-				createNotif("Your exploit doesn't support string.split", CustomEnum.NotifcationType.Error)
-			end
-		end)
-	
-		axy.Name = "axy"
-		axy.Parent = Main
-		axy.BackgroundColor3 = Color3.new(1, 1, 1)
-		axy.BackgroundTransparency = 1
-		axy.ClipsDescendants = true
-		axy.Position = UDim2.new(0.0120967738, 0, 0.821194768, 0)
-		axy.Size = UDim2.new(0, 246, 0, 23)
-		axy.Font = Enum.Font.SourceSansLight
-		axy.Text = "Axyzes#9205 for UI Tween"
-		axy.TextColor3 = Color3.new(0.333333, 1, 0.498039)
-		axy.TextSize = 16
-	
-		diemie.Name = "diemie"
-		diemie.Parent = Main
-		diemie.BackgroundColor3 = Color3.new(1, 1, 1)
-		diemie.BackgroundTransparency = 1
-		diemie.BorderColor3 = Color3.new(1, 1, 0)
-		diemie.ClipsDescendants = true
-		diemie.Position = UDim2.new(0.0120967738, 0, 0.897332668, 0)
-		diemie.Size = UDim2.new(0, 246, 0, 23)
-		diemie.Font = Enum.Font.SourceSansLight
-		diemie.Text = "Press ; to hide or show"
-		diemie.TextColor3 = Color3.new(1, 1, 0)
-		diemie.TextSize = 16
-	
-	
-		local isHidden = false
-		local mause = game.Players.LocalPlayer:GetMouse()
-	
-		do
-			local mouse = game:GetService("Players").LocalPlayer:GetMouse();
-			local inputService = game:GetService('UserInputService');
-			local heartbeat = game:GetService("RunService").Heartbeat;
-			function Draggable(frame)
-				local s, event = pcall(function()
-					return frame.MouseEnter
-				end)
-				if s then
-					frame.Active = true;
-					event:connect(function()
-						local input = frame.InputBegan:connect(function(key)
-							if key.UserInputType == Enum.UserInputType.MouseButton1 then
-								local objectPosition = Vector2.new(mouse.X - frame.AbsolutePosition.X, mouse.Y - frame.AbsolutePosition.Y);
-								while heartbeat:wait() and inputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do
-									frame:TweenPosition(UDim2.new(0, mouse.X - objectPosition.X + (frame.Size.X.Offset * frame.AnchorPoint.X), 0, mouse.Y - objectPosition.Y + (frame.Size.Y.Offset * frame.AnchorPoint.Y)), 'Out', 'Quad', 0.1, true);
-								end
-							end
-						end)
-						local leave;
-						leave = frame.MouseLeave:connect(function()
-							input:disconnect();
-							leave:disconnect();
-						end)
-					end)
-				end
-			end
-		end
-	
-		Draggable(Main)
-	
-		mause.KeyDown:connect(function(key)
-			if key == ";" then
-				if isHidden == false then
-					Main:TweenPosition(Main.Position - UDim2.new(0,0,1,0),"Out","Quad",0.4,false)
-					isHidden = true
-				else
-					Main:TweenPosition(Main.Position + UDim2.new(0,0,1,0),"Out","Quad",0.4,false)
-					isHidden = false
-				end
-			end
-		end)
-	end)
-end
-coroutine.wrap(VZNZGVN_fake_script)()
-local function ZLLW_fake_script() -- ChatBypassButton.LocalScript 
-	local script = Instance.new('LocalScript', ChatBypassButton)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
-	end)
-end
-coroutine.wrap(ZLLW_fake_script)()
-local function POTEYL_fake_script() -- ServerCrasherButton.LocalScript 
-	local script = Instance.new('LocalScript', ServerCrasherButton)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		--=[[ Server-Freeze, Make Take Up To 30 Seconds For Effects To Show. ]]=--
-	
-		--/* Locals
-		local LP = game:GetService('Players').LocalPlayer
-		if workspace:FindFirstChild(LP.Name) == nil then LP.CharacterAdded:Wait() end
-		local Char = workspace[LP.Name]
-		local Hat = Char['Humanoid']:GetAccessories()[1]
-		local Handle = Hat['Handle']
-	
-		--/* Tool Setup
-		local Tool = Instance.new("Tool",LP.Backpack)
-		Tool.Grip = Tool.Grip * CFrame.new(0,-100,0)
-		Tool.Parent = Char
-		Handle.Parent = Tool
-	
-		game:GetService('RunService').Stepped:Connect(function()
-			for _,Part in next, Char:GetChildren() do
-				if Part:IsA('BasePart') then
-					Part.CanCollide = false
-				end
-			end
-		end)
-	
-		local HPart; if Char:FindFirstChild('Right Arm') then
-			HPart = 'Right Arm'
-		else
-			HPart = 'RightHand'
-		end
-	
-		--/* RightGrip Instance Crash
-		for _ = 1,60000 do
-			local Grip = Char[HPart].RightGrip:Clone()
-			Grip.Parent = Char.Humanoid['Status']
-		end
-	
-		--/* Void Deletion
-		wait(1) local CPart = Instance.new('Part',workspace)
-		CPart.CanCollide = false
-		CPart.Transparency = 1 CPart.Anchored = true
-		CPart.CFrame = Char['Head'].CFrame
-		workspace.Camera.CameraSubject = CPart
-		warn('Shutdown Activated') Char['Humanoid'].Sit = true
-		local BV = Instance.new('BodyVelocity', Char['HumanoidRootPart'])
-		BV.MaxForce = Vector3.new(1e5,1e5,1e5)
-		BV.Velocity = Vector3.new(0,-1e5,0)
-		BV.P = 1e5
-	end)
-end
-coroutine.wrap(POTEYL_fake_script)()
-local function VHQWIDP_fake_script() -- BrokenBone.LocalScript 
-	local script = Instance.new('LocalScript', BrokenBone)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/sQpRuLgQ"))()
-	end)
-end
-coroutine.wrap(VHQWIDP_fake_script)()
-local function ZLYG_fake_script() -- MM2Button.LocalScript 
-	local script = Instance.new('LocalScript', MM2Button)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		-- Murder Mystery 2 Utilities by zzerexx#3970
-		getgenv().Settings = {
-			Enabled = true,
-			Notifications = true,       -- Receive notifications upon toggling features
-			RemoveRagdolls = true,      -- Removes player ragdolls
-			RemoveBlackScreen = true,   -- Removes the annoying black screen when you die/respawn
-			RemoveBarriers = true,      -- Removes all invisible barriers
-			Fullbright = true,
-			AutoPickupGun = false,      -- Automatically picks up the gun when its dropped
-			UnlockEmotes = true,
-			-- Player
-			WalkSpeed = 18,             -- Default: 16
-			JumpPower = 50,             -- Default: 50
-			FieldOfView = 80,           -- Default: 70
-			CameraMode = "Invisicam",   -- "Zoom" or "Invisicam"
-			MaxZoom = 100,              -- Default: 15
-			CtrlClickTP = true,         -- Hold "Ctrl" and click to teleport
-			Noclip = true,              -- Press "R" to toggle
-			Xray = true,                -- Press "T" to toggle
-			-- Aimbot
-			Aimbot = true,              -- Press "Y" to toggle
-			AimbotAsSheriff = true,     -- Uses Aimbot as the Sheriff
-			AimbotAsMurderer = false,   -- Uses Aimbot as the Murderer
-			-- Esp
-			NameEsp = true,
-			AvoidInnocents = false,     -- Name Esp will avoid Innocents
-			NameFont = "SourceSans",    -- Fonts: https://developer.roblox.com/en-us/api-reference/enum/Font
-			NameTextTransparency = 0.3, -- 0 = Opaque, 1 = Transparent
-			MurdererColor = Color3.fromRGB(255,0,0),
-			SheriffColor = Color3.fromRGB(0,0,255),
-			InnocentColor = Color3.fromRGB(255,255,255),
-			GunEsp = true,
-			GunEspColor = Color3.fromRGB(0,255,0),
-			GunNameEsp = true,
-			GunNameTransparency = 0.4,  -- 0 = Opaque, 1 = Transparent
-			GunNameColor = Color3.fromRGB(0,255,0),
-			-- Theme | Guide: https://imgur.com/a/1Ge2FWW
-			PresetTheme = "None",                  -- "Carbon" or "Strawberry" or "SkyBlue" or "Emerald", Set to "None" if you want to use a custom theme
-			-- NOTE: PresetTheme overrides all customizations below (except for TextFont)
-			Color1 = Color3.fromRGB(19,19,19),     -- Topbar Color
-			Color2 = Color3.fromRGB(19,19,19),     -- Buttons Color
-			Color3 = Color3.fromRGB(24,24,24),     -- Background Color
-			MColor1 = Color3.fromRGB(255,0,0),     -- Murderer Text Color
-			MColor2 = Color3.fromRGB(255,100,100), -- Murderer Button Text Color
-			SColor1 = Color3.fromRGB(0,0,255),     -- Sheriff Text Color
-			SColor2 = Color3.fromRGB(100,100,255), -- Sheriff Button Text Color
-			GColor1 = Color3.fromRGB(0,255,0),     -- Gun Drop Text Color
-			GColorT = Color3.fromRGB(100,255,100), -- Gun Drop Button Text Color when it says "True"
-			GColorF = Color3.fromRGB(255,100,100), -- Gun Drop Button Text Color when it says "False"
-			TextFont = "GothamBold",               -- Fonts: https://developer.roblox.com/en-us/api-reference/enum/Font
-			MainTextColor = Color3.fromRGB(255,255,255), -- Title and Credit Text Color
-		} -- v1.0.0
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/zzerexx/scripts/main/MM2%20Utilities.lua", true))()
-	end)
-end
-coroutine.wrap(ZLYG_fake_script)()
-local function BLWSZMG_fake_script() -- BreakInButton.LocalScript 
-	local script = Instance.new('LocalScript', BreakInButton)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		-- Murder Mystery 2 Utilities by zzerexx#3970
-		getgenv().Settings = {
-			Enabled = true,
-			Notifications = true,       -- Receive notifications upon toggling features
-			RemoveRagdolls = true,      -- Removes player ragdolls
-			RemoveBlackScreen = true,   -- Removes the annoying black screen when you die/respawn
-			RemoveBarriers = true,      -- Removes all invisible barriers
-			Fullbright = true,
-			AutoPickupGun = false,      -- Automatically picks up the gun when its dropped
-			UnlockEmotes = true,
-			-- Player
-			WalkSpeed = 18,             -- Default: 16
-			JumpPower = 50,             -- Default: 50
-			FieldOfView = 80,           -- Default: 70
-			CameraMode = "Invisicam",   -- "Zoom" or "Invisicam"
-			MaxZoom = 100,              -- Default: 15
-			CtrlClickTP = true,         -- Hold "Ctrl" and click to teleport
-			Noclip = true,              -- Press "R" to toggle
-			Xray = true,                -- Press "T" to toggle
-			-- Aimbot
-			Aimbot = true,              -- Press "Y" to toggle
-			AimbotAsSheriff = true,     -- Uses Aimbot as the Sheriff
-			AimbotAsMurderer = false,   -- Uses Aimbot as the Murderer
-			-- Esp
-			NameEsp = true,
-			AvoidInnocents = false,     -- Name Esp will avoid Innocents
-			NameFont = "SourceSans",    -- Fonts: https://developer.roblox.com/en-us/api-reference/enum/Font
-			NameTextTransparency = 0.3, -- 0 = Opaque, 1 = Transparent
-			MurdererColor = Color3.fromRGB(255,0,0),
-			SheriffColor = Color3.fromRGB(0,0,255),
-			InnocentColor = Color3.fromRGB(255,255,255),
-			GunEsp = true,
-			GunEspColor = Color3.fromRGB(0,255,0),
-			GunNameEsp = true,
-			GunNameTransparency = 0.4,  -- 0 = Opaque, 1 = Transparent
-			GunNameColor = Color3.fromRGB(0,255,0),
-			-- Theme | Guide: https://imgur.com/a/1Ge2FWW
-			PresetTheme = "None",                  -- "Carbon" or "Strawberry" or "SkyBlue" or "Emerald", Set to "None" if you want to use a custom theme
-			-- NOTE: PresetTheme overrides all customizations below (except for TextFont)
-			Color1 = Color3.fromRGB(19,19,19),     -- Topbar Color
-			Color2 = Color3.fromRGB(19,19,19),     -- Buttons Color
-			Color3 = Color3.fromRGB(24,24,24),     -- Background Color
-			MColor1 = Color3.fromRGB(255,0,0),     -- Murderer Text Color
-			MColor2 = Color3.fromRGB(255,100,100), -- Murderer Button Text Color
-			SColor1 = Color3.fromRGB(0,0,255),     -- Sheriff Text Color
-			SColor2 = Color3.fromRGB(100,100,255), -- Sheriff Button Text Color
-			GColor1 = Color3.fromRGB(0,255,0),     -- Gun Drop Text Color
-			GColorT = Color3.fromRGB(100,255,100), -- Gun Drop Button Text Color when it says "True"
-			GColorF = Color3.fromRGB(255,100,100), -- Gun Drop Button Text Color when it says "False"
-			TextFont = "GothamBold",               -- Fonts: https://developer.roblox.com/en-us/api-reference/enum/Font
-			MainTextColor = Color3.fromRGB(255,255,255), -- Title and Credit Text Color
-		} -- v1.0.0
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/zzerexx/scripts/main/MM2%20Utilities.lua", true))()
-	end)
-end
-coroutine.wrap(BLWSZMG_fake_script)()
-local function WSKVKA_fake_script() -- BigPaintballButton.LocalScript 
-	local script = Instance.new('LocalScript', BigPaintballButton)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://www.pastebin.com/raw/PuaaGKsT"))()
-	end)
-end
-coroutine.wrap(WSKVKA_fake_script)()
-local function AVJP_fake_script() -- PopItTradeButton.LocalScript 
-	local script = Instance.new('LocalScript', PopItTradeButton)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Soffware/3kTMd/main/HadesHub.lua"),true))()
-	end)
-end
-coroutine.wrap(AVJP_fake_script)()
-local function OAPZ_fake_script() -- X.XScript 
+coroutine.wrap(QDXJP_fake_script)()
+local function PFGUOHK_fake_script() -- X.XScript 
 	local script = Instance.new('Script', X)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(OAPZ_fake_script)()
-local function WLCMZK_fake_script() -- DestroyUI.DestroyUIScript 
+coroutine.wrap(PFGUOHK_fake_script)()
+local function UTMH_fake_script() -- DestroyUI.DestroyUIScript 
 	local script = Instance.new('Script', DestroyUI)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(WLCMZK_fake_script)()
-local function TAQSBB_fake_script() -- OpenGUIHello.OpenGUIHelloScript 
-	local script = Instance.new('Script', OpenGUIHello)
+coroutine.wrap(UTMH_fake_script)()
+local function EMOP_fake_script() -- UniversalMenu.DragSript 
+	local script = Instance.new('LocalScript', UniversalMenu)
 
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Frame.Visible = true
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
 	end)
 end
-coroutine.wrap(TAQSBB_fake_script)()
+coroutine.wrap(EMOP_fake_script)()
+local function XXSXPX_fake_script() -- X_2.XScript 
+	local script = Instance.new('Script', X_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(XXSXPX_fake_script)()
+local function SSHZJOZ_fake_script() -- Set.LocalScript 
+	local script = Instance.new('LocalScript', Set)
+
+	local player = game.Players.LocalPlayer
+	local entered = script.Parent.Parent.Input
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		player.Character.Humanoid.WalkSpeed = tonumber(entered.Text)
+	end)
+	
+end
+coroutine.wrap(SSHZJOZ_fake_script)()
+local function GLMCSGQ_fake_script() -- Set_2.LocalScript 
+	local script = Instance.new('LocalScript', Set_2)
+
+	local player = game.Players.LocalPlayer
+	local entered = script.Parent.Parent.Input
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		player.Character.Humanoid.JumpPower = tonumber(entered.Text)
+		player.Character.Humanoid.JumpHeight = tonumber(entered.Text)
+	end)
+	
+end
+coroutine.wrap(GLMCSGQ_fake_script)()
